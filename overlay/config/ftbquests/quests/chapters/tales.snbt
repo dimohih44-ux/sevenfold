@@ -1,179 +1,145 @@
 {
+	always_invisible: false
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "tales"
 	group: ""
+	icon: "irons_spellbooks:bloody_vellum"
 	id: "1A297FC23F72376A"
-	images: [ ]
 	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{
+			description: [
+				"Он был первым, кто удержал голос Крови дольше, чем следовало. Корона осталась, королевство — нет: остались кости и книга."
+				"Его фолиант ищет нового читателя. Не читай вслух."
+				"Лор открывается сам — по ачивке Iron's Spellbooks. Награда: два легендарных чернила."
+			]
 			id: "1B1BA9B0065AA844"
-			rewards: [{
-				count: 2
-				id: "1CE918618F91823D"
-				item: {
-					count: 1
-					id: "irons_spellbooks:legendary_ink"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				advancement: "irons_spellbooks:spell_book_dead_king"
-				criterion: ""
-				id: "18D7F87BBF7933A2"
-				type: "advancement"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
+			rewards: [
+				{ id: "1CE918618F91823D" item: { count: 2, id: "irons_spellbooks:legendary_ink" } type: "item" }
+			]
+			subtitle: "Предание I"
+			tasks: [ { id: "18D7F87BBF7933A2" advancement: "irons_spellbooks:spell_book_dead_king" criterion: "" type: "advancement" } ]
+			title: "Мёртвый Король"
+			x: 0d
+			y: 0d
+		},
 		{
-			dependencies: ["1B1BA9B0065AA844"]
+			dependencies: [ "1B1BA9B0065AA844" ]
+			description: [
+				"Игнис назвал пожар своим именем и уже не смог отказаться. Он не сгорает — он горит, потому что иначе перестанет быть собой."
+				"В недрах, где Огонь звучит без остановки, всё живое либо жжётся, либо выковано."
+			]
 			id: "1AC2512266D20CDF"
-			rewards: [{
-				count: 2
-				id: "1BF0BFAEF20D4BB5"
-				item: {
-					count: 1
-					id: "irons_spellbooks:legendary_ink"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				advancement: "cataclysm:kill_ignis"
-				criterion: ""
-				id: "1D31DBC84E2DA6E1"
-				type: "advancement"
-			}]
-			x: 2.0d
-			y: 0.0d
-		}
+			rewards: [
+				{ id: "1BF0BFAEF20D4BB5" item: { count: 2, id: "irons_spellbooks:legendary_ink" } type: "item" }
+			]
+			subtitle: "Предание II"
+			tasks: [ { id: "1D31DBC84E2DA6E1" advancement: "cataclysm:kill_ignis" criterion: "" type: "advancement" } ]
+			title: "Владыка Огня"
+			x: 2d
+			y: 0d
+		},
 		{
-			dependencies: ["1AC2512266D20CDF"]
+			dependencies: [ "1AC2512266D20CDF" ]
+			description: [
+				"Его собрали из металла, который помнит прикосновение. Оно глухо ко всему, кроме собственного веса."
+				"Пустоши куют такое оружие, но не умеют его останавливать."
+			]
 			id: "19E4B0FB17DBA37D"
-			rewards: [{
-				count: 2
-				id: "1DB6C5F684DB6EB7"
-				item: {
-					count: 1
-					id: "irons_spellbooks:legendary_ink"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				advancement: "cataclysm:kill_monstrosity"
-				criterion: ""
-				id: "1A59D8ED170A18B6"
-				type: "advancement"
-			}]
-			x: 4.0d
-			y: 0.0d
-		}
+			rewards: [
+				{ id: "1DB6C5F684DB6EB7" item: { count: 2, id: "irons_spellbooks:legendary_ink" } type: "item" }
+			]
+			subtitle: "Предание III"
+			tasks: [ { id: "1A59D8ED170A18B6" advancement: "cataclysm:kill_monstrosity" criterion: "" type: "advancement" } ]
+			title: "Незеритовое Чудовище"
+			x: 4d
+			y: 0d
+		},
 		{
-			dependencies: ["19E4B0FB17DBA37D"]
+			dependencies: [ "19E4B0FB17DBA37D" ]
+			description: [
+				"Он отдал корону за бессмертие и получил голод. Теперь его двор — те, кто не смог уйти."
+				"Проклятые не злые. Они просто очень давно не слышали тишины."
+			]
 			id: "12E76C9B72EC03E5"
-			rewards: [{
-				count: 2
-				id: "1C79E73188CC1163"
-				item: {
-					count: 1
-					id: "irons_spellbooks:legendary_ink"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				advancement: "cataclysm:kill_maledictus"
-				criterion: ""
-				id: "1CB19D01E02E46B1"
-				type: "advancement"
-			}]
-			x: 6.0d
-			y: 0.0d
-		}
+			rewards: [
+				{ id: "1C79E73188CC1163" item: { count: 2, id: "irons_spellbooks:legendary_ink" } type: "item" }
+			]
+			subtitle: "Предание IV"
+			tasks: [ { id: "1CB19D01E02E46B1" advancement: "cataclysm:kill_maledictus" criterion: "" type: "advancement" } ]
+			title: "Король Проклятых"
+			x: 6d
+			y: 0d
+		},
 		{
-			dependencies: ["12E76C9B72EC03E5"]
+			dependencies: [ "12E76C9B72EC03E5" ]
+			description: [
+				"Тишина, приходящая раньше бури. Он не бьёт первым — он просто приходит, и после него не остаётся звука."
+				"На его фоне любой нестрой кажется мелодией."
+			]
 			id: "15E856070499C6FF"
-			rewards: [{
-				count: 2
-				id: "1C991A8CCB13D5C9"
-				item: {
-					count: 1
-					id: "irons_spellbooks:legendary_ink"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				advancement: "cataclysm:kill_harbinger"
-				criterion: ""
-				id: "1C2EF6F8B3D28B57"
-				type: "advancement"
-			}]
-			x: 8.0d
-			y: 0.0d
-		}
+			rewards: [
+				{ id: "1C991A8CCB13D5C9" item: { count: 2, id: "irons_spellbooks:legendary_ink" } type: "item" }
+			]
+			subtitle: "Предание V"
+			tasks: [ { id: "1C2EF6F8B3D28B57" advancement: "cataclysm:kill_harbinger" criterion: "" type: "advancement" } ]
+			title: "Предвестник"
+			x: 8d
+			y: 0d
+		},
 		{
-			dependencies: ["15E856070499C6FF"]
+			dependencies: [ "15E856070499C6FF" ]
+			description: [
+				"Последний страж помнит, зачем строй вообще держали. Он держит последнюю ноту — и потому не может уйти."
+				"Край — место, где нестрой стоит неподвижно. Страж следит, чтобы он не пошёл дальше."
+			]
 			id: "111EC7C42A78C0C2"
-			rewards: [{
-				count: 2
-				id: "1CCEF6BD6F15014E"
-				item: {
-					count: 1
-					id: "irons_spellbooks:legendary_ink"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				advancement: "cataclysm:kill_ender_guardian"
-				criterion: ""
-				id: "10E0C9C226740A1E"
-				type: "advancement"
-			}]
-			x: 2.0d
-			y: 2.0d
-		}
+			rewards: [
+				{ id: "1CCEF6BD6F15014E" item: { count: 2, id: "irons_spellbooks:legendary_ink" } type: "item" }
+			]
+			subtitle: "Предание VI"
+			tasks: [ { id: "10E0C9C226740A1E" advancement: "cataclysm:kill_ender_guardian" criterion: "" type: "advancement" } ]
+			title: "Страж Края"
+			x: 2d
+			y: 2d
+		},
 		{
-			dependencies: ["111EC7C42A78C0C2"]
+			dependencies: [ "111EC7C42A78C0C2" ]
+			description: [
+				"Она вросла в собственный корабль: не плывёт, а звучит изнутри. Моряки говорят, что слышат её раньше, чем видят."
+				"Тварь, которая стала судном, — плохой знак для тех, кто слышит."
+			]
 			id: "110471AB85FCC2BE"
-			rewards: [{
-				count: 2
-				id: "12B52455B90D48C2"
-				item: {
-					count: 1
-					id: "irons_spellbooks:legendary_ink"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				advancement: "cataclysm:kill_scylla"
-				criterion: ""
-				id: "15B71C17AFB3D855"
-				type: "advancement"
-			}]
-			x: 4.0d
-			y: 2.0d
-		}
+			rewards: [
+				{ id: "12B52455B90D48C2" item: { count: 2, id: "irons_spellbooks:legendary_ink" } type: "item" }
+			]
+			subtitle: "Предание VII"
+			tasks: [ { id: "15B71C17AFB3D855" advancement: "cataclysm:kill_scylla" criterion: "" type: "advancement" } ]
+			title: "Сцилла"
+			x: 4d
+			y: 2d
+		},
 		{
-			dependencies: ["110471AB85FCC2BE"]
+			dependencies: [ "110471AB85FCC2BE" ]
+			description: [
+				"Он был здесь до голосов. Песок помнит его шаги лучше, чем люди — его имя."
+				"Оставь ему воду, если найдёшь. Иногда этого хватает."
+			]
 			id: "1A0679BF09BC97B1"
-			rewards: [{
-				count: 2
-				id: "13BF7AB43F2DC4E6"
-				item: {
-					count: 1
-					id: "irons_spellbooks:legendary_ink"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				advancement: "cataclysm:kill_remnant"
-				criterion: ""
-				id: "16F55AE19BD6B985"
-				type: "advancement"
-			}]
-			x: 6.0d
-			y: 2.0d
+			rewards: [
+				{ id: "13BF7AB43F2DC4E6" item: { count: 2, id: "irons_spellbooks:legendary_ink" } type: "item" }
+			]
+			subtitle: "Предание VIII"
+			tasks: [ { id: "16F55AE19BD6B985" advancement: "cataclysm:kill_remnant" criterion: "" type: "advancement" } ]
+			title: "Древний Остаток"
+			x: 6d
+			y: 2d
 		}
 	]
+	images: [
+
+	]
+	title: "Предания"
 }

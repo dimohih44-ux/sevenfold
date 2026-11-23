@@ -1,95 +1,268 @@
 {
+	always_invisible: false
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "magic"
 	group: ""
+	icon: "irons_spellbooks:scroll"
 	id: "1432575486FC90E7"
-	images: [ ]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
+			description: [
+				"Заклинание не произносят по команде: его слышат и в него попадают. Мана — только плата за внимание."
+				"Свитки не падают с мобов: заклинание нужно найти, выучить и запомнить."
+			]
 			id: "1749DBBBB5553E17"
-			tasks: [{
-				consume_items: true
-				id: "16937B499A24375A"
-				item: { count: 1, id: "irons_spellbooks:scroll" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
+			tasks: [ { id: "16937B499A24375A" item: { count: 1, id: "irons_spellbooks:scroll" } type: "item" consume_items: true } ]
+			title: "Не сила, а слух"
+			x: 0d
+			y: 0d
+		},
 		{
-			dependencies: ["1749DBBBB5553E17"]
+			dependencies: [ "1749DBBBB5553E17" ]
+			description: [
+				"Книги заклинаний Iron's в верстаке не собрать. Их варит жаровня Эйдолона: реагент на жаровне, остальное — на пьедесталах вокруг."
+				"Каждая книга — свой набор пьедесталов. Смотри JEI, а не гадай."
+			]
 			id: "13E90EF86D90CE9E"
-			tasks: [{
-				consume_items: true
-				id: "169A1C2179D465FB"
-				item: { count: 1, id: "eidolon_repraised:soul_shard" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 0.0d
-		}
+			tasks: [ { id: "169A1C2179D465FB" item: { count: 1, id: "eidolon_repraised:soul_shard" } type: "item" consume_items: true } ]
+			title: "Книги на жаровне"
+			x: 2d
+			y: 0d
+		},
 		{
-			dependencies: ["13E90EF86D90CE9E"]
+			dependencies: [ "13E90EF86D90CE9E" ]
+			description: [
+				"Главный станок мага: сюда кладут книгу и сферу улучшения, и книга становится сильнее."
+				"Без наковальни у тебя будет много заклинаний и мало силы — это самый частый перекос в начале."
+			]
+			id: "1641B8DEB0F0109A"
+			tasks: [ { id: "187818AD8FCDBEC9" item: { count: 1, id: "irons_spellbooks:arcane_anvil" } type: "item" consume_items: true } ]
+			title: "Арканная наковальня"
+			x: 4d
+			y: 0d
+		},
+		{
+			dependencies: [ "1641B8DEB0F0109A" ]
+			description: [
+				"Кузня собирает свитки из эссенции, чернил и бумаги. Здесь же делают свитки на заказ — под свою школу."
+				"Свиток — расходник: не жалей их, жалей время."
+			]
+			id: "1E7B58AE96A4ADF3"
+			tasks: [ { id: "14753E350C60B8E0" item: { count: 1, id: "irons_spellbooks:scroll_forge" } type: "item" consume_items: true } ]
+			title: "Кузня свитков"
+			x: 6d
+			y: 0d
+		},
+		{
+			dependencies: [ "1E7B58AE96A4ADF3" ]
+			description: [
+				"Стол надписей переносит заклинания в книгу и меняет их местами: набрал свитков — собрал книгу под себя."
+				"С ним не нужно ждать «правильной» книги с лута."
+			]
+			id: "1D25F07D2CBA2FF7"
+			tasks: [ { id: "10AC12701F9B75C4" item: { count: 1, id: "irons_spellbooks:inscription_table" } type: "item" consume_items: true } ]
+			title: "Стол надписей"
+			x: 8d
+			y: 0d
+		},
+		{
+			dependencies: [ "1749DBBBB5553E17" ]
+			description: [
+				"Улучшать книгу — чернилами: от обычных до легендарных. Легендарное чернило — главная валюта силы здесь."
+				"Боссы дают его за трофеи: одно за простого, два за тяжёлого."
+			]
 			id: "1BA757515BC1FF90"
-			tasks: [{
-				consume_items: true
-				id: "172B1A4E54DBCE4B"
-				item: { count: 1, id: "irons_spellbooks:legendary_ink" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 0.0d
-		}
+			tasks: [ { id: "197AF32DB2B31AFF" item: { count: 1, id: "irons_spellbooks:legendary_ink" } type: "item" consume_items: true } ]
+			title: "Чернила"
+			x: 0d
+			y: 2d
+		},
 		{
-			dependencies: ["1BA757515BC1FF90"]
+			dependencies: [ "1BA757515BC1FF90" ]
+			description: [
+				"Арканная руна — база для крафтов и апгрейдов. Элдрическая — для голоса Грани, абиссальная — для школы Бездны."
+				"Руны не продаются: их делают или снимают с боссов."
+			]
+			id: "10FDF402C6963BBE"
+			tasks: [ { id: "169B67454699BA42" item: { count: 1, id: "irons_spellbooks:arcane_rune" } type: "item" consume_items: true } ]
+			title: "Руны"
+			x: 2d
+			y: 2d
+		},
+		{
+			dependencies: [ "10FDF402C6963BBE" ]
+			description: [
+				"Сфера улучшения вставляется в книгу на арканной наковальне и усиливает школу: огонь, лёд, кровь, эндер, элдрич, бездна."
+				"Сферы редки — выбирай школу, которой реально воюешь, а не «на всякий случай»."
+			]
+			id: "1FBAC730ED31D912"
+			tasks: [ { id: "17A1A96A1D550E7D" item: { count: 1, id: "irons_spellbooks:upgrade_orb" } type: "item" consume_items: true } ]
+			title: "Сферы улучшения"
+			x: 4d
+			y: 2d
+		},
+		{
+			dependencies: [ "1FBAC730ED31D912" ]
+			description: [
+				"Кольцо склонности надевается в слот Curios и даёт силу конкретной школе, пока ты его носишь."
+				"Одно кольцо — один голос. Два кольца одной школы не складываются: смотри описания."
+			]
+			id: "1EAC351C48A0F987"
+			tasks: [ { id: "18F3BFE20F461D90" item: { count: 1, id: "irons_spellbooks:affinity_ring" } type: "item" consume_items: true } ]
+			title: "Кольца школ"
+			x: 6d
+			y: 2d
+		},
+		{
+			dependencies: [ "1EAC351C48A0F987" ]
+			description: [
+				"Эликсиры варятся в алхимическом котле: невидимость, дубовая кожа, лечение."
+				"Маг без эликсиров — это маг, который умирает на втором касте."
+			]
+			id: "1A1CEFA118C192B0"
+			tasks: [ { id: "1C7F55D604862CDA" item: { count: 1, id: "irons_spellbooks:alchemist_cauldron" } type: "item" consume_items: true } ]
+			title: "Котёл алхимика"
+			x: 8d
+			y: 2d
+		},
+		{
+			dependencies: [ "10FDF402C6963BBE" ]
+			description: [
+				"Discerning the Eldritch даёт голос Грани: он звучит с другой стороны и потому слышен как эхо."
+				"Звёздный металл, элдрические осколки и запретные улучшения слотов — всё оттуда. Сильно и дорого."
+			]
 			id: "1D339750BC579E67"
-			tasks: [{
-				consume_items: true
-				id: "1D6EB1C43D706BF2"
-				item: { count: 1, id: "discerning_the_eldritch:starmetal_ingot" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: 0.0d
-		}
+			tasks: [ { id: "189A960E9BCB08C3" item: { count: 1, id: "discerning_the_eldritch:starmetal_ingot" } type: "item" consume_items: true } ]
+			title: "Элдрическая магия"
+			x: 0d
+			y: 4d
+		},
 		{
-			dependencies: ["13E90EF86D90CE9E"]
+			dependencies: [ "1D339750BC579E67" ]
+			description: [
+				"Аддоны не декорация: Cataclysm Spellbooks приносит книгу Бездны и Кодекс Злобы, Monsters Spellbooks — магию чудовищ."
+				"У них свои школы и свои книги — читай JEI, а не описания в интернете."
+			]
 			id: "1C15F61A081AC136"
-			tasks: [{
-				consume_items: true
-				id: "1ADA7AF47C1792BE"
-				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 12, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:abyss_spell_book" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 2.0d
-		}
+			tasks: [ { id: "1F9105E24D5BF408" item: { count: 1, id: "cataclysm_spellbooks:abyss_spell_book" } type: "item" consume_items: true } ]
+			title: "Катаклизм и монстры"
+			x: 2d
+			y: 4d
+		},
 		{
-			dependencies: ["1C15F61A081AC136"]
+			dependencies: [ "1C15F61A081AC136" ]
+			description: [
+				"Book of Souls — книга некромантии от Monsters Spellbooks: поднимает мёртвых и бьёт тьмой."
+				"Некромант в этом паке — не злодей, а ремесленник Крови. Книга подходит и тебе."
+			]
+			id: "13FDD12A6978F107"
+			tasks: [ { id: "1B763E42B8231025" item: { count: 1, id: "monsterspellbooks:book_of_souls" } type: "item" consume_items: true } ]
+			title: "Книга душ"
+			x: 4d
+			y: 4d
+		},
+		{
+			dependencies: [ "13FDD12A6978F107" ]
+			description: [
+				"Claws of Calamity — оружие монстров, которое работает как заклинание: замах сопровождается магией."
+				"Хорошо для гибрида: книга в одной руке, когти в другой."
+			]
+			id: "189C97E3E99D3374"
+			tasks: [ { id: "10E8C2AEF702B97C" item: { count: 1, id: "monsterspellbooks:claws_of_calamity" } type: "item" consume_items: false } ]
+			title: "Клинки каламити"
+			x: 6d
+			y: 4d
+		},
+		{
+			dependencies: [ "189C97E3E99D3374" ]
+			description: [
+				"Cold Conjurer's Talisman усиливает лёд и мороз — под стиль Frostling и ледяных школ."
+				"Полезен, если твой билд — контроль, а не урон."
+			]
+			id: "17C2FD6B6AF67D4B"
+			tasks: [ { id: "11307DC14A9EB1CB" item: { count: 1, id: "monsterspellbooks:cold_conjurers_talisman" } type: "item" consume_items: true } ]
+			title: "Талисман холода"
+			x: 8d
+			y: 4d
+		},
+		{
+			dependencies: [ "1C15F61A081AC136" ]
+			description: [
+				"Reliquified Irons добавляет реликвии под магию: Echo Glove, Ring of Elusiveness и другие."
+				"Реликвия — не апгрейд книги, а второй слой: работает из слота Curios, вместе с кольцом."
+			]
+			id: "158CE5B5514B13AC"
+			tasks: [ { id: "1A95751AA0162CAC" item: { count: 1, id: "reliquified_irons_spells_and_spellbooks:echo_glove" } type: "item" consume_items: false } ]
+			title: "Реликвии Iron's"
+			x: 0d
+			y: 6d
+		},
+		{
+			dependencies: [ "158CE5B5514B13AC" ]
+			description: [
+				"Caster's Mantle — нагрудник элдрического мага: сила чар и защита от элдрической магии."
+				"Ткань и осколки для него — с культистов DTE."
+			]
+			id: "1845662FDB60E109"
+			tasks: [ { id: "1BA40588D63A379C" item: { count: 1, id: "discerning_the_eldritch:casters_mantle" } type: "item" consume_items: false } ]
+			title: "Мантия заклинателя"
+			x: 2d
+			y: 6d
+		},
+		{
+			dependencies: [ "1845662FDB60E109" ]
+			description: [
+				"Forbidden Spell Slot Improvement добавляет слот заклинаний в книгу. Слотов всегда не хватает."
+				"Дорого, но это единственный способ носить больше пяти-шести заклинаний сразу."
+			]
+			id: "1646A7354713DF03"
+			tasks: [ { id: "17C55320C526F295" item: { count: 1, id: "discerning_the_eldritch:forbidden_spell_improvement" } type: "item" consume_items: true } ]
+			title: "Запретные слоты"
+			x: 4d
+			y: 6d
+		},
+		{
+			dependencies: [ "1646A7354713DF03" ]
+			description: [
+				"Megido, Ice Age, Fire Fist — заклинания этого мода, которые нельзя найти: их можно только перебросить на станции переброса свитков (архимаг, 2 секунды на бросок)."
+				"Редкость не падает, шанс на ранг выше — 5%. Терпение здесь и есть крафт."
+			]
+			id: "145E75DADA2ADB6C"
+			tasks: [ { id: "1ABA79C7C4B84E2B" item: { count: 1, id: "irons_spellbooks:legendary_ink" } type: "item" consume_items: true } ]
+			title: "Заклинания боссов"
+			x: 6d
+			y: 6d
+		},
+		{
+			dependencies: [ "145E75DADA2ADB6C" ]
+			description: [
+				"Между голосами — полутон: чужая ошибка и твой шанс. Часть заклинаний кастуется не туда, и это нормально."
+				"Держи под рукой два-три разных заклинания: один голос против босса почти всегда проигрывает."
+			]
 			id: "12948680916F0277"
-			tasks: [{
-				consume_items: true
-				id: "1352CF88F3F316E7"
-				item: { count: 1, id: "minecraft:lapis_lazuli" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 2.0d
-		}
+			tasks: [ { id: "1312075C5918A5CB" item: { count: 1, id: "minecraft:lapis_lazuli" } type: "item" consume_items: true } ]
+			title: "Полутон"
+			x: 8d
+			y: 6d
+		},
 		{
-			dependencies: ["1BA757515BC1FF90"]
+			dependencies: [ "1BA757515BC1FF90" ]
+			description: [
+				"Заклинания не только учат, но и куют: наковальня и стол надписей меняют свитки, а кузня свитков собирает новые."
+				"Чернило определяет редкость. Легендарное — предел, и его добывают с Владык."
+			]
 			id: "1B6380A1BAA19FAA"
-			tasks: [{
-				consume_items: true
-				id: "1FADEB57FB4D7297"
-				item: { count: 1, id: "minecraft:anvil" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: 2.0d
+			tasks: [ { id: "1FADEB57FB4D7297" item: { count: 1, id: "minecraft:anvil" } type: "item" consume_items: true } ]
+			title: "Кузня заклинаний"
+			x: 6d
+			y: 2d
 		}
 	]
+	images: [
+
+	]
+	title: "Магия"
 }

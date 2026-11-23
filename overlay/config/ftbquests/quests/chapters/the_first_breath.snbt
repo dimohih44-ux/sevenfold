@@ -1,119 +1,126 @@
 {
+	always_invisible: false
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "the_first_breath"
 	group: ""
+	icon: "paraglider:paraglider"
 	id: "1CDAE8B527AD4704"
-	images: [ ]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
+			description: [
+				"Выносливость — не мана и не здоровье. Она тратится, пока ты планируешь на параплане, и возвращается, когда стоишь на земле."
+				"Старт — 300 единиц. Сосуды дыхания выбиваются из Иссушителя, дракона Края и рейдов; каждый даёт +50 и их не больше десяти."
+				"В недра не спускайся с пустым дыханием — обратно уже не вылетишь."
+			]
 			id: "14436C9E32F126F9"
-			tasks: [{
-				consume_items: true
-				id: "1793F17B0FB44359"
-				item: { count: 1, id: "paraglider:paraglider" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
+			tasks: [ { id: "1793F17B0FB44359" item: { count: 1, id: "paraglider:paraglider" } type: "item" consume_items: true } ]
+			title: "Дыхание"
+			x: 0d
+			y: 0d
+		},
 		{
-			dependencies: ["14436C9E32F126F9"]
+			dependencies: [ "14436C9E32F126F9" ]
+			description: [
+				"Лут здесь падает щедро, и без рюкзака ты вернёшься за ним трижды — а мир не любит, когда его грабят дважды."
+				"Рюкзак из Sophisticated Backpacks ставь на землю и открывай: внутри карманы, фильтры, автосбор с земли."
+			]
 			id: "157880DE6714441F"
-			tasks: [{
-				consume_items: true
-				id: "19740E444198C7D9"
-				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 0.0d
-		}
+			tasks: [ { id: "19740E444198C7D9" item: { count: 1, id: "sophisticatedbackpacks:backpack" } type: "item" consume_items: true } ]
+			title: "Рюкзак"
+			x: 2d
+			y: 0d
+		},
 		{
-			dependencies: ["157880DE6714441F"]
+			dependencies: [ "157880DE6714441F" ]
+			description: [
+				"Сытость одной и той же едой со временем не восстанавливается как раньше. Одно блюдо — одна нота, а тело требует строя."
+				"Держи в рационе мясо, овощи, похлёбки и что-нибудь сладкое. Готовь в котле Farmer's Delight — это дешевле, чем лечиться."
+			]
 			id: "1DAA260D8D2A02E5"
-			tasks: [{
-				consume_items: true
-				id: "15201E992988D70C"
-				item: { count: 1, id: "farmersdelight:cooking_pot" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 0.0d
-		}
+			tasks: [ { id: "15201E992988D70C" item: { count: 1, id: "farmersdelight:cooking_pot" } type: "item" consume_items: true } ]
+			title: "Разная еда"
+			x: 4d
+			y: 0d
+		},
 		{
-			dependencies: ["1DAA260D8D2A02E5"]
+			dependencies: [ "1DAA260D8D2A02E5" ]
+			description: [
+				"Из-за Cinematic Interactions верстак, печь, коптильня, домна, стол зачарований, наковальня, точило, кузнечный стол, камнерез, ткацкий станок, картографический стол, варочная стойка, крафтер, костёр, кафедра, маяк и музыкальный блок открываются не окном, а сценой от первого лица."
+				"Ты подходишь, кладёшь предметы руками и собираешь рецепт прямо на столе. Камера подстраивается, если подойти с другой стороны."
+				"Клавиша G — правка сетки под свой ресурспак: сдвиг, поворот, размер ячеек. Esc или быстрый выход — и ты снова в бою."
+			]
 			id: "15E7F0E9EFF1368C"
-			tasks: [{
-				consume_items: true
-				id: "164E156AA5F342E8"
-				item: { count: 1, id: "minecraft:crafting_table" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: 0.0d
-		}
+			tasks: [ { id: "164E156AA5F342E8" item: { count: 1, id: "minecraft:crafting_table" } type: "item" consume_items: true } ]
+			title: "Станции — это сцена"
+			x: 6d
+			y: 0d
+		},
 		{
-			dependencies: ["15E7F0E9EFF1368C"]
+			dependencies: [ "15E7F0E9EFF1368C" ]
+			description: [
+				"Стол зачарований, наковальня и точило — тоже сцены Cinematic Interactions: книгу и предметы видно на столе, а не в слотах."
+				"Рецепты при этом не ванильные: часть изменена, часть убрана совсем. Не спорь с памятью, спорь с JEI — R показывает крафт, U применение. Нет в JEI — значит нет вообще."
+			]
 			id: "1BF3267B4E45F4BD"
-			tasks: [{
-				consume_items: true
-				id: "1E26C7F692BE9255"
-				item: { count: 1, id: "minecraft:enchanting_table" }
-				type: "item"
-			}]
-			x: 8.0d
-			y: 0.0d
-		}
+			tasks: [ { id: "1E26C7F692BE9255" item: { count: 1, id: "minecraft:enchanting_table" } type: "item" consume_items: true } ]
+			title: "Зачарование и ремонт"
+			x: 8d
+			y: 0d
+		},
 		{
-			dependencies: ["14436C9E32F126F9"]
+			dependencies: [ "14436C9E32F126F9" ]
+			description: [
+				"Погибнув, ты не теряешь всё: тело остаётся лежать там, где ты упал, и вещи лежат в нём."
+				"Но время играет против тебя, а место запоминается плохо. Ставь метку и не беги в недра без плана."
+			]
 			id: "11368A7F845ACEED"
-			tasks: [{
-				consume_items: true
-				id: "1400E7C128187E72"
-				item: { count: 1, id: "minecraft:compass" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 2.0d
-		}
+			tasks: [ { id: "1400E7C128187E72" item: { count: 1, id: "minecraft:compass" } type: "item" consume_items: true } ]
+			title: "Смерть — сбитая нота"
+			x: 2d
+			y: 2d
+		},
 		{
-			dependencies: ["1DAA260D8D2A02E5"]
+			dependencies: [ "1DAA260D8D2A02E5" ]
+			description: [
+				"Двенадцать глаз End Remastered открывают портал Края. Каждый падает с конкретного босса и только один раз на игрока — и только если последний удар твой."
+				"Потеряешь око — не приговор: на Острове Истоков есть страховочный ритуал. Об этом — в разделе «Глаза»."
+			]
 			id: "1114B29636249C7B"
-			tasks: [{
-				consume_items: true
-				id: "1A266B779295D3F9"
-				item: { count: 1, id: "minecraft:ender_eye" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 2.0d
-		}
+			tasks: [ { id: "1A266B779295D3F9" item: { count: 1, id: "minecraft:ender_eye" } type: "item" consume_items: true } ]
+			title: "Глаза падают один раз"
+			x: 4d
+			y: 2d
+		},
 		{
-			dependencies: ["14436C9E32F126F9"]
+			dependencies: [ "14436C9E32F126F9" ]
+			description: [
+				"Сосуды падают не из сундуков: Иссушитель, дракон Края и победа над рейдом. Каждый сосуд — плюс пятьдесят дыхания, и больше десяти их не выпить."
+				"Один лишний сосуд — это лишний круг над пропастью."
+			]
 			id: "113FA7B057C15DC6"
-			tasks: [{
-				consume_items: true
-				id: "1F8713AC4A9C70A1"
-				item: { count: 1, id: "minecraft:glass_bottle" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 4.0d
-		}
+			tasks: [ { id: "1F8713AC4A9C70A1" item: { count: 1, id: "minecraft:glass_bottle" } type: "item" consume_items: true } ]
+			title: "Сосуды дыхания"
+			x: 0d
+			y: 4d
+		},
 		{
-			dependencies: ["113FA7B057C15DC6"]
+			dependencies: [ "113FA7B057C15DC6" ]
+			description: [
+				"Место, где ты умер, помнится плохо. Ставь метку до похода, а не после."
+				"Кровать в новом доме — тоже метка, только дороже."
+			]
 			id: "1C774DF1D9A6650C"
-			tasks: [{
-				consume_items: true
-				id: "10EF1424C2AE5980"
-				item: { count: 1, id: "minecraft:map" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 4.0d
+			tasks: [ { id: "10EF1424C2AE5980" item: { count: 1, id: "minecraft:map" } type: "item" consume_items: true } ]
+			title: "Метка на карте"
+			x: 2d
+			y: 4d
 		}
 	]
+	images: [
+
+	]
+	title: "Первое дыхание"
 }

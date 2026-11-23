@@ -1,59 +1,62 @@
 {
+	always_invisible: false
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "kitchen"
 	group: ""
+	icon: "farmersdelight:skillet"
 	id: "16AD09692F2D7AAB"
-	images: [ ]
 	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
+			description: [
+				"Готовка — не побочка. Котёл Farmer's Delight варит похлёбки, которые держат дольше и лечат лучше."
+				"Одно и то же блюдо приедается: сытость от повторов падает."
+			]
 			id: "1EEEA535832875F0"
-			tasks: [{
-				consume_items: true
-				id: "104C72E0DC5B9DB0"
-				item: { count: 1, id: "farmersdelight:cooking_pot" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
+			tasks: [ { id: "104C72E0DC5B9DB0" item: { count: 1, id: "farmersdelight:cooking_pot" } type: "item" consume_items: true } ]
+			title: "Котёл"
+			x: 0d
+			y: 0d
+		},
 		{
-			dependencies: ["1EEEA535832875F0"]
+			dependencies: [ "1EEEA535832875F0" ]
+			description: [
+				"Сковорода — быстрый ужин в поле. Мясо, овощи, немного соли — и ты снова человек."
+			]
 			id: "1A70591A605916E4"
-			tasks: [{
-				consume_items: true
-				id: "1289FA90A55D131D"
-				item: { count: 1, id: "farmersdelight:skillet" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 0.0d
-		}
+			tasks: [ { id: "1289FA90A55D131D" item: { count: 1, id: "farmersdelight:skillet" } type: "item" consume_items: true } ]
+			title: "Сковорода"
+			x: 2d
+			y: 0d
+		},
 		{
-			dependencies: ["1A70591A605916E4"]
+			dependencies: [ "1A70591A605916E4" ]
+			description: [
+				"Cinematic Delight, Lender's Delight и Ice and Fire Community Delight — это не просто новые блюда, а новые ингредиенты."
+				"Драконье мясо, мёд, выпечка: чем шире рацион, тем ровнее сытость."
+			]
 			id: "138B1E4E27451DC8"
-			tasks: [{
-				consume_items: true
-				id: "17D6AC036FECEE2B"
-				item: { count: 1, id: "minecraft:honey_bottle" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 0.0d
-		}
+			tasks: [ { id: "17D6AC036FECEE2B" item: { count: 1, id: "minecraft:honey_bottle" } type: "item" consume_items: true } ]
+			title: "Аддоны"
+			x: 4d
+			y: 0d
+		},
 		{
-			dependencies: ["138B1E4E27451DC8"]
+			dependencies: [ "138B1E4E27451DC8" ]
+			description: [
+				"Кухня — для жизни, а не для фарма. Награды здесь скромные специально: еда должна быть привычкой, а не источником лута."
+			]
 			id: "13D1AE0EFE139741"
-			tasks: [{
-				consume_items: true
-				id: "186EC5A55CC6A61B"
-				item: { count: 1, id: "minecraft:apple" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: 0.0d
+			tasks: [ { id: "186EC5A55CC6A61B" item: { count: 1, id: "minecraft:apple" } type: "item" consume_items: true } ]
+			title: "Не гонись за наградой"
+			x: 6d
+			y: 0d
 		}
 	]
+	images: [
+
+	]
+	title: "Кухня"
 }

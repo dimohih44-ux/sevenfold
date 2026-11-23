@@ -1,83 +1,88 @@
 {
+	always_invisible: false
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "gates"
 	group: ""
+	icon: "minecraft:nether_star"
 	id: "18E431C0CFB1FAB0"
-	images: [ ]
 	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
+			description: [
+				"Врата Вечности открываются не ключом, а подготовкой. Внутри — волны тварей и один Владыка."
+				"Каждые врата — выбор: прийти неподготовленным и стать частью нестроя, или унести голос с собой."
+			]
 			id: "1635EBEEC6992BA8"
-			tasks: [{
-				consume_items: true
-				id: "1556C71E602027CF"
-				item: { count: 1, id: "minecraft:flint_and_steel" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
+			tasks: [ { id: "1556C71E602027CF" item: { count: 1, id: "minecraft:flint_and_steel" } type: "item" consume_items: true } ]
+			title: "Врата"
+			x: 0d
+			y: 0d
+		},
 		{
-			dependencies: ["1635EBEEC6992BA8"]
+			dependencies: [ "1635EBEEC6992BA8" ]
+			description: [
+				"Владыка — тот, кто удержал один голос слишком долго и переглох. Такие не умирают: они глохнут и становятся тем, что мы зовём боссом."
+				"Потому их не проходят: к ним приходят с выносливостью, умением и планом."
+			]
 			id: "1451E84B67CB8451"
-			tasks: [{
-				consume_items: true
-				id: "1C9CCDE70FBC3E60"
-				item: { count: 1, id: "minecraft:netherite_scrap" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 0.0d
-		}
+			tasks: [ { id: "1C9CCDE70FBC3E60" item: { count: 1, id: "minecraft:netherite_scrap" } type: "item" consume_items: true } ]
+			title: "Владыка — это не чудовище"
+			x: 2d
+			y: 0d
+		},
 		{
-			dependencies: ["1451E84B67CB8451"]
+			dependencies: [ "1451E84B67CB8451" ]
+			description: [
+				"Block Factory's Bosses приносит своих: йети, песчаный червь, кракен, пиратский капитан и их экипажи."
+				"Трофеи этих боссов нужны для ритуалов глаз — не выбрасывай."
+			]
 			id: "1DA41566205DAFDD"
-			tasks: [{
-				consume_items: false
-				id: "11F2E85713219B10"
-				item: { count: 1, id: "block_factorys_bosses:kraken_tooth" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 0.0d
-		}
+			tasks: [ { id: "11F2E85713219B10" item: { count: 1, id: "block_factorys_bosses:kraken_tooth" } type: "item" consume_items: false } ]
+			title: "Кузнецы и пираты"
+			x: 4d
+			y: 0d
+		},
 		{
-			dependencies: ["1DA41566205DAFDD"]
+			dependencies: [ "1DA41566205DAFDD" ]
+			description: [
+				"Тёмный Допельгангер — тот, кто смотрит на тебя твоими глазами. С него падает Старинное Око."
+				"Не бей его в одиночку и не бей в спину зеркалу."
+			]
 			id: "1C203BD798208C2C"
-			tasks: [{
-				consume_items: false
-				id: "1BCD0CBB60EDF5D5"
-				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "darkdoppelganger:doppel_portal", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "darkdoppelganger:doppelganger_ring" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: 0.0d
-		}
+			tasks: [ { id: "1BCD0CBB60EDF5D5" item: { count: 1, id: "darkdoppelganger:doppelganger_ring" } type: "item" consume_items: false } ]
+			title: "Допельгангер"
+			x: 6d
+			y: 0d
+		},
 		{
-			dependencies: ["1C203BD798208C2C"]
+			dependencies: [ "1C203BD798208C2C" ]
+			description: [
+				"За трофеи Владык платят легендарным чернилом: одно за простого, два за тяжёлого."
+				"Чернило — это не деньги, это сила книги заклинаний. Копи и вкладывай в то, чем реально пользуешься."
+			]
 			id: "1666D6EEC33D52D0"
-			tasks: [{
-				consume_items: true
-				id: "1E79396135B2FDB9"
-				item: { count: 1, id: "cataclysm:ignitium_ingot" }
-				type: "item"
-			}]
-			x: 8.0d
-			y: 0.0d
-		}
+			tasks: [ { id: "1E79396135B2FDB9" item: { count: 1, id: "cataclysm:ignitium_ingot" } type: "item" consume_items: true } ]
+			title: "Награда за голову"
+			x: 8d
+			y: 0d
+		},
 		{
-			dependencies: ["1635EBEEC6992BA8"]
+			dependencies: [ "1635EBEEC6992BA8" ]
+			description: [
+				"Врата не крафтятся в верстаке: их собирают из ядра и камня, а ключ задаёт волну."
+				"Не ставь Врата у дома — волны не различают, кто твой."
+			]
 			id: "1035023E7C91BC75"
-			tasks: [{
-				consume_items: true
-				id: "1FBD03F626695306"
-				item: { count: 1, id: "minecraft:crying_obsidian" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 2.0d
+			tasks: [ { id: "1FBD03F626695306" item: { count: 1, id: "minecraft:crying_obsidian" } type: "item" consume_items: true } ]
+			title: "Сборка врат"
+			x: 0d
+			y: 2d
 		}
 	]
+	images: [
+
+	]
+	title: "Врата и Владыки"
 }

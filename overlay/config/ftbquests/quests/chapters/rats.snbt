@@ -1,47 +1,49 @@
 {
+	always_invisible: false
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "rats"
 	group: ""
+	icon: "rats:cheese"
 	id: "19EA245EB0DEB868"
-	images: [ ]
 	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
+			description: [
+				"Rats — для тех, кто любит крысок. Приручи, посади в клетку, научи собирать лут и варить сыр."
+			]
 			id: "1AF63CEE058DFF84"
-			tasks: [{
-				consume_items: true
-				id: "19D44CBAC05FD173"
-				item: { count: 1, id: "rats:cheese" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
+			tasks: [ { id: "19D44CBAC05FD173" item: { count: 1, id: "rats:cheese" } type: "item" consume_items: true } ]
+			title: "Крысы"
+			x: 0d
+			y: 0d
+		},
 		{
-			dependencies: ["1AF63CEE058DFF84"]
+			dependencies: [ "1AF63CEE058DFF84" ]
+			description: [
+				"Улучшения меняют профессию крысы: повар, рудокоп, лекарь, воин. Ставь их в крысиный инвентарь."
+			]
 			id: "1453C550248F2A02"
-			tasks: [{
-				consume_items: true
-				id: "153BC4EEFE78ECFD"
-				item: { count: 1, id: "rats:rat_upgrade_chef" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 0.0d
-		}
+			tasks: [ { id: "153BC4EEFE78ECFD" item: { count: 1, id: "rats:rat_upgrade_chef" } type: "item" consume_items: true } ]
+			title: "Крысиные улучшения"
+			x: 2d
+			y: 0d
+		},
 		{
-			dependencies: ["1453C550248F2A02"]
+			dependencies: [ "1453C550248F2A02" ]
+			description: [
+				"Крысы не боевая сила мира — они про уют и мелкую автоматизацию. И про то, чтобы не таскать всё самому."
+			]
 			id: "1ABDACC728F91066"
-			tasks: [{
-				consume_items: true
-				id: "1CA10A7F63C35C04"
-				item: { count: 1, id: "minecraft:wheat" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 0.0d
+			tasks: [ { id: "1CA10A7F63C35C04" item: { count: 1, id: "minecraft:wheat" } type: "item" consume_items: true } ]
+			title: "Крысиный король"
+			x: 4d
+			y: 0d
 		}
 	]
+	images: [
+
+	]
+	title: "Крысы"
 }

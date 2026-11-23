@@ -1,47 +1,52 @@
 {
+	always_invisible: false
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "dragons"
 	group: ""
+	icon: "iceandfire:dragonscales_red"
 	id: "1F3103B372D75754"
-	images: [ ]
 	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
+			description: [
+				"Драконы держат собственный строй: огненные, ледяные, грозовые. Каждый уверен, что мир должен звучать как он."
+				"Ищи гнездовья в горах и пустошах — там же их самки и яйца."
+			]
 			id: "16ECD967C214B2AB"
-			tasks: [{
-				consume_items: true
-				id: "1D3F4E118219D18B"
-				item: { count: 1, id: "iceandfire:dragonscales_red" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
+			tasks: [ { id: "1D3F4E118219D18B" item: { count: 1, id: "iceandfire:dragonscales_red" } type: "item" consume_items: true } ]
+			title: "Гнездовья"
+			x: 0d
+			y: 0d
+		},
 		{
-			dependencies: ["16ECD967C214B2AB"]
+			dependencies: [ "16ECD967C214B2AB" ]
+			description: [
+				"Драконья сталь — три вида: огненная, ледяная, грозовая. Плавится из крови и железа."
+				"На Острове Истоков она нужна в ритуалах восстановления глаз: подойдёт любая."
+			]
 			id: "1072DFC4805CFBD3"
-			tasks: [{
-				consume_items: true
-				id: "14CBB234FF3F02EE"
-				item: { count: 1, id: "iceandfire:dragonsteel_fire_ingot" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 0.0d
-		}
+			tasks: [ { id: "14CBB234FF3F02EE" item: { count: 1, id: "iceandfire:dragonsteel_fire_ingot" } type: "item" consume_items: true } ]
+			title: "Драконья сталь"
+			x: 2d
+			y: 0d
+		},
 		{
-			dependencies: ["1072DFC4805CFBD3"]
+			dependencies: [ "1072DFC4805CFBD3" ]
+			description: [
+				"Взрослый прирученный дракон летает и жжёт. Это не транспорт, а второй голос в бою."
+				"Но и на тебя смотрят сверху: дракон в небе виден всем."
+			]
 			id: "11B6DDEE7B93E4AC"
-			tasks: [{
-				consume_items: true
-				id: "12F3C6EAA456AB3B"
-				item: { count: 1, id: "minecraft:saddle" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 0.0d
+			tasks: [ { id: "12F3C6EAA456AB3B" item: { count: 1, id: "minecraft:saddle" } type: "item" consume_items: true } ]
+			title: "Верхом"
+			x: 4d
+			y: 0d
 		}
 	]
+	images: [
+
+	]
+	title: "Драконы"
 }

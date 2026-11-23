@@ -1,71 +1,76 @@
 {
+	always_invisible: false
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "the_hearing"
 	group: ""
+	icon: "minecraft:experience_bottle"
 	id: "169B5232420F318F"
-	images: [ ]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
+			description: [
+				"Прокачка здесь — не уровни, а слух. Опыт превращается в очки дерева Puffish, а дерево — в то, какие голоса ты слышишь."
+				"Открой дерево клавишей скиллов и не разбрасывай очки: каждый узел — это твой характер, а не строчка в статах."
+			]
 			id: "1ADF670EE3354E43"
-			tasks: [{
-				consume_items: true
-				id: "1A4B465E7E0E9282"
-				item: { count: 1, id: "minecraft:experience_bottle" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
+			tasks: [ { id: "1A4B465E7E0E9282" item: { count: 1, id: "minecraft:experience_bottle" } type: "item" consume_items: true } ]
+			title: "Слух"
+			x: 0d
+			y: 0d
+		},
 		{
-			dependencies: ["1ADF670EE3354E43"]
+			dependencies: [ "1ADF670EE3354E43" ]
+			description: [
+				"В дереве семь дорог: клинок, лук, магия, школы заклинаний, шахта, фамильяры и общее."
+				"Ветку шахтёра мы добавили сами — она про кирку, руду, свет под землёй и скорость ног в туннеле."
+			]
 			id: "11AB77CF39486D84"
-			tasks: [{
-				consume_items: true
-				id: "1F3A9498E4CAC5E3"
-				item: { count: 1, id: "minecraft:iron_pickaxe" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 0.0d
-		}
+			tasks: [ { id: "1F3A9498E4CAC5E3" item: { count: 1, id: "minecraft:iron_pickaxe" } type: "item" consume_items: true } ]
+			title: "Семь ветвей"
+			x: 2d
+			y: 0d
+		},
 		{
-			dependencies: ["11AB77CF39486D84"]
+			dependencies: [ "11AB77CF39486D84" ]
+			description: [
+				"Отдельная ветка школ: огонь, лёд, молния, кровь, эндер, природа, святость, элдрич."
+				"Качая школу, ты усиливаешь не «магию вообще», а конкретный голос — и это чувствуется на боссах."
+			]
 			id: "1DC0107BEEEA694B"
-			tasks: [{
-				consume_items: true
-				id: "1922D57A239982FC"
-				item: { count: 1, id: "irons_spellbooks:arcane_essence" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 0.0d
-		}
+			tasks: [ { id: "1922D57A239982FC" item: { count: 1, id: "irons_spellbooks:arcane_essence" } type: "item" consume_items: true } ]
+			title: "Школы"
+			x: 4d
+			y: 0d
+		},
 		{
-			dependencies: ["1DC0107BEEEA694B"]
+			dependencies: [ "1DC0107BEEEA694B" ]
+			description: [
+				"Очков хватит не на всё. Дерево не прощается с тобой щедро: лучше глубоко в двух ветвях, чем по чуть-чуть в семи."
+				"Перед боссом смотри, что уже взято, а не что хочется."
+			]
 			id: "1055BD7EE08AE55D"
-			tasks: [{
-				consume_items: true
-				id: "152CD4FE71381D47"
-				item: { count: 1, id: "minecraft:amethyst_shard" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: 0.0d
-		}
+			tasks: [ { id: "152CD4FE71381D47" item: { count: 1, id: "minecraft:amethyst_shard" } type: "item" consume_items: true } ]
+			title: "Очки не бесконечны"
+			x: 6d
+			y: 0d
+		},
 		{
-			dependencies: ["1ADF670EE3354E43"]
+			dependencies: [ "1ADF670EE3354E43" ]
+			description: [
+				"Кроме дерева есть атрибуты: здоровье, броня, сила чар, скорость. Они качаются отдельно и складываются с деревом."
+				"Смотри ATTRIBUTES в инвентаре — там видно, что реально выросло, а что красиво звучит."
+			]
 			id: "12ED2772C1215695"
-			tasks: [{
-				consume_items: true
-				id: "1089C76946353D86"
-				item: { count: 1, id: "minecraft:golden_apple" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 2.0d
+			tasks: [ { id: "1089C76946353D86" item: { count: 1, id: "minecraft:golden_apple" } type: "item" consume_items: true } ]
+			title: "Атрибуты"
+			x: 0d
+			y: 2d
 		}
 	]
+	images: [
+
+	]
+	title: "Слух"
 }
