@@ -1,0 +1,224 @@
+{
+	always_invisible: false
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "relics"
+	group: ""
+	icon: "reliquified_irons_spells_and_spellbooks:echo_glove"
+	id: "109397032BAD33D0"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Реликвия не учит заклинаниям. Она работает из слота Curios и меняет то, как ты воюешь: уклонение, отражение, лечение, эхо."
+				"От книги отличается тем, что её не «качают» — её находят или собирают ритуалом."
+			]
+			id: "184A7FA6BCA1202A"
+			rewards: [ { id: "13FA228C7BF091AB" type: "xp_levels" xp_levels: 3 } ]
+			tasks: [ { id: "1271860F1688CD43" item: { count: 1, id: "reliquified_irons_spells_and_spellbooks:echo_glove" } type: "item" consume_items: false } ]
+			title: "Реликвии — не книги"
+			x: 0d
+			y: 0d
+		},
+		{
+			dependencies: [ "184A7FA6BCA1202A" ]
+			description: [
+				"Ring of Elusiveness даёт шанс уйти от удара, Ring of Blades крутит клинки вокруг тебя."
+				"Два кольца — два разных стиля: бегать или стоять в вихре."
+			]
+			id: "15E278DBF70E8DB0"
+			rewards: [ { id: "1AFB75ED73FA284C" type: "xp_levels" xp_levels: 3 } ]
+			tasks: [ { id: "12A2489A80B35062" item: { count: 1, id: "reliquified_irons_spells_and_spellbooks:ring_of_blades" } type: "item" consume_items: false } ]
+			title: "Кольца уклонения и клинков"
+			x: 2d
+			y: 0d
+		},
+		{
+			dependencies: [ "15E278DBF70E8DB0" ]
+			description: [
+				"Galaxy Devourer Diadem — эндер-реликвия: сила эндер-школы и звёздная защита."
+				"В паре с элдрической магией даёт ощущение, что ты смотришь сквозь мир, а не на него."
+			]
+			id: "101CF3F42F6E1DEE"
+			rewards: [ { id: "128C9065A1807648" type: "xp_levels" xp_levels: 3 } ]
+			tasks: [ { id: "1BD78AC11240CD8C" item: { count: 1, id: "reliquified_irons_spells_and_spellbooks:galaxy_devourer_diadem" } type: "item" consume_items: false } ]
+			title: "Диадема пожирателя"
+			x: 4d
+			y: 0d
+		},
+		{
+			dependencies: [ "101CF3F42F6E1DEE" ]
+			description: [
+				"Hat of Omniscience усиливает зачарования и знания — под билды, где важнее подготовка, чем удар."
+				"С ней стол зачарований и арканная наковальня дают больше."
+			]
+			id: "1930EA02B99236CD"
+			rewards: [ { id: "1761F7D541119C9C" type: "xp_levels" xp_levels: 3 } ]
+			tasks: [ { id: "16C1EE4755BAA129" item: { count: 1, id: "reliquified_irons_spells_and_spellbooks:hat_of_omniscience" } type: "item" consume_items: false } ]
+			title: "Шляпа всезнания"
+			x: 6d
+			y: 0d
+		},
+		{
+			dependencies: [ "184A7FA6BCA1202A" ]
+			description: [
+				"Cloak of the Bloody Feather — кровь и полёт: уклонение в воздухе и усиление кровавой школы."
+				"Логичная пара к книге Крови и тринкету некроманта."
+			]
+			id: "1EF550EE5BD4628A"
+			rewards: [ { id: "1C1F2E3B19F1BBB0" type: "xp_levels" xp_levels: 3 } ]
+			tasks: [ { id: "171B353E7E4B3FEF" item: { count: 1, id: "reliquified_irons_spells_and_spellbooks:cloak_of_the_bloody_feather" } type: "item" consume_items: false } ]
+			title: "Плащ кровавого пера"
+			x: 0d
+			y: 2d
+		},
+		{
+			dependencies: [ "1EF550EE5BD4628A" ]
+			description: [
+				"Mask of Hunger превращает убийства в лечение: чем дольше бой, тем ты крепче."
+				"Опасная штука — провоцирует лезть в толпу, где тебя и разберут."
+			]
+			id: "1405D4D5B7C54920"
+			rewards: [ { id: "1696E8A598DF4B37" type: "xp_levels" xp_levels: 3 } ]
+			tasks: [ { id: "1DD8C63295D28B9E" item: { count: 1, id: "reliquified_irons_spells_and_spellbooks:mask_of_hunger" } type: "item" consume_items: false } ]
+			title: "Маска голода"
+			x: 2d
+			y: 2d
+		},
+		{
+			dependencies: [ "1405D4D5B7C54920" ]
+			description: [
+				"Flask of the Red Mist — расходник-реликвия: туман, который режет врагов и подлечивает тебя."
+				"Держи во второй руке на боссах: он спасает, когда маны уже нет."
+			]
+			id: "1487528C5FB5806D"
+			rewards: [ { id: "1D1B3FDEA4286D50" type: "xp_levels" xp_levels: 3 } ]
+			tasks: [ { id: "1E0C525C6782EC03" item: { count: 1, id: "reliquified_irons_spells_and_spellbooks:flask_of_the_red_mist" } type: "item" consume_items: false } ]
+			title: "Флакон красного тумана"
+			x: 4d
+			y: 2d
+		},
+		{
+			dependencies: [ "1487528C5FB5806D" ]
+			description: [
+				"Bloodstained Voodoo Doll бьёт по цели через связь: пока кукла цела — боль уходит адресату."
+				"Против одиночных боссов работает заметно лучше, чем против толпы."
+			]
+			id: "10E5E3C2B6D85411"
+			rewards: [ { id: "1B5983E60A1FD5A4" type: "xp_levels" xp_levels: 3 } ]
+			tasks: [ { id: "18C85F91F1D85A65" item: { count: 1, id: "reliquified_irons_spells_and_spellbooks:bloody_voodoo_doll" } type: "item" consume_items: false } ]
+			title: "Кукла вуду"
+			x: 6d
+			y: 2d
+		},
+		{
+			dependencies: [ "184A7FA6BCA1202A" ]
+			description: [
+				"Cardiac Trap ставится на землю и ждёт: кто подойдёт, тот получит сердце в подарок."
+				"Хороша в коридорах катакомб и на аренах Врат."
+			]
+			id: "1B992EF2F561AF74"
+			rewards: [ { id: "17991F5AB64CACA0" type: "xp_levels" xp_levels: 3 } ]
+			tasks: [ { id: "12575B0293DDC10A" item: { count: 1, id: "reliquified_irons_spells_and_spellbooks:cardiac_trap" } type: "item" consume_items: true } ]
+			title: "Сердечная ловушка"
+			x: 0d
+			y: 4d
+		},
+		{
+			dependencies: [ "1B992EF2F561AF74" ]
+			description: [
+				"Dimension Key открывает путь туда, куда обычный портал не ведёт."
+				"Не трать его ради любопытства — сначала собери отряд."
+			]
+			id: "1EB60E1A8F40F2D2"
+			rewards: [ { id: "1B019503DBD6769B" type: "xp_levels" xp_levels: 3 } ]
+			tasks: [ { id: "19BD90D3777CE933" item: { count: 1, id: "reliquified_irons_spells_and_spellbooks:dimension_key" } type: "item" consume_items: false } ]
+			title: "Ключ измерений"
+			x: 2d
+			y: 4d
+		},
+		{
+			dependencies: [ "1EB60E1A8F40F2D2" ]
+			description: [
+				"Sheaths из Discerning the Eldritch добавляют эффект к каждому удару: пириум поджигает, фростборн морозит, бритва рвёт, звёздный вбивает звёздную пыль."
+				"Ножны работают только в паре с оружием ближнего боя — не с книгой."
+			]
+			id: "1F3449D23A226A49"
+			rewards: [ { id: "19DA1CB21FF445A3" type: "xp_levels" xp_levels: 3 } ]
+			tasks: [ { id: "146017D3D6D6BA3F" item: { count: 1, id: "discerning_the_eldritch:pyrium_sheath" } type: "item" consume_items: false } ]
+			title: "Ножны DTE"
+			x: 4d
+			y: 4d
+		},
+		{
+			dependencies: [ "1F3449D23A226A49" ]
+			description: [
+				"Emblem of The Rift Ripper даёт дополнительные касты Rift Walker — телепорт перестаёт быть роскошью."
+				"С ним бой превращается в игру в пятнашки, где ты — пятнашки."
+			]
+			id: "1EA00A017355462A"
+			rewards: [ { id: "18A7652778096DAC" type: "xp_levels" xp_levels: 3 } ]
+			tasks: [ { id: "14520E35670729F4" item: { count: 1, id: "discerning_the_eldritch:rift_ripper_emblem" } type: "item" consume_items: false } ]
+			title: "Эмблема Разрыва"
+			x: 6d
+			y: 4d
+		},
+		{
+			dependencies: [ "184A7FA6BCA1202A" ]
+			description: [
+				"Leviathan's Blessing — морская реликвия: дыхание, скорость в воде и сила водных чар."
+				"Для подводных данжей Катаклизма обязательна."
+			]
+			id: "17D11CE23A784875"
+			rewards: [ { id: "13C771516D58EBE7" type: "xp_levels" xp_levels: 3 } ]
+			tasks: [ { id: "1BF25A68F96551D7" item: { count: 1, id: "cataclysm_spellbooks:leviathans_blessing" } type: "item" consume_items: false } ]
+			title: "Благословение Левиафана"
+			x: 0d
+			y: 6d
+		},
+		{
+			dependencies: [ "17D11CE23A784875" ]
+			description: [
+				"Cross Necklace и Dreadhound Tooth Necklace — защита и страх: один даёт неуязвимость после урона, второй пугает врагов."
+				"Обе — с мобов Monsters Spellbooks, не из сундуков."
+			]
+			id: "12CB981A1D233D55"
+			rewards: [ { id: "1756A04C1AB5D38C" type: "xp_levels" xp_levels: 3 } ]
+			tasks: [ { id: "19094405601B5718" item: { count: 1, id: "monsterspellbooks:cross_necklace" } type: "item" consume_items: false } ]
+			title: "Обереги монстров"
+			x: 2d
+			y: 6d
+		},
+		{
+			dependencies: [ "12CB981A1D233D55" ]
+			description: [
+				"Critical Sorcerer Glasses поднимают шанс критического заклинания."
+				"Скучный предмет, который меняет цифры сильнее половины реликвий."
+			]
+			id: "1D67C8C917F394AB"
+			rewards: [ { id: "1CEE1D37E4BA3222" type: "xp_levels" xp_levels: 3 } ]
+			tasks: [ { id: "1EFD568E13F1BC91" item: { count: 1, id: "monsterspellbooks:critical_glasses" } type: "item" consume_items: false } ]
+			title: "Очки крит-мага"
+			x: 4d
+			y: 6d
+		},
+		{
+			dependencies: [ "1D67C8C917F394AB" ]
+			description: [
+				"Fierce Deity Mask и Majora's Mask — самые странные реликвии пака: дают силу и меняют поведение."
+				"Надень, посмотри на тултип и реши сам, стоит ли это носить."
+			]
+			id: "19B32DB9D1A239DE"
+			rewards: [ { id: "1AA23A3BB0AA7496" type: "xp_levels" xp_levels: 3 } ]
+			tasks: [ { id: "132DF4091041173C" item: { count: 1, id: "monsterspellbooks:majoras_mask" } type: "item" consume_items: false } ]
+			title: "Маски"
+			x: 6d
+			y: 6d
+		}
+	]
+	images: [
+
+	]
+	title: "Реликвии"
+}
