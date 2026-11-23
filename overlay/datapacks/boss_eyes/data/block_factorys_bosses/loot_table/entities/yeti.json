@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "block_factorys_bosses:ice_gauntlet",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "endrem:cold_eye",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "killer",
+          "predicate": {
+            "type_specific": {
+              "type": "minecraft:player",
+              "advancements": {
+                "boss_eyes:once/cold_eye": false
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "random_sequence": "block_factorys_bosses:bosses/yeti"
+}

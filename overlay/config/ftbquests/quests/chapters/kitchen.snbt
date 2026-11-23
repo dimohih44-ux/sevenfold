@@ -1,0 +1,59 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "kitchen"
+	group: ""
+	id: "16AD09692F2D7AAB"
+	images: [ ]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1EEEA535832875F0"
+			tasks: [{
+				consume_items: true
+				id: "104C72E0DC5B9DB0"
+				item: { count: 1, id: "farmersdelight:cooking_pot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1EEEA535832875F0"]
+			id: "1A70591A605916E4"
+			tasks: [{
+				consume_items: true
+				id: "1289FA90A55D131D"
+				item: { count: 1, id: "farmersdelight:skillet" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A70591A605916E4"]
+			id: "138B1E4E27451DC8"
+			tasks: [{
+				consume_items: true
+				id: "17D6AC036FECEE2B"
+				item: { count: 1, id: "minecraft:honey_bottle" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["138B1E4E27451DC8"]
+			id: "13D1AE0EFE139741"
+			tasks: [{
+				consume_items: true
+				id: "186EC5A55CC6A61B"
+				item: { count: 1, id: "minecraft:apple" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+}

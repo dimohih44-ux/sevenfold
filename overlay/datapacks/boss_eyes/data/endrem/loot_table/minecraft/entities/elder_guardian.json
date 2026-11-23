@@ -1,0 +1,33 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "endrem:guardian_eye",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "killer",
+          "predicate": {
+            "type_specific": {
+              "type": "minecraft:player",
+              "advancements": {
+                "boss_eyes:once/guardian_eye": false
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

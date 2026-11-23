@@ -1,0 +1,23 @@
+{
+  "type": "eidolon_repraised:ritual_brazier_crafting",
+  "focus_items": [
+    { "item": "minecraft:ice" }
+  ],
+  "health_requirement": 20,
+  "keep_nbt_of_reagent": true,
+  "pedestal_items": [
+    { "item": "minecraft:blue_ice" },
+    { "item": "minecraft:blue_ice" },
+    { "item": "minecraft:snowball" },
+    { "item": "minecraft:snowball" },
+    { "item": "eidolon_repraised:magic_ink" },
+    { "item": "eidolon_repraised:arcane_seal" }
+  ],
+  "reagent": {
+    "item": "minecraft:book"
+  },
+  "result": {
+    "count": 1,
+    "id": "irons_spellbooks:ice_spell_book"
+  }
+}

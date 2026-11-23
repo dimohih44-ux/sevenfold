@@ -1,0 +1,36 @@
+{
+	"unlocked_by_default": true,
+	"title": "Лучник",
+	"description": "Путь точности и дистанций. Качается за бой, охоту и добычу.",
+	"icon": {
+		"type": "texture",
+		"data": {
+			"texture": "rpgskills:textures/gui/skills/bow.png"
+		}
+	},
+	"background": {
+		"texture": "rpgskills:textures/gui/backgrounds/archer.png",
+		"width": 1360,
+		"height": 768,
+		"position": "fill"
+	},
+	"colors": {
+		"points": {
+			"fill": "#FFF6C445",
+			"stroke": "#FF4A340F"
+		},
+		"connections": {
+			"locked": "#FF6B5A34",
+			"available": "#FF9A7A2A",
+			"affordable": "#FFD9A62A",
+			"unlocked": "#FFF6C445",
+			"excluded": "#FF4A4A4A"
+		},
+		"exchange": {
+			"cost": {
+				"available": "#FFF6C445",
+				"affordable": "#FFD9A62A"
+			}
+		}
+	}
+}

@@ -1,0 +1,102 @@
+{
+	"level_limit": 300,
+	"reset_on_death": false,
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "min(level ^ 2.6 * 45 + 400, 5000000)"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:kill_entity",
+			"data": {
+				"variables": {
+					"dropped_xp": {
+						"operations": [
+							{
+								"type": "get_dropped_experience"
+							}
+						]
+					},
+					"max_health": {
+						"operations": [
+							{
+								"type": "get_killed_living_entity"
+							},
+							{
+								"type": "get_max_health"
+							}
+						]
+					},
+					"is_proj": {
+						"operations": [
+							{
+								"type": "get_damage_source"
+							},
+							{
+								"type": "get_type"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"damage_type": "#minecraft:is_projectile"
+								}
+							},
+							{
+								"type": "switch",
+								"data": {
+									"true": 1,
+									"false": 0
+								}
+							}
+						]
+					}
+				},
+				"experience": "(dropped_xp + max_health / 20) * is_proj",
+				"anti_farming": {
+					"limit_per_chunk": 15,
+					"reset_after_seconds": 300
+				}
+			}
+		},
+		{
+			"type": "puffish_skills:deal_damage",
+			"data": {
+				"variables": {
+					"dmg": {
+						"operations": [
+							{
+								"type": "get_dealt_damage"
+							}
+						]
+					},
+					"is_proj": {
+						"operations": [
+							{
+								"type": "get_damage_source"
+							},
+							{
+								"type": "get_type"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"damage_type": "#minecraft:is_projectile"
+								}
+							},
+							{
+								"type": "switch",
+								"data": {
+									"true": 1,
+									"false": 0
+								}
+							}
+						]
+					}
+				},
+				"experience": "dmg * is_proj * 0.08"
+			}
+		}
+	]
+}

@@ -1,0 +1,77 @@
+{
+  "type": "gateways:normal",
+  "size": "large",
+  "color": "#3F7FD1",
+  "waves": [
+    {
+      "setup_time": 100,
+      "max_wave_time": 1200,
+      "entities": [
+        { "entity": "cataclysm:endermaptera", "count": 4 },
+        { "entity": "minecraft:enderman", "count": 2 }
+      ],
+      "modifiers": [],
+      "rewards": [
+        { "type": "gateways:entity_loot", "entity": "cataclysm:endermaptera", "rolls": 8 }
+      ]
+    },
+    {
+      "setup_time": 200,
+      "max_wave_time": 1500,
+      "entities": [
+        { "entity": "cataclysm:draugr", "count": 3 },
+        { "entity": "cataclysm:royal_draugr", "count": 1 },
+        { "entity": "cataclysm:endermaptera", "count": 4 }
+      ],
+      "modifiers": [
+        { "type": "gateways:attribute", "attribute": "minecraft:generic.max_health", "operation": "add_multiplied_total", "value": 0.15 },
+        { "type": "gateways:attribute", "attribute": "minecraft:generic.armor", "operation": "add_value", "value": 2.0 }
+      ],
+      "rewards": [
+        { "type": "gateways:entity_loot", "entity": "cataclysm:draugr", "rolls": 8 },
+        { "type": "gateways:entity_loot", "entity": "cataclysm:royal_draugr", "rolls": 8 }
+      ]
+    },
+    {
+      "setup_time": 260,
+      "max_wave_time": 1800,
+      "entities": [
+        { "entity": "cataclysm:ender_golem", "count": 1 },
+        { "entity": "cataclysm:endermaptera", "count": 5 }
+      ],
+      "modifiers": [
+        { "type": "gateways:attribute", "attribute": "minecraft:generic.max_health", "operation": "add_multiplied_total", "value": 0.25 },
+        { "type": "gateways:attribute", "attribute": "minecraft:generic.armor", "operation": "add_value", "value": 4.0 },
+        { "type": "gateways:attribute", "attribute": "minecraft:generic.attack_damage", "operation": "add_multiplied_total", "value": 0.2 }
+      ],
+      "rewards": [
+        { "type": "gateways:entity_loot", "entity": "cataclysm:ender_golem", "rolls": 10 }
+      ]
+    },
+    {
+      "setup_time": 340,
+      "max_wave_time": 3200,
+      "entities": [
+        { "entity": "cataclysm:the_harbinger", "count": 1 },
+        { "entity": "cataclysm:ender_golem", "count": 1 }
+      ],
+      "modifiers": [
+        { "type": "gateways:attribute", "attribute": "minecraft:generic.max_health", "operation": "add_multiplied_total", "value": 0.3 },
+        { "type": "gateways:attribute", "attribute": "minecraft:generic.attack_damage", "operation": "add_multiplied_total", "value": 0.3 }
+      ],
+      "rewards": [
+        { "type": "gateways:entity_loot", "entity": "cataclysm:the_harbinger", "rolls": 8 }
+      ]
+    }
+  ],
+  "rewards": [
+    { "type": "gateways:entity_loot", "entity": "cataclysm:the_harbinger", "rolls": 4 },
+    { "type": "gateways:experience", "experience": 1000, "orb_size": 30 }
+  ],
+  "failures": [
+    { "type": "gateways:mob_effect", "effect": "minecraft:weakness", "duration": 600 }
+  ],
+  "rules": {
+    "allow_discarding": true
+  }
+}

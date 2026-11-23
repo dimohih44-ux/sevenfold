@@ -1,0 +1,14 @@
+{
+	"criteria": {
+		"unlocked": {
+			"trigger": "puffish_skills:skill_unlocked",
+			"conditions": {
+				"category": "rpgskills:warrior",
+				"skill": "master"
+			}
+		}
+	},
+	"rewards": {
+		"function": "rpgskills:master_warrior"
+	}
+}

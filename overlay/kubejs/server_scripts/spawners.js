@@ -1,0 +1,187 @@
+// ============================================================
+// Спавнеры: ограниченное число спавнов + эффекты при разрушении
+//   - блок-спавнер выдаёт SPAWN_LIMIT спавнов, после чего исчезает
+//   - при разрушении спавнера игрок получает Иссушение и Отравление
+//
+// Проверено по логу на этой сборке:
+//   event.type == 'SPAWNER'  — так отличаем спавн от спавнера (event.spawner
+//   НЕ пустой и для обычных спавнов).
+// Где находится блок спавнера: event.spawner (WrappedSpawner) отдаёт свои
+//   аксессоры как функции-обёртки и координаты из него получить не удалось
+//   (в логе id/координаты были undefined), поэтому:
+//     1) пробуем напрямую (sp.block() / sp.block),
+//     2) если пусто — ищем блок-спавнер в окрестности появившегося моба
+//        (спавнер всегда в пределах SpawnRange, по умолчанию 4 блока).
+// Удаление блока — командой setblock (не зависим от имён методов KubeJS).
+// Счётчик — в server.persistentData: переживает /reload и перезапуск мира.
+//
+// ВАЖНО: внутри обработчиков переменные объявляем ТОЛЬКО через var.
+// ============================================================
+
+const SPAWNER_BLOCKS = [
+  'minecraft:spawner',                          // ванильный
+  'block_factorys_bosses:boss_spawner',         // Block Factory's Bosses
+  'block_factorys_bosses:kraken_spawner',       // Block Factory's Bosses
+  'cataclysm:boss_respawner',                   // L_Ender's Cataclysm
+  'iceandfire:dread_spawner',                   // Ice and Fire
+  'betternether:pig_statue_respawner'           // BetterNether
+]
+
+const SPAWN_LIMIT = 3        // сколько спавнов выдаёт один спавнер, потом исчезает
+const EFFECT_TICKS = 240     // длительность эффектов при разрушении, тиков (12 сек)
+const EFFECT_AMP = 1         // уровень эффекта (1 = II)
+const SCAN_R = 7             // радиус поиска спавнера по горизонтали
+const SCAN_V = 4             // ... и по вертикали
+
+var DEBUG_DONE = false       // один раз пишем в лог, каким способом нашли блок
+
+function isSpawnerBlock(id) {
+  return id !== undefined && id !== null && SPAWNER_BLOCKS.indexOf(String(id)) >= 0
+}
+
+function blockIdOf(b) {
+  var id = null
+  try { id = b.id } catch (e1) { }
+  if (id === undefined || id === null) { try { id = b.getName() } catch (e2) { } }
+  return id
+}
+
+function coordsOf(b) {
+  var x = null, y = null, z = null
+  try { x = b.x; y = b.y; z = b.z } catch (e1) { }
+  if (x === undefined || x === null) {
+    try { x = b.getX(); y = b.getY(); z = b.getZ() } catch (e2) { }
+  }
+  return { x: x, y: y, z: z }
+}
+
+function getOrCall(v) {
+  try { if (typeof v === 'function') { return v() } } catch (e) { }
+  return v
+}
+
+function serverOf() {
+  for (var i = 0; i < arguments.length; i++) {
+    var o = arguments[i]
+    if (!o) continue
+    try { if (o.server) return o.server } catch (e1) { }
+    try { if (o.getServer) { var s = o.getServer(); if (s) return s } } catch (e2) { }
+  }
+  try { if (Utils.getServer) { var s3 = getOrCall(Utils.getServer); if (s3) return s3 } } catch (e3) { }
+  return null
+}
+
+// блок по координатам (пробуем оба вида вызова)
+function blockAt(level, x, y, z) {
+  var b = null
+  try { b = level.getBlock(x, y, z) } catch (e1) { }
+  if (!b) {
+    try { b = level.getBlock(new (Java.loadClass('net.minecraft.core.BlockPos'))(x, y, z)) } catch (e2) { }
+  }
+  return b
+}
+
+// координаты моба в целых блоках
+function mobBlockPos(ent) {
+  try { var bp = ent.blockPosition(); return { x: bp.getX(), y: bp.getY(), z: bp.getZ(), how: 'blockPosition' } } catch (e1) { }
+  try { return { x: ent.getBlockX(), y: ent.getBlockY(), z: ent.getBlockZ(), how: 'getBlockX' } } catch (e2) { }
+  try { return { x: Math.floor(ent.x), y: Math.floor(ent.y), z: Math.floor(ent.z), how: 'x/y/z' } } catch (e3) { }
+  return null
+}
+
+// вариант 1: напрямую из события
+function spawnerFromEvent(sp) {
+  if (!sp) return null
+  var v = null
+  try { v = sp.block } catch (e1) { }
+  v = getOrCall(v)
+  var c = v ? coordsOf(v) : null
+  if (c && c.x !== null && c.x !== undefined) { return { b: v, how: 'sp.block' } }
+  try { v = sp.entity } catch (e2) { }
+  v = getOrCall(v)
+  c = v ? coordsOf(v) : null
+  if (c && c.x !== null && c.x !== undefined) { return { b: v, how: 'sp.entity' } }
+  return null
+}
+
+// вариант 2: ищем БЛИЖАЙШИЙ блок-спавнер рядом с точкой спавна моба
+// (моб всегда появляется ближе всего к своему спавнеру — важно, если рядом стоят несколько)
+function spawnerByScan(level, ent) {
+  var mp = mobBlockPos(ent)
+  if (!mp) return null
+  var best = null
+  var bestD = 1e9
+  for (var dy = -SCAN_V; dy <= SCAN_V; dy++) {
+    for (var dx = -SCAN_R; dx <= SCAN_R; dx++) {
+      for (var dz = -SCAN_R; dz <= SCAN_R; dz++) {
+        var b = blockAt(level, mp.x + dx, mp.y + dy, mp.z + dz)
+        if (!b) continue
+        if (!isSpawnerBlock(blockIdOf(b))) continue
+        var c = coordsOf(b)
+        if (c.x === null || c.x === undefined) continue
+        var d = (c.x - mp.x) * (c.x - mp.x) + (c.y - mp.y) * (c.y - mp.y) + (c.z - mp.z) * (c.z - mp.z)
+        if (d < bestD) { bestD = d; best = { b: b, how: 'scan(nearest, dist2=' + d + ')' } }
+      }
+    }
+  }
+  return best
+}
+
+// --- 1) Ограничение числа спавнов -------------------------------------------
+EntityEvents.checkSpawn(event => {
+  try {
+    if (String(event.type) !== 'SPAWNER') return
+
+    var level = event.level
+    var found = spawnerFromEvent(event.spawner)
+    if (!found) { found = spawnerByScan(level, event.entity) }
+    if (!found) {
+      if (!DEBUG_DONE) { DEBUG_DONE = true; console.info('[spawners] спавнер не найден ни одним способом') }
+      return
+    }
+    var blk = found.b
+
+    var c = coordsOf(blk)
+    var bid = blockIdOf(blk)
+
+    var server = serverOf(level, event.server)
+    if (!server) { console.error('[spawners] нет сервера'); return }
+
+    var key = 'sp_' + String(level.dimension).replace(/[^A-Za-z0-9]/g, '_') + '_' + c.x + '_' + c.y + '_' + c.z
+    var store = server.persistentData
+    var used = store.getInt(key) + 1
+    store.putInt(key, used)
+
+    if (!DEBUG_DONE) {
+      DEBUG_DONE = true
+      console.info('[spawners] нашли спавнер: id=' + bid + ' как=' + found.how + ' ключ=' + key + ' used=' + used)
+    }
+
+    // Снимаем спавнер на следующем срабатывании ПОСЛЕ лимита.
+    // Почему не на самом лимите: снос блока прямо в момент спавна отменяет этот спавн,
+    // поэтому при сносе на третьем событии игрок видит только двух мобов.
+    // Так появляются ровно SPAWN_LIMIT мобов, а следующая попытка спавнера уже снимается.
+    if (used > SPAWN_LIMIT) {
+      try { server.runCommandSilent('setblock ' + c.x + ' ' + c.y + ' ' + c.z + ' minecraft:air replace') } catch (e4) { console.error('[spawners] setblock: ' + e4) }
+      var after = null
+      try { after = blockIdOf(blockAt(level, c.x, c.y, c.z)) } catch (e5) { }
+      console.info('[spawners] спавнер исчерпан (' + SPAWN_LIMIT + ' спавнов), после сноса блок=' + after + ': ' + key)
+      try { store.remove(key) } catch (e6) { }   // новый спавнер на том же месте начнёт с нуля
+    }
+  } catch (err) {
+    console.error('[spawners] checkSpawn: ' + err)
+  }
+})
+
+// --- 2) Эффекты при разрушении спавнера --------------------------------------
+BlockEvents.broken(event => {
+  try {
+    if (!isSpawnerBlock(blockIdOf(event.block))) return
+    var p = event.player
+    if (!p) return
+    p.potionEffects.add('minecraft:wither', EFFECT_TICKS, EFFECT_AMP)
+    p.potionEffects.add('minecraft:poison', EFFECT_TICKS, EFFECT_AMP)
+  } catch (err) {
+    console.error('[spawners] broken: ' + err)
+  }
+})

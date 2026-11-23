@@ -1,0 +1,110 @@
+{
+    "root":  {
+                 "definition":  "root",
+                 "x":  0,
+                 "y":  0,
+                 "root":  true
+             },
+    "pick_1":  {
+                   "definition":  "pick_1",
+                   "x":  -160,
+                   "y":  -48,
+                   "root":  false
+               },
+    "pick_2":  {
+                   "definition":  "pick_2",
+                   "x":  -224,
+                   "y":  -88,
+                   "root":  false
+               },
+    "pick_3":  {
+                   "definition":  "pick_3",
+                   "x":  -288,
+                   "y":  -128,
+                   "root":  false
+               },
+    "ore_1":  {
+                  "definition":  "ore_1",
+                  "x":  -160,
+                  "y":  48,
+                  "root":  false
+              },
+    "ore_2":  {
+                  "definition":  "ore_2",
+                  "x":  -224,
+                  "y":  88,
+                  "root":  false
+              },
+    "ore_3":  {
+                  "definition":  "ore_3",
+                  "x":  -288,
+                  "y":  128,
+                  "root":  false
+              },
+    "end_1":  {
+                  "definition":  "end_1",
+                  "x":  0,
+                  "y":  -128,
+                  "root":  false
+              },
+    "end_2":  {
+                  "definition":  "end_2",
+                  "x":  0,
+                  "y":  -192,
+                  "root":  false
+              },
+    "end_3":  {
+                  "definition":  "end_3",
+                  "x":  0,
+                  "y":  -256,
+                  "root":  false
+              },
+    "depth_1":  {
+                    "definition":  "depth_1",
+                    "x":  160,
+                    "y":  48,
+                    "root":  false
+                },
+    "depth_2":  {
+                    "definition":  "depth_2",
+                    "x":  224,
+                    "y":  88,
+                    "root":  false
+                },
+    "depth_3":  {
+                    "definition":  "depth_3",
+                    "x":  288,
+                    "y":  128,
+                    "root":  false
+                },
+    "ore_4":  {
+                  "definition":  "ore_4",
+                  "x":  -224,
+                  "y":  88,
+                  "root":  false
+              },
+    "ore_5":  {
+                  "definition":  "ore_5",
+                  "x":  -288,
+                  "y":  128,
+                  "root":  false
+              },
+    "ore_6":  {
+                  "definition":  "ore_6",
+                  "x":  -352,
+                  "y":  168,
+                  "root":  false
+              },
+    "ore_7":  {
+                  "definition":  "ore_7",
+                  "x":  -416,
+                  "y":  208,
+                  "root":  false
+              },
+    "ore_8":  {
+                  "definition":  "ore_8",
+                  "x":  -480,
+                  "y":  248,
+                  "root":  false
+              }
+}

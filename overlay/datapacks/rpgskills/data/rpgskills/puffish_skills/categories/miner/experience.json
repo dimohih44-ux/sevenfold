@@ -1,0 +1,65 @@
+{
+	"level_limit": 300,
+	"reset_on_death": false,
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "min(level ^ 2.6 * 45 + 400, 5000000)"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:deal_damage",
+			"data": {
+				"variables": {
+					"dmg": {
+						"operations": [
+							{
+								"type": "get_dealt_damage"
+							}
+						]
+					},
+					"is_melee": {
+						"operations": [
+							{
+								"type": "get_damage_source"
+							},
+							{
+								"type": "get_type"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"damage_type": "#minecraft:is_player_attack"
+								}
+							},
+							{
+								"type": "switch",
+								"data": {
+									"true": 1,
+									"false": 0
+								}
+							}
+						]
+					}
+				},
+				"experience": "dmg * is_melee * 0.25"
+			}
+		},
+		{
+			"type": "puffish_skills:take_damage",
+			"data": {
+				"variables": {
+					"damage": {
+						"operations": [
+							{
+								"type": "get_taken_damage"
+							}
+						]
+					}
+				},
+				"experience": "damage * 0.05"
+			}
+		}
+	]
+}

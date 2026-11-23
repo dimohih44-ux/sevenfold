@@ -1,0 +1,371 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "familiars"
+	group: ""
+	id: "1C2E6C0EFDF6F947"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "17CA78D9ED09502E"
+			tasks: [{
+				consume_items: true
+				id: "156B356F34ED6ED2"
+				item: { count: 1, id: "alshanex_familiars:familiar_tome" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17CA78D9ED09502E"]
+			id: "1D5C5BC2F9FB98D6"
+			tasks: [{
+				consume_items: false
+				id: "1203D2D65B9EE969"
+				item: { count: 1, id: "irons_spellbooks:arcane_essence" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D5C5BC2F9FB98D6"]
+			id: "191010C8E5F1B4CC"
+			tasks: [{
+				consume_items: true
+				id: "1CD2E4796456F984"
+				item: { count: 1, id: "minecraft:stick" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["191010C8E5F1B4CC"]
+			id: "14A5AE0FD2B9C32C"
+			tasks: [{
+				consume_items: true
+				id: "17F8E852EC5431D2"
+				item: { count: 1, id: "alshanex_familiars:familiar_guide" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["14A5AE0FD2B9C32C"]
+			id: "1913CC1FB851FA3F"
+			tasks: [{
+				consume_items: true
+				id: "1142083A342BDC89"
+				item: { count: 1, id: "minecraft:white_bed" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1913CC1FB851FA3F"]
+			id: "1460053105130E6D"
+			tasks: [{
+				consume_items: true
+				id: "1752E3021EE5D4B2"
+				item: { count: 1, id: "alshanex_familiars:life_gem" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1460053105130E6D"]
+			id: "15855803888B3BFA"
+			tasks: [{
+				consume_items: false
+				id: "1A40FB1C54D1A367"
+				item: { count: 1, id: "alshanex_familiars:tiny_totem" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["17CA78D9ED09502E"]
+			id: "16A9D13B795DE301"
+			tasks: [{
+				consume_items: true
+				id: "1F7D68154F0FFAF2"
+				item: { count: 1, id: "alshanex_familiars:memory_fragment" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["16A9D13B795DE301"]
+			id: "135562509AA98E9D"
+			tasks: [{
+				consume_items: true
+				id: "1CDFE840FC9FA7B2"
+				item: { count: 1, id: "alshanex_familiars:pet_soul" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["135562509AA98E9D"]
+			id: "14E73946A569C806"
+			tasks: [{
+				consume_items: true
+				id: "15EB82701F015799"
+				item: { count: 1, id: "alshanex_familiars:ritual_core" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["14E73946A569C806"]
+			id: "1D545029C3BA4E0B"
+			tasks: [{
+				consume_items: false
+				id: "17460C798CE697D2"
+				item: { count: 1, id: "alshanex_familiars:archmage_shard" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1D545029C3BA4E0B"]
+			id: "196BA32898D8F472"
+			tasks: [{
+				consume_items: false
+				id: "178822BA5A6DA4D7"
+				item: { count: 1, id: "alshanex_familiars:armor_plate_tier_3" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["196BA32898D8F472"]
+			id: "1B5AAE715CC14F67"
+			tasks: [{
+				consume_items: false
+				id: "14B02F7C30C7ED05"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "alshanex_familiars:familiar_chestplate" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["16A9D13B795DE301"]
+			id: "1EB1A4AA4D031AB4"
+			tasks: [{
+				consume_items: false
+				id: "127CB3102B33C172"
+				item: { count: 1, id: "alshanex_familiars:familiar_idol" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1D545029C3BA4E0B"]
+			id: "1A4F82E271F08B68"
+			tasks: [{
+				consume_items: false
+				id: "15F1B1D1397818A3"
+				item: { count: 1, id: "alshanex_familiars:archmage_trinket" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1A4F82E271F08B68"]
+			id: "123982B2B230DB60"
+			tasks: [{
+				consume_items: false
+				id: "18EA222B0699336E"
+				item: { count: 1, id: "alshanex_familiars:mage_trinket" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1A4F82E271F08B68"]
+			id: "1D70EA5612F3047E"
+			tasks: [{
+				consume_items: false
+				id: "1A49588C949F9ED1"
+				item: { count: 1, id: "alshanex_familiars:cleric_trinket" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1A4F82E271F08B68"]
+			id: "19BEE6B812DA7969"
+			tasks: [{
+				consume_items: false
+				id: "161A8CD48BBC79D1"
+				item: { count: 1, id: "alshanex_familiars:necromancer_trinket" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["123982B2B230DB60"]
+			id: "116AF83692B907C5"
+			tasks: [{
+				consume_items: false
+				id: "1AE9CA74B8DD74F8"
+				item: { count: 1, id: "alshanex_familiars:evasion_curio" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["116AF83692B907C5"]
+			id: "1E9D4AAE86DB41C6"
+			tasks: [{
+				consume_items: false
+				id: "1498456D512D722B"
+				item: { count: 1, id: "alshanex_familiars:pandora_box" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["14E73946A569C806"]
+			id: "1AC0321083C8FB41"
+			tasks: [{
+				consume_items: true
+				id: "1A21E575BEBAB05B"
+				item: { count: 1, id: "alshanex_familiars:ritual_automator" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1AC0321083C8FB41"]
+			id: "189CAC817583C7B1"
+			tasks: [{
+				consume_items: true
+				id: "153EBDD627B43092"
+				item: { count: 1, id: "alshanex_familiars:scroll_reroll_station" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["189CAC817583C7B1"]
+			id: "14F6BCE0D39BE42B"
+			tasks: [{
+				consume_items: true
+				id: "1EEAC375A6C19F0E"
+				item: { count: 1, id: "alshanex_familiars:sculpture_station" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["14F6BCE0D39BE42B"]
+			id: "185A6727C2EB0130"
+			tasks: [{
+				consume_items: false
+				id: "159600923D923CCE"
+				item: { count: 1, id: "alshanex_familiars:familiar_sculpture" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["185A6727C2EB0130"]
+			id: "1D9B83044EE6AFC8"
+			tasks: [{
+				consume_items: true
+				id: "1531C91EE8BAFC30"
+				item: { count: 1, id: "minecraft:cartography_table" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1A4F82E271F08B68"]
+			id: "1E30E5705005CD7C"
+			tasks: [{
+				consume_items: true
+				id: "18A53A50B8A87B84"
+				item: { count: 1, id: "minecraft:ender_pearl" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1E30E5705005CD7C"]
+			id: "1FC54B87B6387C03"
+			tasks: [{
+				consume_items: false
+				id: "1A3204F01D3AE005"
+				item: { count: 1, id: "eldritch_familiars:watchers_eye" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1FC54B87B6387C03"]
+			id: "1EF52B73E8D49CD3"
+			tasks: [{
+				consume_items: true
+				id: "19C1601C9EA75560"
+				item: { count: 1, id: "minecraft:bone" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["17CA78D9ED09502E"]
+			id: "16C2A4D9D7D49118"
+			tasks: [{
+				consume_items: true
+				id: "179C326BE393B5EB"
+				item: { count: 1, id: "minecraft:bone_meal" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1FC54B87B6387C03"]
+			id: "109C62E3327695F9"
+			tasks: [{
+				consume_items: false
+				id: "17807740078AC52F"
+				item: { count: 1, id: "alshanex_familiars:familiar_idol" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+	]
+}

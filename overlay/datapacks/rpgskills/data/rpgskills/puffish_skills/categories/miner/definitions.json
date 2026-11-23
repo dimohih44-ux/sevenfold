@@ -1,0 +1,614 @@
+{
+    "root":  {
+                 "title":  "Путь шахтёра",
+                 "icon":  {
+                              "type":  "texture",
+                              "data":  {
+                                           "texture":  "rpgskills:textures/gui/skills/miner_pickaxe.png"
+                                       }
+                          },
+                 "rewards":  [
+                                 {
+                                     "type":  "puffish_skills:attribute",
+                                     "data":  {
+                                                  "attribute":  "minecraft:generic.max_health",
+                                                  "value":  2,
+                                                  "operation":  "addition"
+                                              }
+                                 }
+                             ],
+                 "cost":  1,
+                 "description":  {
+                                     "text":  "Открывает древо Шахтёра. Бонус — макс. здоровье: +2",
+                                     "color":  "#FFC08A"
+                                 },
+                 "frame":  {
+                               "type":  "texture",
+                               "data":  {
+                                            "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png",
+                                            "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                            "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                            "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                            "available":  "rpgskills:textures/gui/frames/gold_available.png"
+                                        }
+                           }
+             },
+    "pick_1":  {
+                   "title":  "Твёрдая рука I",
+                   "icon":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "texture":  "rpgskills:textures/gui/skills/miner_pickaxe.png"
+                                         }
+                            },
+                   "rewards":  [
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "minecraft:player.mining_efficiency",
+                                                    "value":  0.84,
+                                                    "operation":  "addition"
+                                                }
+                                   }
+                               ],
+                   "cost":  1,
+                   "description":  {
+                                       "text":  "Копаешь быстрее: +0.6 к скорости разрушения",
+                                       "color":  "#FFC08A"
+                                   },
+                   "frame":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png",
+                                              "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                              "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                              "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                              "available":  "rpgskills:textures/gui/frames/gold_available.png"
+                                          }
+                             }
+               },
+    "pick_2":  {
+                   "title":  "Твёрдая рука II",
+                   "icon":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "texture":  "rpgskills:textures/gui/skills/miner_pickaxe.png"
+                                         }
+                            },
+                   "rewards":  [
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "minecraft:player.mining_efficiency",
+                                                    "value":  1.3,
+                                                    "operation":  "addition"
+                                                }
+                                   }
+                               ],
+                   "cost":  2,
+                   "description":  {
+                                       "text":  "Ещё быстрее: +0.9",
+                                       "color":  "#FFC08A"
+                                   },
+                   "frame":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png",
+                                              "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                              "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                              "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                              "available":  "rpgskills:textures/gui/frames/gold_available.png"
+                                          }
+                             }
+               },
+    "pick_3":  {
+                   "title":  "Проходчик",
+                   "icon":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "texture":  "rpgskills:textures/gui/skills/miner_pickaxe.png"
+                                         }
+                            },
+                   "rewards":  [
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "minecraft:generic.movement_speed",
+                                                    "value":  0.028,
+                                                    "operation":  "addition"
+                                                }
+                                   }
+                               ],
+                   "cost":  3,
+                   "description":  {
+                                       "text":  "Под землёй шаг твёрже: +2% скорости",
+                                       "color":  "#FFC08A"
+                                   },
+                   "frame":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png",
+                                              "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                              "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                              "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                              "available":  "rpgskills:textures/gui/frames/gold_available.png"
+                                          }
+                             }
+               },
+    "ore_1":  {
+                  "title":  "Твёрдая кисть I",
+                  "icon":  {
+                               "type":  "texture",
+                               "data":  {
+                                            "texture":  "rpgskills:textures/gui/skills/miner_ore.png"
+                                        }
+                           },
+                  "rewards":  [
+                                  {
+                                      "type":  "puffish_skills:attribute",
+                                      "data":  {
+                                                   "attribute":  "minecraft:generic.luck",
+                                                   "value":  2.8,
+                                                   "operation":  "addition"
+                                               }
+                                  }
+                              ],
+                  "cost":  1,
+                  "description":  {
+                                      "text":  "Скорость разрушения +2 — руда ломается заметно быстрее",
+                                      "color":  "#FFC08A"
+                                  },
+                  "frame":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png",
+                                             "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                             "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                             "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                             "available":  "rpgskills:textures/gui/frames/gold_available.png"
+                                         }
+                            }
+              },
+    "ore_2":  {
+                  "title":  "Чутьё к сундукам I",
+                  "icon":  {
+                               "type":  "texture",
+                               "data":  {
+                                            "texture":  "rpgskills:textures/gui/skills/miner_ore.png"
+                                        }
+                           },
+                  "rewards":  [
+                                  {
+                                      "type":  "puffish_skills:attribute",
+                                      "data":  {
+                                                   "attribute":  "minecraft:generic.luck",
+                                                   "value":  1.4,
+                                                   "operation":  "addition"
+                                               }
+                                  }
+                              ],
+                  "cost":  2,
+                  "description":  {
+                                      "text":  "Удача +1: лучше добыча из сундуков и рыбалки",
+                                      "color":  "#FFC08A"
+                                  },
+                  "frame":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png",
+                                             "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                             "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                             "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                             "available":  "rpgskills:textures/gui/frames/gold_available.png"
+                                         }
+                            }
+              },
+    "ore_3":  {
+                  "title":  "Золотая жила",
+                  "icon":  {
+                               "type":  "texture",
+                               "data":  {
+                                            "texture":  "rpgskills:textures/gui/skills/miner_ore.png"
+                                        }
+                           },
+                  "rewards":  [
+                                  {
+                                      "type":  "puffish_skills:attribute",
+                                      "data":  {
+                                                   "attribute":  "minecraft:generic.luck",
+                                                   "value":  2.8,
+                                                   "operation":  "addition"
+                                               }
+                                  }
+                              ],
+                  "cost":  3,
+                  "description":  {
+                                      "text":  "Удача +2 — руда щедрее",
+                                      "color":  "#FFC08A"
+                                  },
+                  "frame":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png",
+                                             "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                             "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                             "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                             "available":  "rpgskills:textures/gui/frames/gold_available.png"
+                                         }
+                            }
+              },
+    "end_1":  {
+                  "title":  "Крепкая спина I",
+                  "icon":  {
+                               "type":  "texture",
+                               "data":  {
+                                            "texture":  "rpgskills:textures/gui/skills/miner_boot.png"
+                                        }
+                           },
+                  "rewards":  [
+                                  {
+                                      "type":  "puffish_skills:attribute",
+                                      "data":  {
+                                                   "attribute":  "minecraft:generic.max_health",
+                                                   "value":  2,
+                                                   "operation":  "addition"
+                                               }
+                                  }
+                              ],
+                  "cost":  1,
+                  "description":  {
+                                      "text":  "Здоровье +2",
+                                      "color":  "#FFC08A"
+                                  },
+                  "frame":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png",
+                                             "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                             "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                             "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                             "available":  "rpgskills:textures/gui/frames/gold_available.png"
+                                         }
+                            }
+              },
+    "end_2":  {
+                  "title":  "Крепкая спина II",
+                  "icon":  {
+                               "type":  "texture",
+                               "data":  {
+                                            "texture":  "rpgskills:textures/gui/skills/miner_boot.png"
+                                        }
+                           },
+                  "rewards":  [
+                                  {
+                                      "type":  "puffish_skills:attribute",
+                                      "data":  {
+                                                   "attribute":  "minecraft:generic.armor",
+                                                   "value":  1.4,
+                                                   "operation":  "addition"
+                                               }
+                                  }
+                              ],
+                  "cost":  2,
+                  "description":  {
+                                      "text":  "Броня +1",
+                                      "color":  "#FFC08A"
+                                  },
+                  "frame":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png",
+                                             "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                             "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                             "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                             "available":  "rpgskills:textures/gui/frames/gold_available.png"
+                                         }
+                            }
+              },
+    "end_3":  {
+                  "title":  "Не продавишь",
+                  "icon":  {
+                               "type":  "texture",
+                               "data":  {
+                                            "texture":  "rpgskills:textures/gui/skills/miner_boot.png"
+                                        }
+                           },
+                  "rewards":  [
+                                  {
+                                      "type":  "puffish_skills:attribute",
+                                      "data":  {
+                                                   "attribute":  "minecraft:generic.knockback_resistance",
+                                                   "value":  0.14,
+                                                   "operation":  "addition"
+                                               }
+                                  }
+                              ],
+                  "cost":  3,
+                  "description":  {
+                                      "text":  "Сопротивление отбрасыванию +10%",
+                                      "color":  "#FFC08A"
+                                  },
+                  "frame":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png",
+                                             "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                             "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                             "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                             "available":  "rpgskills:textures/gui/frames/gold_available.png"
+                                         }
+                            }
+              },
+    "depth_1":  {
+                    "title":  "Глубинник I",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/miner_lamp.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "minecraft:generic.armor_toughness",
+                                                     "value":  1.4,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  1,
+                    "description":  {
+                                        "text":  "Твёрдость брони +1",
+                                        "color":  "#FFC08A"
+                                    },
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png"
+                                           }
+                              }
+                },
+    "depth_2":  {
+                    "title":  "Глубинник II",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/miner_lamp.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "minecraft:generic.armor_toughness",
+                                                     "value":  2.8,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  2,
+                    "description":  {
+                                        "text":  "Твёрдость брони +2",
+                                        "color":  "#FFC08A"
+                                    },
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png"
+                                           }
+                              }
+                },
+    "depth_3":  {
+                    "title":  "Свет в штольне",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/miner_lamp.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "minecraft:generic.luck",
+                                                     "value":  1.4,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  3,
+                    "description":  {
+                                        "text":  "Удача +1 и уверенность под землёй",
+                                        "color":  "#FFC08A"
+                                    },
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png"
+                                           }
+                              }
+                },
+    "ore_4":  {
+                  "title":  "Чутьё к сундукам II",
+                  "icon":  {
+                               "type":  "texture",
+                               "data":  {
+                                            "texture":  "rpgskills:textures/gui/skills/miner_ore.png"
+                                        }
+                           },
+                  "rewards":  [
+                                  {
+                                      "type":  "puffish_skills:attribute",
+                                      "data":  {
+                                                   "attribute":  "minecraft:generic.luck",
+                                                   "value":  1.4,
+                                                   "operation":  "addition"
+                                               }
+                                  }
+                              ],
+                  "cost":  2,
+                  "description":  {
+                                      "text":  "Удача ещё +1",
+                                      "color":  "#FFC08A"
+                                  },
+                  "frame":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                             "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                             "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                             "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                             "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                         }
+                            }
+              },
+    "ore_5":  {
+                  "title":  "Крепкая кисть II",
+                  "icon":  {
+                               "type":  "texture",
+                               "data":  {
+                                            "texture":  "rpgskills:textures/gui/skills/miner_ore.png"
+                                        }
+                           },
+                  "rewards":  [
+                                  {
+                                      "type":  "puffish_skills:attribute",
+                                      "data":  {
+                                                   "attribute":  "minecraft:player.mining_efficiency",
+                                                   "value":  2.8,
+                                                   "operation":  "addition"
+                                               }
+                                  }
+                              ],
+                  "cost":  2,
+                  "description":  {
+                                      "text":  "Скорость разрушения +2",
+                                      "color":  "#FFC08A"
+                                  },
+                  "frame":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                             "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                             "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                             "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                             "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                         }
+                            }
+              },
+    "ore_6":  {
+                  "title":  "Горный удар",
+                  "icon":  {
+                               "type":  "texture",
+                               "data":  {
+                                            "texture":  "rpgskills:textures/gui/skills/miner_ore.png"
+                                        }
+                           },
+                  "rewards":  [
+                                  {
+                                      "type":  "puffish_skills:attribute",
+                                      "data":  {
+                                                   "attribute":  "minecraft:player.mining_efficiency",
+                                                   "value":  4.2,
+                                                   "operation":  "addition"
+                                               }
+                                  }
+                              ],
+                  "cost":  3,
+                  "description":  {
+                                      "text":  "Скорость разрушения +3",
+                                      "color":  "#FFC08A"
+                                  },
+                  "frame":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                             "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                             "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                             "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                             "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                         }
+                            }
+              },
+    "ore_7":  {
+                  "title":  "Чутьё к сундукам III",
+                  "icon":  {
+                               "type":  "texture",
+                               "data":  {
+                                            "texture":  "rpgskills:textures/gui/skills/miner_ore.png"
+                                        }
+                           },
+                  "rewards":  [
+                                  {
+                                      "type":  "puffish_skills:attribute",
+                                      "data":  {
+                                                   "attribute":  "minecraft:generic.luck",
+                                                   "value":  2.8,
+                                                   "operation":  "addition"
+                                               }
+                                  }
+                              ],
+                  "cost":  3,
+                  "description":  {
+                                      "text":  "Удача +2",
+                                      "color":  "#FFC08A"
+                                  },
+                  "frame":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                             "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                             "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                             "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                             "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                         }
+                            }
+              },
+    "ore_8":  {
+                  "title":  "Крепкая спина",
+                  "icon":  {
+                               "type":  "texture",
+                               "data":  {
+                                            "texture":  "rpgskills:textures/gui/skills/miner_ore.png"
+                                        }
+                           },
+                  "rewards":  [
+                                  {
+                                      "type":  "puffish_skills:attribute",
+                                      "data":  {
+                                                   "attribute":  "minecraft:generic.max_health",
+                                                   "value":  2,
+                                                   "operation":  "addition"
+                                               }
+                                  }
+                              ],
+                  "cost":  4,
+                  "description":  {
+                                      "text":  "Здоровье +2 под землёй",
+                                      "color":  "#FFC08A"
+                                  },
+                  "frame":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                             "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                             "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                             "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                             "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                         }
+                            }
+              }
+}

@@ -1,0 +1,83 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gates"
+	group: ""
+	id: "18E431C0CFB1FAB0"
+	images: [ ]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1635EBEEC6992BA8"
+			tasks: [{
+				consume_items: true
+				id: "1556C71E602027CF"
+				item: { count: 1, id: "minecraft:flint_and_steel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1635EBEEC6992BA8"]
+			id: "1451E84B67CB8451"
+			tasks: [{
+				consume_items: true
+				id: "1C9CCDE70FBC3E60"
+				item: { count: 1, id: "minecraft:netherite_scrap" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1451E84B67CB8451"]
+			id: "1DA41566205DAFDD"
+			tasks: [{
+				consume_items: false
+				id: "11F2E85713219B10"
+				item: { count: 1, id: "block_factorys_bosses:kraken_tooth" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1DA41566205DAFDD"]
+			id: "1C203BD798208C2C"
+			tasks: [{
+				consume_items: false
+				id: "1BCD0CBB60EDF5D5"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "darkdoppelganger:doppel_portal", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "darkdoppelganger:doppelganger_ring" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C203BD798208C2C"]
+			id: "1666D6EEC33D52D0"
+			tasks: [{
+				consume_items: true
+				id: "1E79396135B2FDB9"
+				item: { count: 1, id: "cataclysm:ignitium_ingot" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1635EBEEC6992BA8"]
+			id: "1035023E7C91BC75"
+			tasks: [{
+				consume_items: true
+				id: "1FBD03F626695306"
+				item: { count: 1, id: "minecraft:crying_obsidian" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+}

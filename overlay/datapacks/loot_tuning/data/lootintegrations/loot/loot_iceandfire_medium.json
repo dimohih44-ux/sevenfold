@@ -1,0 +1,14 @@
+{
+    "loot_table":  "lootintegrations:chests/medium",
+    "max_result_itemcount":  8,
+    "integrated_loot_tables":  {
+                                   "iceandfire:chest/lightning_dragon_roost":  1,
+                                   "iceandfire:chest/ice_dragon_roost":  1,
+                                   "iceandfire:chest/fire_dragon_roost":  1,
+                                   "iceandfire:chest/hydra_cave":  1,
+                                   "iceandfire:chest/cyclops_cave":  1,
+                                   "iceandfire:chest/fire_dragon_male_cave":  1,
+                                   "iceandfire:chest/ice_dragon_male_cave":  1,
+                                   "iceandfire:chest/lightning_dragon_male_cave":  1
+                               }
+}

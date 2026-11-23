@@ -1,0 +1,36 @@
+{
+    "unlocked_by_default":  true,
+    "title":  "Шахтёр",
+    "description":  "Путь камня, руды и глубины. Качается за добычу породы и руд.",
+    "icon":  {
+                 "type":  "texture",
+                 "data":  {
+                              "texture":  "rpgskills:textures/gui/skills/miner_pickaxe.png"
+                          }
+             },
+    "background":  {
+                       "texture":  "rpgskills:textures/gui/backgrounds/miner.png",
+                       "width":  1360,
+                       "height":  768,
+                       "position":  "fill"
+                   },
+    "colors":  {
+                   "points":  {
+                                  "fill":  "#FFFFD98A",
+                                  "stroke":  "#FF3A2A10"
+                              },
+                   "connections":  {
+                                       "locked":  "#FF5A4A2A",
+                                       "available":  "#FF8A6A2A",
+                                       "affordable":  "#FFC08A2A",
+                                       "unlocked":  "#FFFFD98A",
+                                       "excluded":  "#FF4A4A4A"
+                                   },
+                   "exchange":  {
+                                    "cost":  {
+                                                 "available":  "#FFFFD98A",
+                                                 "affordable":  "#FFC08A2A"
+                                             }
+                                }
+               }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "eidolon_repraised:ritual_brazier_crafting",
+  "focus_items": [
+    { "item": "minecraft:diamond" }
+  ],
+  "health_requirement": 20,
+  "keep_nbt_of_reagent": true,
+  "pedestal_items": [
+    { "item": "minecraft:diamond" },
+    { "item": "minecraft:diamond" },
+    { "item": "minecraft:amethyst_shard" },
+    { "item": "minecraft:amethyst_shard" },
+    { "item": "eidolon_repraised:arcane_seal" },
+    { "item": "eidolon_repraised:magic_ink" }
+  ],
+  "reagent": {
+    "item": "minecraft:book"
+  },
+  "result": {
+    "count": 1,
+    "id": "irons_spellbooks:diamond_spell_book"
+  }
+}

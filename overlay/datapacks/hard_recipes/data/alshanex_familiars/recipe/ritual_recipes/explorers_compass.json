@@ -1,0 +1,40 @@
+{
+	"type": "alshanex_familiars:ritual_recipe",
+	"central_item": {
+		"item": "alshanex_familiars:pet_soul"
+	},
+	"inputs": [
+		{
+			"ingredient": {
+				"item": "irons_spellbooks:divine_soulshard"
+			},
+			"count": 1,
+			"consume": true
+		},
+		{
+			"ingredient": {
+				"item": "irons_spellbooks:mithril_ingot"
+			},
+			"count": 1,
+			"consume": true
+		},
+		{
+			"ingredient": {
+				"item": "alshanex_familiars:memory_fragment"
+			},
+			"count": 1,
+			"consume": true
+		},
+		{
+			"ingredient": {
+				"item": "irons_spellbooks:ancient_knowledge_fragment"
+			},
+			"count": 1,
+			"consume": true
+		}
+	],
+	"result": {
+		"id": "explorerscompass:explorerscompass"
+	},
+	"particle_type": "minecraft:end_rod"
+}

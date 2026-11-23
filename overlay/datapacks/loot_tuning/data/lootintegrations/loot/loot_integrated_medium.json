@@ -1,0 +1,18 @@
+{
+    "loot_table":  "lootintegrations:chests/medium",
+    "max_result_itemcount":  10,
+    "integrated_loot_tables":  {
+                                   "idas:chests/ancient_mines/mineshall":  1,
+                                   "idas:chests/archmages_tower/archmages_tower_treasure":  3,
+                                   "idas:chests/desert_pyramid/desert_pyramid_tomb":  3,
+                                   "idas:chests/dread_citadel/dread_citadel":  3,
+                                   "idas:chests/dread_citadel/dread_citadel_library":  1,
+                                   "idas:chests/dread_citadel/dread_citadel_throne":  3,
+                                   "idas:chests/labyrinth/if_labyrinth_tomb":  3,
+                                   "idas:chests/labyrinth/labyrinth_tomb":  4,
+                                   "integrated_stronghold:chests/prison":  1,
+                                   "integrated_stronghold:chests/sanctorum":  3,
+                                   "cataclysm:chests/cursed_pyramid/cursed_pyramid_tomb":  1,
+                                   "cataclysm:chests/frosted_prison_treasure":  3
+                               }
+}

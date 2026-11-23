@@ -1,0 +1,19 @@
+[*]
+text_color: #FFE7DCC3
+hover_text_color: #FFFFF2CE
+disabled_text_color: #FF7E766A
+quest_view_background: color:#F2161411
+quest_view_border: #FFC9A227
+quest_view_title: #FFF2DA94
+tasks_text_color: #FFD8CCB2
+rewards_text_color: #FFEBD79C
+quest_completed_color: #FF7D9A63
+quest_started_color: #FFC9A227
+quest_not_started_color: #FF8B8071
+quest_locked_color: #FF453E36
+dependency_line_completed_color: #FF8FA46B
+dependency_line_uncompleted_color: #FF5E564B
+dependency_line_requires_color: #FF8FA46B
+dependency_line_required_for_color: #FF6E7F5A
+dependency_line_thickness: 1.5D
+quest_spacing: 1.0D

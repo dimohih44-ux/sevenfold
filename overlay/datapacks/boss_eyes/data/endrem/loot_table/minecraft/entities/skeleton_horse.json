@@ -1,0 +1,37 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "endrem:undead_soul",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 233
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "killer",
+          "predicate": {
+            "type_specific": {
+              "type": "minecraft:player",
+              "advancements": {
+                "boss_eyes:once/undead_soul": false
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

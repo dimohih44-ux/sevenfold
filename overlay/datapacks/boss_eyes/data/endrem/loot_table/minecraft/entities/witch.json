@@ -1,0 +1,37 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "endrem:witch_pupil",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 186
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "killer",
+          "predicate": {
+            "type_specific": {
+              "type": "minecraft:player",
+              "advancements": {
+                "boss_eyes:once/witch_pupil": false
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

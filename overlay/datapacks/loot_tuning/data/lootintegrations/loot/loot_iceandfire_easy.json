@@ -1,0 +1,12 @@
+{
+    "loot_table":  "lootintegrations:chests/easy",
+    "max_result_itemcount":  8,
+    "integrated_loot_tables":  {
+                                   "iceandfire:chest/myrmex_loot_chest":  1,
+                                   "iceandfire:chest/mausoleum_chest":  1,
+                                   "iceandfire:chest/fire_dragon_female_cave":  1,
+                                   "iceandfire:chest/ice_dragon_female_cave":  1,
+                                   "iceandfire:chest/lightning_dragon_female_cave":  1,
+                                   "iceandfire:chest/graveyard":  1
+                               }
+}

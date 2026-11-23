@@ -1,0 +1,14 @@
+{
+  "type": "alshanex_familiars:ritual_recipe",
+  "central_item": {
+    "item": "minecraft:ender_eye"
+  },
+  "inputs": [
+    { "ingredient": { "item": "minecraft:echo_shard" }, "count": 1, "consume": true },
+    { "ingredient": { "item": "discerning_the_eldritch:eldritch_soul_shard" }, "count": 1, "consume": true },
+    { "ingredient": { "item": "hazennstuff:prismatic_shard" }, "count": 1, "consume": true },
+    { "ingredient": { "item": "alshanex_familiars:pet_soul" }, "count": 1, "consume": true }
+  ],
+  "result": { "id": "eldritch_familiars:watchers_eye" },
+  "particle_type": "minecraft:soul_fire_flame"
+}

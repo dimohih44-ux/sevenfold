@@ -1,0 +1,95 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "magic"
+	group: ""
+	id: "1432575486FC90E7"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1749DBBBB5553E17"
+			tasks: [{
+				consume_items: true
+				id: "16937B499A24375A"
+				item: { count: 1, id: "irons_spellbooks:scroll" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1749DBBBB5553E17"]
+			id: "13E90EF86D90CE9E"
+			tasks: [{
+				consume_items: true
+				id: "169A1C2179D465FB"
+				item: { count: 1, id: "eidolon_repraised:soul_shard" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["13E90EF86D90CE9E"]
+			id: "1BA757515BC1FF90"
+			tasks: [{
+				consume_items: true
+				id: "172B1A4E54DBCE4B"
+				item: { count: 1, id: "irons_spellbooks:legendary_ink" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BA757515BC1FF90"]
+			id: "1D339750BC579E67"
+			tasks: [{
+				consume_items: true
+				id: "1D6EB1C43D706BF2"
+				item: { count: 1, id: "discerning_the_eldritch:starmetal_ingot" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["13E90EF86D90CE9E"]
+			id: "1C15F61A081AC136"
+			tasks: [{
+				consume_items: true
+				id: "1ADA7AF47C1792BE"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 12, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "cataclysm_spellbooks:abyss_spell_book" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1C15F61A081AC136"]
+			id: "12948680916F0277"
+			tasks: [{
+				consume_items: true
+				id: "1352CF88F3F316E7"
+				item: { count: 1, id: "minecraft:lapis_lazuli" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1BA757515BC1FF90"]
+			id: "1B6380A1BAA19FAA"
+			tasks: [{
+				consume_items: true
+				id: "1FADEB57FB4D7297"
+				item: { count: 1, id: "minecraft:anvil" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+	]
+}

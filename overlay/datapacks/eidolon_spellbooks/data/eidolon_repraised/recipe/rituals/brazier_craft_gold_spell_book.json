@@ -1,0 +1,23 @@
+{
+  "type": "eidolon_repraised:ritual_brazier_crafting",
+  "focus_items": [
+    { "item": "minecraft:gold_ingot" }
+  ],
+  "health_requirement": 15,
+  "keep_nbt_of_reagent": true,
+  "pedestal_items": [
+    { "item": "minecraft:gold_ingot" },
+    { "item": "minecraft:gold_ingot" },
+    { "item": "minecraft:gold_ingot" },
+    { "item": "minecraft:lapis_lazuli" },
+    { "item": "minecraft:lapis_lazuli" },
+    { "item": "eidolon_repraised:magic_ink" }
+  ],
+  "reagent": {
+    "item": "minecraft:book"
+  },
+  "result": {
+    "count": 1,
+    "id": "irons_spellbooks:gold_spell_book"
+  }
+}

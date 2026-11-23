@@ -1,0 +1,14 @@
+{
+  "criteria": {
+    "got": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "endrem:black_eye"
+          }
+        ]
+      }
+    }
+  }
+}

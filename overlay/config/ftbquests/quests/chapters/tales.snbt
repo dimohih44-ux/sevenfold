@@ -1,0 +1,179 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tales"
+	group: ""
+	id: "1A297FC23F72376A"
+	images: [ ]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1B1BA9B0065AA844"
+			rewards: [{
+				count: 2
+				id: "1CE918618F91823D"
+				item: {
+					count: 1
+					id: "irons_spellbooks:legendary_ink"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "irons_spellbooks:spell_book_dead_king"
+				criterion: ""
+				id: "18D7F87BBF7933A2"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B1BA9B0065AA844"]
+			id: "1AC2512266D20CDF"
+			rewards: [{
+				count: 2
+				id: "1BF0BFAEF20D4BB5"
+				item: {
+					count: 1
+					id: "irons_spellbooks:legendary_ink"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "cataclysm:kill_ignis"
+				criterion: ""
+				id: "1D31DBC84E2DA6E1"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1AC2512266D20CDF"]
+			id: "19E4B0FB17DBA37D"
+			rewards: [{
+				count: 2
+				id: "1DB6C5F684DB6EB7"
+				item: {
+					count: 1
+					id: "irons_spellbooks:legendary_ink"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "cataclysm:kill_monstrosity"
+				criterion: ""
+				id: "1A59D8ED170A18B6"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19E4B0FB17DBA37D"]
+			id: "12E76C9B72EC03E5"
+			rewards: [{
+				count: 2
+				id: "1C79E73188CC1163"
+				item: {
+					count: 1
+					id: "irons_spellbooks:legendary_ink"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "cataclysm:kill_maledictus"
+				criterion: ""
+				id: "1CB19D01E02E46B1"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12E76C9B72EC03E5"]
+			id: "15E856070499C6FF"
+			rewards: [{
+				count: 2
+				id: "1C991A8CCB13D5C9"
+				item: {
+					count: 1
+					id: "irons_spellbooks:legendary_ink"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "cataclysm:kill_harbinger"
+				criterion: ""
+				id: "1C2EF6F8B3D28B57"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15E856070499C6FF"]
+			id: "111EC7C42A78C0C2"
+			rewards: [{
+				count: 2
+				id: "1CCEF6BD6F15014E"
+				item: {
+					count: 1
+					id: "irons_spellbooks:legendary_ink"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "cataclysm:kill_ender_guardian"
+				criterion: ""
+				id: "10E0C9C226740A1E"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["111EC7C42A78C0C2"]
+			id: "110471AB85FCC2BE"
+			rewards: [{
+				count: 2
+				id: "12B52455B90D48C2"
+				item: {
+					count: 1
+					id: "irons_spellbooks:legendary_ink"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "cataclysm:kill_scylla"
+				criterion: ""
+				id: "15B71C17AFB3D855"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["110471AB85FCC2BE"]
+			id: "1A0679BF09BC97B1"
+			rewards: [{
+				count: 2
+				id: "13BF7AB43F2DC4E6"
+				item: {
+					count: 1
+					id: "irons_spellbooks:legendary_ink"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "cataclysm:kill_remnant"
+				criterion: ""
+				id: "16F55AE19BD6B985"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+	]
+}

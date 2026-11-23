@@ -1,0 +1,10 @@
+{
+	"pack": {
+		"pack_format": 48,
+		"supported_formats": [
+			0,
+			999
+		],
+		"description": "RPG skill trees: Warrior, Archer, Magic (Iron's/Cataclysm/Tunes), Familiars - by AgentHere"
+	}
+}

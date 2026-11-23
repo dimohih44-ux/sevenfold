@@ -1,0 +1,51 @@
+[*]
+text_color: #FFE7DCC3
+hover_text_color: #FFFFF2CE
+disabled_text_color: #FF7E766A
+chapter_panel_background: #FF17150F
+panel: #FF1B1814
+widget_background: #FF211D19
+widget_border: #FF3A332B
+quest_view_border: #FFC9A227
+quest_view_title: #FFF2DA94
+tasks_text_color: #FFD8CCB2
+rewards_text_color: #FFEBD79C
+quest_completed_color: #FF7D9A63
+quest_started_color: #FFC9A227
+quest_not_started_color: #FF8B8071
+quest_locked_color: #FF453E36
+dependency_line_completed_color: #FF8FA46B
+dependency_line_uncompleted_color: #FF5E564B
+dependency_line_requires_color: #FF8FA46B
+dependency_line_required_for_color: #FF6E7F5A
+dependency_line_thickness: 1.5D
+
+[1F3103B372D75754]
+background: sevenfold:textures/questbook/chapters/dragons.png; tint=#C8FFFFFF
+
+[1C2E6C0EFDF6F947]
+background: sevenfold:textures/questbook/chapters/familiars.png; tint=#C8FFFFFF
+
+[18E431C0CFB1FAB0]
+background: sevenfold:textures/questbook/chapters/gates.png; tint=#C8FFFFFF
+
+[16AD09692F2D7AAB]
+background: sevenfold:textures/questbook/chapters/kitchen.png; tint=#C8FFFFFF
+
+[1432575486FC90E7]
+background: sevenfold:textures/questbook/chapters/magic.png; tint=#C8FFFFFF
+
+[19EA245EB0DEB868]
+background: sevenfold:textures/questbook/chapters/rats.png; tint=#C8FFFFFF
+
+[1A297FC23F72376A]
+background: sevenfold:textures/questbook/chapters/tales.png; tint=#C8FFFFFF
+
+[11F71A3D81DCE03F]
+background: sevenfold:textures/questbook/chapters/the_eyes.png; tint=#C8FFFFFF
+
+[1CDAE8B527AD4704]
+background: sevenfold:textures/questbook/chapters/the_first_breath.png; tint=#C8FFFFFF
+
+[169B5232420F318F]
+background: sevenfold:textures/questbook/chapters/the_hearing.png; tint=#C8FFFFFF

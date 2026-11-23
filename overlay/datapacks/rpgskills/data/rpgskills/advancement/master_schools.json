@@ -1,0 +1,14 @@
+{
+	"criteria": {
+		"unlocked": {
+			"trigger": "puffish_skills:skill_unlocked",
+			"conditions": {
+				"category": "rpgskills:schools",
+				"skill": "master"
+			}
+		}
+	},
+	"rewards": {
+		"function": "rpgskills:master_schools"
+	}
+}

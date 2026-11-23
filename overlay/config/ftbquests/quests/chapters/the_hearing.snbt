@@ -1,0 +1,71 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_hearing"
+	group: ""
+	id: "169B5232420F318F"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1ADF670EE3354E43"
+			tasks: [{
+				consume_items: true
+				id: "1A4B465E7E0E9282"
+				item: { count: 1, id: "minecraft:experience_bottle" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1ADF670EE3354E43"]
+			id: "11AB77CF39486D84"
+			tasks: [{
+				consume_items: true
+				id: "1F3A9498E4CAC5E3"
+				item: { count: 1, id: "minecraft:iron_pickaxe" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11AB77CF39486D84"]
+			id: "1DC0107BEEEA694B"
+			tasks: [{
+				consume_items: true
+				id: "1922D57A239982FC"
+				item: { count: 1, id: "irons_spellbooks:arcane_essence" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1DC0107BEEEA694B"]
+			id: "1055BD7EE08AE55D"
+			tasks: [{
+				consume_items: true
+				id: "152CD4FE71381D47"
+				item: { count: 1, id: "minecraft:amethyst_shard" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1ADF670EE3354E43"]
+			id: "12ED2772C1215695"
+			tasks: [{
+				consume_items: true
+				id: "1089C76946353D86"
+				item: { count: 1, id: "minecraft:golden_apple" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+}

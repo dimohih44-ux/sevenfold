@@ -1,0 +1,878 @@
+{
+	"root": {
+		"definition": "root",
+		"x": 0,
+		"y": 0,
+		"root": true
+	},
+	"might_0": {
+		"definition": "might_0",
+		"x": -192,
+		"y": -48,
+		"root": false
+	},
+	"might_1": {
+		"definition": "might_1",
+		"x": -256,
+		"y": -80,
+		"root": false
+	},
+	"might_2": {
+		"definition": "might_2",
+		"x": -304,
+		"y": -96,
+		"root": false
+	},
+	"might_3": {
+		"definition": "might_3",
+		"x": -368,
+		"y": -128,
+		"root": false
+	},
+	"might_4": {
+		"definition": "might_4",
+		"x": -416,
+		"y": -160,
+		"root": false
+	},
+	"might_5": {
+		"definition": "might_5",
+		"x": -480,
+		"y": -192,
+		"root": false
+	},
+	"might_6": {
+		"definition": "might_6",
+		"x": -528,
+		"y": -224,
+		"root": false
+	},
+	"might_7": {
+		"definition": "might_7",
+		"x": -576,
+		"y": -272,
+		"root": false
+	},
+	"might_8": {
+		"definition": "might_8",
+		"x": -624,
+		"y": -304,
+		"root": false
+	},
+	"might_9": {
+		"definition": "might_9",
+		"x": -672,
+		"y": -352,
+		"root": false
+	},
+	"might_10": {
+		"definition": "might_10",
+		"x": -720,
+		"y": -400,
+		"root": false
+	},
+	"might_11": {
+		"definition": "might_11",
+		"x": -768,
+		"y": -448,
+		"root": false
+	},
+	"might_12": {
+		"definition": "might_12",
+		"x": -800,
+		"y": -496,
+		"root": false
+	},
+	"might_13": {
+		"definition": "might_13",
+		"x": -848,
+		"y": -544,
+		"root": false
+	},
+	"might_14": {
+		"definition": "might_14",
+		"x": -880,
+		"y": -608,
+		"root": false
+	},
+	"might_15": {
+		"definition": "might_15",
+		"x": -912,
+		"y": -672,
+		"root": false
+	},
+	"might_16": {
+		"definition": "might_16",
+		"x": -944,
+		"y": -720,
+		"root": false
+	},
+	"might_17": {
+		"definition": "might_17",
+		"x": -976,
+		"y": -784,
+		"root": false
+	},
+	"might_18": {
+		"definition": "might_18",
+		"x": -1008,
+		"y": -848,
+		"root": false
+	},
+	"might_19": {
+		"definition": "might_19",
+		"x": -1024,
+		"y": -912,
+		"root": false
+	},
+	"might_20": {
+		"definition": "might_20",
+		"x": -1056,
+		"y": -976,
+		"root": false
+	},
+	"might_21": {
+		"definition": "might_21",
+		"x": -1072,
+		"y": -1056,
+		"root": false
+	},
+	"might_22": {
+		"definition": "might_22",
+		"x": -1088,
+		"y": -1120,
+		"root": false
+	},
+	"might_23": {
+		"definition": "might_23",
+		"x": -1104,
+		"y": -1200,
+		"root": false
+	},
+	"crit_0": {
+		"definition": "crit_0",
+		"x": -144,
+		"y": -144,
+		"root": false
+	},
+	"crit_1": {
+		"definition": "crit_1",
+		"x": -176,
+		"y": -192,
+		"root": false
+	},
+	"crit_2": {
+		"definition": "crit_2",
+		"x": -224,
+		"y": -240,
+		"root": false
+	},
+	"crit_3": {
+		"definition": "crit_3",
+		"x": -272,
+		"y": -288,
+		"root": false
+	},
+	"crit_4": {
+		"definition": "crit_4",
+		"x": -304,
+		"y": -336,
+		"root": false
+	},
+	"crit_5": {
+		"definition": "crit_5",
+		"x": -336,
+		"y": -384,
+		"root": false
+	},
+	"crit_6": {
+		"definition": "crit_6",
+		"x": -384,
+		"y": -432,
+		"root": false
+	},
+	"crit_7": {
+		"definition": "crit_7",
+		"x": -416,
+		"y": -480,
+		"root": false
+	},
+	"crit_8": {
+		"definition": "crit_8",
+		"x": -448,
+		"y": -528,
+		"root": false
+	},
+	"crit_9": {
+		"definition": "crit_9",
+		"x": -480,
+		"y": -592,
+		"root": false
+	},
+	"crit_10": {
+		"definition": "crit_10",
+		"x": -512,
+		"y": -640,
+		"root": false
+	},
+	"crit_11": {
+		"definition": "crit_11",
+		"x": -544,
+		"y": -688,
+		"root": false
+	},
+	"crit_12": {
+		"definition": "crit_12",
+		"x": -576,
+		"y": -752,
+		"root": false
+	},
+	"crit_13": {
+		"definition": "crit_13",
+		"x": -608,
+		"y": -800,
+		"root": false
+	},
+	"crit_14": {
+		"definition": "crit_14",
+		"x": -640,
+		"y": -864,
+		"root": false
+	},
+	"crit_15": {
+		"definition": "crit_15",
+		"x": -672,
+		"y": -912,
+		"root": false
+	},
+	"crit_16": {
+		"definition": "crit_16",
+		"x": -688,
+		"y": -976,
+		"root": false
+	},
+	"crit_17": {
+		"definition": "crit_17",
+		"x": -720,
+		"y": -1024,
+		"root": false
+	},
+	"crit_18": {
+		"definition": "crit_18",
+		"x": -736,
+		"y": -1088,
+		"root": false
+	},
+	"crit_19": {
+		"definition": "crit_19",
+		"x": -768,
+		"y": -1152,
+		"root": false
+	},
+	"crit_20": {
+		"definition": "crit_20",
+		"x": -784,
+		"y": -1200,
+		"root": false
+	},
+	"crit_21": {
+		"definition": "crit_21",
+		"x": -800,
+		"y": -1264,
+		"root": false
+	},
+	"crit_22": {
+		"definition": "crit_22",
+		"x": -832,
+		"y": -1328,
+		"root": false
+	},
+	"crit_23": {
+		"definition": "crit_23",
+		"x": -848,
+		"y": -1392,
+		"root": false
+	},
+	"bulwark_0": {
+		"definition": "bulwark_0",
+		"x": -48,
+		"y": -192,
+		"root": false
+	},
+	"bulwark_1": {
+		"definition": "bulwark_1",
+		"x": -64,
+		"y": -256,
+		"root": false
+	},
+	"bulwark_2": {
+		"definition": "bulwark_2",
+		"x": -80,
+		"y": -320,
+		"root": false
+	},
+	"bulwark_3": {
+		"definition": "bulwark_3",
+		"x": -96,
+		"y": -368,
+		"root": false
+	},
+	"bulwark_4": {
+		"definition": "bulwark_4",
+		"x": -112,
+		"y": -432,
+		"root": false
+	},
+	"bulwark_5": {
+		"definition": "bulwark_5",
+		"x": -128,
+		"y": -496,
+		"root": false
+	},
+	"bulwark_6": {
+		"definition": "bulwark_6",
+		"x": -144,
+		"y": -560,
+		"root": false
+	},
+	"bulwark_7": {
+		"definition": "bulwark_7",
+		"x": -144,
+		"y": -624,
+		"root": false
+	},
+	"bulwark_8": {
+		"definition": "bulwark_8",
+		"x": -160,
+		"y": -672,
+		"root": false
+	},
+	"bulwark_9": {
+		"definition": "bulwark_9",
+		"x": -176,
+		"y": -736,
+		"root": false
+	},
+	"bulwark_10": {
+		"definition": "bulwark_10",
+		"x": -192,
+		"y": -800,
+		"root": false
+	},
+	"bulwark_11": {
+		"definition": "bulwark_11",
+		"x": -192,
+		"y": -864,
+		"root": false
+	},
+	"bulwark_12": {
+		"definition": "bulwark_12",
+		"x": -208,
+		"y": -928,
+		"root": false
+	},
+	"bulwark_13": {
+		"definition": "bulwark_13",
+		"x": -224,
+		"y": -976,
+		"root": false
+	},
+	"bulwark_14": {
+		"definition": "bulwark_14",
+		"x": -224,
+		"y": -1040,
+		"root": false
+	},
+	"bulwark_15": {
+		"definition": "bulwark_15",
+		"x": -240,
+		"y": -1104,
+		"root": false
+	},
+	"bulwark_16": {
+		"definition": "bulwark_16",
+		"x": -240,
+		"y": -1168,
+		"root": false
+	},
+	"bulwark_17": {
+		"definition": "bulwark_17",
+		"x": -256,
+		"y": -1232,
+		"root": false
+	},
+	"bulwark_18": {
+		"definition": "bulwark_18",
+		"x": -256,
+		"y": -1296,
+		"root": false
+	},
+	"bulwark_19": {
+		"definition": "bulwark_19",
+		"x": -272,
+		"y": -1344,
+		"root": false
+	},
+	"bulwark_20": {
+		"definition": "bulwark_20",
+		"x": -272,
+		"y": -1408,
+		"root": false
+	},
+	"bulwark_21": {
+		"definition": "bulwark_21",
+		"x": -288,
+		"y": -1472,
+		"root": false
+	},
+	"bulwark_22": {
+		"definition": "bulwark_22",
+		"x": -288,
+		"y": -1536,
+		"root": false
+	},
+	"bulwark_23": {
+		"definition": "bulwark_23",
+		"x": -288,
+		"y": -1600,
+		"root": false
+	},
+	"vigor_0": {
+		"definition": "vigor_0",
+		"x": 48,
+		"y": -192,
+		"root": false
+	},
+	"vigor_1": {
+		"definition": "vigor_1",
+		"x": 64,
+		"y": -256,
+		"root": false
+	},
+	"vigor_2": {
+		"definition": "vigor_2",
+		"x": 80,
+		"y": -320,
+		"root": false
+	},
+	"vigor_3": {
+		"definition": "vigor_3",
+		"x": 96,
+		"y": -368,
+		"root": false
+	},
+	"vigor_4": {
+		"definition": "vigor_4",
+		"x": 112,
+		"y": -432,
+		"root": false
+	},
+	"vigor_5": {
+		"definition": "vigor_5",
+		"x": 128,
+		"y": -496,
+		"root": false
+	},
+	"vigor_6": {
+		"definition": "vigor_6",
+		"x": 144,
+		"y": -560,
+		"root": false
+	},
+	"vigor_7": {
+		"definition": "vigor_7",
+		"x": 144,
+		"y": -624,
+		"root": false
+	},
+	"vigor_8": {
+		"definition": "vigor_8",
+		"x": 160,
+		"y": -672,
+		"root": false
+	},
+	"vigor_9": {
+		"definition": "vigor_9",
+		"x": 176,
+		"y": -736,
+		"root": false
+	},
+	"vigor_10": {
+		"definition": "vigor_10",
+		"x": 192,
+		"y": -800,
+		"root": false
+	},
+	"vigor_11": {
+		"definition": "vigor_11",
+		"x": 192,
+		"y": -864,
+		"root": false
+	},
+	"vigor_12": {
+		"definition": "vigor_12",
+		"x": 208,
+		"y": -928,
+		"root": false
+	},
+	"vigor_13": {
+		"definition": "vigor_13",
+		"x": 224,
+		"y": -976,
+		"root": false
+	},
+	"vigor_14": {
+		"definition": "vigor_14",
+		"x": 224,
+		"y": -1040,
+		"root": false
+	},
+	"vigor_15": {
+		"definition": "vigor_15",
+		"x": 240,
+		"y": -1104,
+		"root": false
+	},
+	"vigor_16": {
+		"definition": "vigor_16",
+		"x": 240,
+		"y": -1168,
+		"root": false
+	},
+	"vigor_17": {
+		"definition": "vigor_17",
+		"x": 256,
+		"y": -1232,
+		"root": false
+	},
+	"vigor_18": {
+		"definition": "vigor_18",
+		"x": 256,
+		"y": -1296,
+		"root": false
+	},
+	"vigor_19": {
+		"definition": "vigor_19",
+		"x": 272,
+		"y": -1344,
+		"root": false
+	},
+	"vigor_20": {
+		"definition": "vigor_20",
+		"x": 272,
+		"y": -1408,
+		"root": false
+	},
+	"vigor_21": {
+		"definition": "vigor_21",
+		"x": 288,
+		"y": -1472,
+		"root": false
+	},
+	"vigor_22": {
+		"definition": "vigor_22",
+		"x": 288,
+		"y": -1536,
+		"root": false
+	},
+	"vigor_23": {
+		"definition": "vigor_23",
+		"x": 288,
+		"y": -1600,
+		"root": false
+	},
+	"bloodrage_0": {
+		"definition": "bloodrage_0",
+		"x": 144,
+		"y": -144,
+		"root": false
+	},
+	"bloodrage_1": {
+		"definition": "bloodrage_1",
+		"x": 176,
+		"y": -192,
+		"root": false
+	},
+	"bloodrage_2": {
+		"definition": "bloodrage_2",
+		"x": 224,
+		"y": -240,
+		"root": false
+	},
+	"bloodrage_3": {
+		"definition": "bloodrage_3",
+		"x": 272,
+		"y": -288,
+		"root": false
+	},
+	"bloodrage_4": {
+		"definition": "bloodrage_4",
+		"x": 304,
+		"y": -336,
+		"root": false
+	},
+	"bloodrage_5": {
+		"definition": "bloodrage_5",
+		"x": 336,
+		"y": -384,
+		"root": false
+	},
+	"bloodrage_6": {
+		"definition": "bloodrage_6",
+		"x": 384,
+		"y": -432,
+		"root": false
+	},
+	"bloodrage_7": {
+		"definition": "bloodrage_7",
+		"x": 416,
+		"y": -480,
+		"root": false
+	},
+	"bloodrage_8": {
+		"definition": "bloodrage_8",
+		"x": 448,
+		"y": -528,
+		"root": false
+	},
+	"bloodrage_9": {
+		"definition": "bloodrage_9",
+		"x": 480,
+		"y": -592,
+		"root": false
+	},
+	"bloodrage_10": {
+		"definition": "bloodrage_10",
+		"x": 512,
+		"y": -640,
+		"root": false
+	},
+	"bloodrage_11": {
+		"definition": "bloodrage_11",
+		"x": 544,
+		"y": -688,
+		"root": false
+	},
+	"bloodrage_12": {
+		"definition": "bloodrage_12",
+		"x": 576,
+		"y": -752,
+		"root": false
+	},
+	"bloodrage_13": {
+		"definition": "bloodrage_13",
+		"x": 608,
+		"y": -800,
+		"root": false
+	},
+	"bloodrage_14": {
+		"definition": "bloodrage_14",
+		"x": 640,
+		"y": -864,
+		"root": false
+	},
+	"bloodrage_15": {
+		"definition": "bloodrage_15",
+		"x": 672,
+		"y": -912,
+		"root": false
+	},
+	"bloodrage_16": {
+		"definition": "bloodrage_16",
+		"x": 688,
+		"y": -976,
+		"root": false
+	},
+	"bloodrage_17": {
+		"definition": "bloodrage_17",
+		"x": 720,
+		"y": -1024,
+		"root": false
+	},
+	"bloodrage_18": {
+		"definition": "bloodrage_18",
+		"x": 736,
+		"y": -1088,
+		"root": false
+	},
+	"bloodrage_19": {
+		"definition": "bloodrage_19",
+		"x": 768,
+		"y": -1152,
+		"root": false
+	},
+	"bloodrage_20": {
+		"definition": "bloodrage_20",
+		"x": 784,
+		"y": -1200,
+		"root": false
+	},
+	"bloodrage_21": {
+		"definition": "bloodrage_21",
+		"x": 800,
+		"y": -1264,
+		"root": false
+	},
+	"bloodrage_22": {
+		"definition": "bloodrage_22",
+		"x": 832,
+		"y": -1328,
+		"root": false
+	},
+	"bloodrage_23": {
+		"definition": "bloodrage_23",
+		"x": 848,
+		"y": -1392,
+		"root": false
+	},
+	"swift_0": {
+		"definition": "swift_0",
+		"x": 192,
+		"y": -48,
+		"root": false
+	},
+	"swift_1": {
+		"definition": "swift_1",
+		"x": 256,
+		"y": -80,
+		"root": false
+	},
+	"swift_2": {
+		"definition": "swift_2",
+		"x": 304,
+		"y": -96,
+		"root": false
+	},
+	"swift_3": {
+		"definition": "swift_3",
+		"x": 368,
+		"y": -128,
+		"root": false
+	},
+	"swift_4": {
+		"definition": "swift_4",
+		"x": 416,
+		"y": -160,
+		"root": false
+	},
+	"swift_5": {
+		"definition": "swift_5",
+		"x": 480,
+		"y": -192,
+		"root": false
+	},
+	"swift_6": {
+		"definition": "swift_6",
+		"x": 528,
+		"y": -224,
+		"root": false
+	},
+	"swift_7": {
+		"definition": "swift_7",
+		"x": 576,
+		"y": -272,
+		"root": false
+	},
+	"swift_8": {
+		"definition": "swift_8",
+		"x": 624,
+		"y": -304,
+		"root": false
+	},
+	"swift_9": {
+		"definition": "swift_9",
+		"x": 672,
+		"y": -352,
+		"root": false
+	},
+	"swift_10": {
+		"definition": "swift_10",
+		"x": 720,
+		"y": -400,
+		"root": false
+	},
+	"swift_11": {
+		"definition": "swift_11",
+		"x": 768,
+		"y": -448,
+		"root": false
+	},
+	"swift_12": {
+		"definition": "swift_12",
+		"x": 800,
+		"y": -496,
+		"root": false
+	},
+	"swift_13": {
+		"definition": "swift_13",
+		"x": 848,
+		"y": -544,
+		"root": false
+	},
+	"swift_14": {
+		"definition": "swift_14",
+		"x": 880,
+		"y": -608,
+		"root": false
+	},
+	"swift_15": {
+		"definition": "swift_15",
+		"x": 912,
+		"y": -672,
+		"root": false
+	},
+	"swift_16": {
+		"definition": "swift_16",
+		"x": 944,
+		"y": -720,
+		"root": false
+	},
+	"swift_17": {
+		"definition": "swift_17",
+		"x": 976,
+		"y": -784,
+		"root": false
+	},
+	"swift_18": {
+		"definition": "swift_18",
+		"x": 1008,
+		"y": -848,
+		"root": false
+	},
+	"swift_19": {
+		"definition": "swift_19",
+		"x": 1024,
+		"y": -912,
+		"root": false
+	},
+	"swift_20": {
+		"definition": "swift_20",
+		"x": 1056,
+		"y": -976,
+		"root": false
+	},
+	"swift_21": {
+		"definition": "swift_21",
+		"x": 1072,
+		"y": -1056,
+		"root": false
+	},
+	"swift_22": {
+		"definition": "swift_22",
+		"x": 1088,
+		"y": -1120,
+		"root": false
+	},
+	"swift_23": {
+		"definition": "swift_23",
+		"x": 1104,
+		"y": -1200,
+		"root": false
+	},
+	"master": {
+		"definition": "master",
+		"x": 0,
+		"y": -1900,
+		"root": false
+	}
+}

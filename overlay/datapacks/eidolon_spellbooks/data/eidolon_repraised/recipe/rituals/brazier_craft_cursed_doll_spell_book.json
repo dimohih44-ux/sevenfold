@@ -1,0 +1,23 @@
+{
+  "type": "eidolon_repraised:ritual_brazier_crafting",
+  "focus_items": [
+    { "item": "minecraft:ghast_tear" }
+  ],
+  "health_requirement": 25,
+  "keep_nbt_of_reagent": true,
+  "pedestal_items": [
+    { "item": "eidolon_repraised:soul_shard" },
+    { "item": "eidolon_repraised:soul_shard" },
+    { "item": "eidolon_repraised:shadow_gem" },
+    { "item": "minecraft:rotten_flesh" },
+    { "item": "minecraft:rotten_flesh" },
+    { "item": "minecraft:ghast_tear" }
+  ],
+  "reagent": {
+    "item": "minecraft:book"
+  },
+  "result": {
+    "count": 1,
+    "id": "irons_spellbooks:cursed_doll_spell_book"
+  }
+}

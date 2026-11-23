@@ -1,0 +1,16 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    "BSB",
+    "SPS",
+    "BSB"
+  ],
+  "key": {
+    "B": { "item": "minecraft:bone" },
+    "S": { "item": "minecraft:soul_sand" },
+    "P": { "item": "minecraft:ender_pearl" }
+  },
+  "result": { "id": "gateways:gate_pearl" },
+  "gateway": "eldritchgateways:gravebound"
+}

@@ -1,0 +1,347 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_eyes"
+	group: ""
+	id: "11F71A3D81DCE03F"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1C4F2643DDB093A7"
+			tasks: [{
+				consume_items: false
+				id: "1EFBD4E6E26F5ACF"
+				item: { count: 1, id: "endrem:old_eye" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C4F2643DDB093A7"]
+			id: "1647818143534ECA"
+			tasks: [{
+				consume_items: false
+				id: "1ED1617D2BB0286F"
+				item: { count: 1, id: "endrem:nether_eye" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1647818143534ECA"]
+			id: "1DED62B152D69607"
+			tasks: [{
+				consume_items: true
+				id: "1B9C055E8B0BC019"
+				item: { count: 1, id: "minecraft:nether_star" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1647818143534ECA"]
+			id: "1CAC5C81D444E698"
+			rewards: [{
+				count: 2
+				id: "1949DE89BEB7D8C8"
+				item: {
+					count: 1
+					id: "irons_spellbooks:legendary_ink"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "boss_eyes:once/old_eye"
+				criterion: ""
+				id: "1BA1523D1981DFC6"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1647818143534ECA"]
+			id: "115EE1D457548217"
+			rewards: [{
+				id: "16BFCE03FD045B8C"
+				item: {
+					count: 1
+					id: "irons_spellbooks:legendary_ink"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "boss_eyes:once/rogue_eye"
+				criterion: ""
+				id: "1C2D8125D2213C58"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1647818143534ECA"]
+			id: "1DB312B87EEBEE80"
+			rewards: [{
+				count: 2
+				id: "190725DDF40BCF18"
+				item: {
+					count: 1
+					id: "irons_spellbooks:legendary_ink"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "boss_eyes:once/nether_eye"
+				criterion: ""
+				id: "1037DC8C779F9641"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1647818143534ECA"]
+			id: "1683587A60654CF0"
+			rewards: [{
+				id: "1EAA032536DC5556"
+				item: {
+					count: 1
+					id: "irons_spellbooks:legendary_ink"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "boss_eyes:once/cold_eye"
+				criterion: ""
+				id: "1B391FE43834E976"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1647818143534ECA"]
+			id: "1CBAC82E970B0CDA"
+			rewards: [{
+				id: "10883CF7C5911334"
+				item: {
+					count: 1
+					id: "irons_spellbooks:legendary_ink"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "boss_eyes:once/black_eye"
+				criterion: ""
+				id: "17B192372798C122"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1647818143534ECA"]
+			id: "1D44125E0A7D8862"
+			rewards: [{
+				count: 2
+				id: "1B3F856FB563B754"
+				item: {
+					count: 1
+					id: "irons_spellbooks:legendary_ink"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "boss_eyes:once/lost_eye"
+				criterion: ""
+				id: "1F34399DEB671F23"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1647818143534ECA"]
+			id: "192C1C068CF9BD51"
+			rewards: [{
+				count: 2
+				id: "11C482E4EF53EE3A"
+				item: {
+					count: 1
+					id: "irons_spellbooks:legendary_ink"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "boss_eyes:once/cursed_eye"
+				criterion: ""
+				id: "1C81B1F645BE4DB5"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1647818143534ECA"]
+			id: "1FBA4786CD59110E"
+			rewards: [{
+				count: 2
+				id: "1082E15D44D42C64"
+				item: {
+					count: 1
+					id: "irons_spellbooks:legendary_ink"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "boss_eyes:once/exotic_eye"
+				criterion: ""
+				id: "1266FDA474BA4EEC"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1647818143534ECA"]
+			id: "1B9235B28654B29A"
+			rewards: [{
+				count: 2
+				id: "13836D61ED7EC0F3"
+				item: {
+					count: 1
+					id: "irons_spellbooks:legendary_ink"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "boss_eyes:once/evil_eye"
+				criterion: ""
+				id: "1B2E3ABBF4BDBD02"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1647818143534ECA"]
+			id: "1CC0FAA6A83F15D6"
+			rewards: [{
+				count: 2
+				id: "1609A412A73DCF58"
+				item: {
+					count: 1
+					id: "irons_spellbooks:legendary_ink"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "boss_eyes:once/cryptic_eye"
+				criterion: ""
+				id: "1534ECC010753D2C"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1647818143534ECA"]
+			id: "1B5002930911AED0"
+			rewards: [{
+				count: 2
+				id: "19C1F2043427C8AE"
+				item: {
+					count: 1
+					id: "irons_spellbooks:legendary_ink"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "boss_eyes:once/corrupted_eye"
+				criterion: ""
+				id: "1CD9226557F21DFC"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1647818143534ECA"]
+			id: "1B58FF06AFC75B4B"
+			rewards: [{
+				id: "1F6C1770845C5E48"
+				item: {
+					count: 1
+					id: "irons_spellbooks:legendary_ink"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "boss_eyes:once/magical_eye"
+				criterion: ""
+				id: "14B9FF30C0E2294E"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1647818143534ECA"]
+			id: "13778E0EA1517106"
+			rewards: [{
+				id: "1CC240D6CAD5B46C"
+				item: {
+					count: 1
+					id: "irons_spellbooks:legendary_ink"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "boss_eyes:once/wither_eye"
+				criterion: ""
+				id: "19FB826BDE0D012A"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1647818143534ECA"]
+			id: "13800AACAD40911E"
+			rewards: [{
+				id: "11730CD0BA09EDD7"
+				item: {
+					count: 1
+					id: "irons_spellbooks:legendary_ink"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "boss_eyes:once/guardian_eye"
+				criterion: ""
+				id: "1C1E93145C458270"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1C4F2643DDB093A7"]
+			id: "1CA2954473C8BE0F"
+			tasks: [{
+				consume_items: true
+				id: "1736358006FCB702"
+				item: { count: 1, id: "minecraft:end_portal_frame" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+	]
+}

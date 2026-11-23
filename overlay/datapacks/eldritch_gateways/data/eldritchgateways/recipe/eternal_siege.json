@@ -1,0 +1,16 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    "ECE",
+    "CPC",
+    "ECE"
+  ],
+  "key": {
+    "E": { "item": "minecraft:end_stone" },
+    "C": { "item": "minecraft:popped_chorus_fruit" },
+    "P": { "item": "minecraft:ender_pearl" }
+  },
+  "result": { "id": "gateways:gate_pearl" },
+  "gateway": "eldritchgateways:eternal_siege"
+}

@@ -1,0 +1,86 @@
+{
+	"level_limit": 280,
+	"reset_on_death": false,
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "min(level ^ 2.85 * 70 + 650, 12000000)"
+		}
+	},
+	"sources": [
+		{
+			"type": "pufferfish_unofficial_additions:spell_casting",
+			"data": {
+				"variables": {
+					"level": {
+						"operations": [
+							{
+								"type": "level"
+							}
+						]
+					},
+					"mana_cost": {
+						"operations": [
+							{
+								"type": "mana_cost"
+							}
+						]
+					}
+				},
+				"experience": "0.25 + level * 0.04 + mana_cost / 140"
+			}
+		},
+		{
+			"type": "puffish_skills:kill_entity",
+			"data": {
+				"variables": {
+					"dropped_xp": {
+						"operations": [
+							{
+								"type": "get_dropped_experience"
+							}
+						]
+					},
+					"max_health": {
+						"operations": [
+							{
+								"type": "get_killed_living_entity"
+							},
+							{
+								"type": "get_max_health"
+							}
+						]
+					},
+					"is_magic": {
+						"operations": [
+							{
+								"type": "get_damage_source"
+							},
+							{
+								"type": "get_type"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"damage_type": "#neoforge:is_magic"
+								}
+							},
+							{
+								"type": "switch",
+								"data": {
+									"true": 1,
+									"false": 0
+								}
+							}
+						]
+					}
+				},
+				"experience": "(dropped_xp + max_health / 20) * is_magic * 0.6",
+				"anti_farming": {
+					"limit_per_chunk": 15,
+					"reset_after_seconds": 300
+				}
+			}
+		}
+	]
+}

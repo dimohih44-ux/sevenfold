@@ -1,0 +1,40 @@
+{
+  "type": "alshanex_familiars:ritual_recipe",
+  "central_item": {
+    "item": "minecraft:ender_eye"
+  },
+  "inputs": [
+    {
+      "ingredient": {
+        "item": "cataclysm:witherite_block"
+      },
+      "count": 1,
+      "consume": true
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:nether_star"
+      },
+      "count": 1,
+      "consume": true
+    },
+    {
+      "ingredient": {
+        "item": "cataclysm:ignitium_ingot"
+      },
+      "count": 1,
+      "consume": true
+    },
+    {
+      "ingredient": {
+        "tag": "boss_eyes:dragonsteel_ingots"
+      },
+      "count": 1,
+      "consume": true
+    }
+  ],
+  "result": {
+    "id": "endrem:evil_eye"
+  },
+  "particle_type": "minecraft:soul_fire_flame"
+}

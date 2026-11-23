@@ -1,0 +1,2911 @@
+{
+    "root":  {
+                 "title":  "Начало пути мага",
+                 "icon":  {
+                              "type":  "texture",
+                              "data":  {
+                                           "texture":  "rpgskills:textures/gui/skills/orb.png"
+                                       }
+                          },
+                 "rewards":  [
+                                 {
+                                     "type":  "puffish_skills:attribute",
+                                     "data":  {
+                                                  "attribute":  "minecraft:generic.max_health",
+                                                  "value":  2,
+                                                  "operation":  "addition"
+                                              }
+                                 }
+                             ],
+                 "cost":  1,
+                 "description":  {
+                                     "text":  "Открывает древо Магии. Бонус — макс. здоровье: +2",
+                                     "color":  "#B36BFF"
+                                 },
+                 "frame":  {
+                               "type":  "texture",
+                               "data":  {
+                                            "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                            "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                            "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                            "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                            "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                        }
+                           }
+             },
+    "core_0":  {
+                   "title":  "Мощь чар I",
+                   "icon":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "texture":  "rpgskills:textures/gui/skills/orb.png"
+                                         }
+                            },
+                   "rewards":  [
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "irons_spellbooks:spell_power",
+                                                    "value":  0.009,
+                                                    "operation":  "addition"
+                                                }
+                                   }
+                               ],
+                   "cost":  1,
+                   "frame":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                              "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                              "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                              "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                              "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                          }
+                             },
+                   "description":  {
+                                       "text":  "Сила заклинаний: +0.6%",
+                                       "color":  "#B36BFF"
+                                   },
+                   "required_mods":  [
+                                         "irons_spellbooks"
+                                     ]
+               },
+    "core_1":  {
+                   "title":  "Мощь чар II",
+                   "icon":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "texture":  "rpgskills:textures/gui/skills/orb.png"
+                                         }
+                            },
+                   "rewards":  [
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "irons_spellbooks:spell_power",
+                                                    "value":  0.009,
+                                                    "operation":  "addition"
+                                                }
+                                   }
+                               ],
+                   "cost":  1,
+                   "frame":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                              "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                              "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                              "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                              "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                          }
+                             },
+                   "description":  {
+                                       "text":  "Сила заклинаний: +0.6%",
+                                       "color":  "#B36BFF"
+                                   },
+                   "required_mods":  [
+                                         "irons_spellbooks"
+                                     ]
+               },
+    "core_2":  {
+                   "title":  "Мощь чар III",
+                   "icon":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "texture":  "rpgskills:textures/gui/skills/orb.png"
+                                         }
+                            },
+                   "rewards":  [
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "irons_spellbooks:spell_power",
+                                                    "value":  0.009,
+                                                    "operation":  "addition"
+                                                }
+                                   }
+                               ],
+                   "cost":  1,
+                   "frame":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                              "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                              "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                              "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                              "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                          }
+                             },
+                   "description":  {
+                                       "text":  "Сила заклинаний: +0.6%",
+                                       "color":  "#B36BFF"
+                                   },
+                   "required_mods":  [
+                                         "irons_spellbooks"
+                                     ]
+               },
+    "core_3":  {
+                   "title":  "Мощь чар IV",
+                   "icon":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "texture":  "rpgskills:textures/gui/skills/orb.png"
+                                         }
+                            },
+                   "rewards":  [
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "irons_spellbooks:spell_power",
+                                                    "value":  0.009,
+                                                    "operation":  "addition"
+                                                }
+                                   }
+                               ],
+                   "cost":  1,
+                   "frame":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                              "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                              "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                              "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                              "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                          }
+                             },
+                   "description":  {
+                                       "text":  "Сила заклинаний: +0.6%",
+                                       "color":  "#B36BFF"
+                                   },
+                   "required_mods":  [
+                                         "irons_spellbooks"
+                                     ]
+               },
+    "core_4":  {
+                   "title":  "Мощь чар V",
+                   "icon":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "texture":  "rpgskills:textures/gui/skills/orb.png"
+                                         }
+                            },
+                   "rewards":  [
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "irons_spellbooks:spell_power",
+                                                    "value":  0.009,
+                                                    "operation":  "addition"
+                                                }
+                                   }
+                               ],
+                   "cost":  1,
+                   "frame":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                              "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                              "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                              "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                              "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                          }
+                             },
+                   "description":  {
+                                       "text":  "Сила заклинаний: +0.6%",
+                                       "color":  "#B36BFF"
+                                   },
+                   "required_mods":  [
+                                         "irons_spellbooks"
+                                     ]
+               },
+    "core_5":  {
+                   "title":  "Мощь чар VI",
+                   "icon":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "texture":  "rpgskills:textures/gui/skills/orb.png"
+                                         }
+                            },
+                   "rewards":  [
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "irons_spellbooks:spell_power",
+                                                    "value":  0.009,
+                                                    "operation":  "addition"
+                                                }
+                                   }
+                               ],
+                   "cost":  1,
+                   "frame":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                              "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                              "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                              "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                              "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                          }
+                             },
+                   "description":  {
+                                       "text":  "Сила заклинаний: +0.6%",
+                                       "color":  "#B36BFF"
+                                   },
+                   "required_mods":  [
+                                         "irons_spellbooks"
+                                     ]
+               },
+    "core_6":  {
+                   "title":  "Мощь чар VII",
+                   "icon":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "texture":  "rpgskills:textures/gui/skills/orb.png"
+                                         }
+                            },
+                   "rewards":  [
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "irons_spellbooks:spell_power",
+                                                    "value":  0.009,
+                                                    "operation":  "addition"
+                                                }
+                                   }
+                               ],
+                   "cost":  1,
+                   "frame":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                              "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                              "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                              "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                              "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                          }
+                             },
+                   "description":  {
+                                       "text":  "Сила заклинаний: +0.6%",
+                                       "color":  "#B36BFF"
+                                   },
+                   "required_mods":  [
+                                         "irons_spellbooks"
+                                     ]
+               },
+    "core_7":  {
+                   "title":  "Мощь чар VIII",
+                   "icon":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "texture":  "rpgskills:textures/gui/skills/orb.png"
+                                         }
+                            },
+                   "rewards":  [
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "irons_spellbooks:spell_power",
+                                                    "value":  0.009,
+                                                    "operation":  "addition"
+                                                }
+                                   }
+                               ],
+                   "cost":  1,
+                   "frame":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                              "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                              "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                              "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                              "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                          }
+                             },
+                   "description":  {
+                                       "text":  "Сила заклинаний: +0.6%",
+                                       "color":  "#B36BFF"
+                                   },
+                   "required_mods":  [
+                                         "irons_spellbooks"
+                                     ]
+               },
+    "core_8":  {
+                   "title":  "Мощь чар IX",
+                   "icon":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "texture":  "rpgskills:textures/gui/skills/orb.png"
+                                         }
+                            },
+                   "rewards":  [
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "irons_spellbooks:spell_power",
+                                                    "value":  0.009,
+                                                    "operation":  "addition"
+                                                }
+                                   }
+                               ],
+                   "cost":  2,
+                   "frame":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                              "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                              "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                              "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                              "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                          }
+                             },
+                   "description":  {
+                                       "text":  "Сила заклинаний: +0.6%",
+                                       "color":  "#B36BFF"
+                                   },
+                   "required_mods":  [
+                                         "irons_spellbooks"
+                                     ]
+               },
+    "core_9":  {
+                   "title":  "Мощь чар X",
+                   "icon":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "texture":  "rpgskills:textures/gui/skills/orb.png"
+                                         }
+                            },
+                   "rewards":  [
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "irons_spellbooks:spell_power",
+                                                    "value":  0.009,
+                                                    "operation":  "addition"
+                                                }
+                                   }
+                               ],
+                   "cost":  2,
+                   "frame":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                              "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                              "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                              "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                              "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                          }
+                             },
+                   "description":  {
+                                       "text":  "Сила заклинаний: +0.6%",
+                                       "color":  "#B36BFF"
+                                   },
+                   "required_mods":  [
+                                         "irons_spellbooks"
+                                     ]
+               },
+    "core_10":  {
+                    "title":  "Мощь чар XI",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/orb.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "irons_spellbooks:spell_power",
+                                                     "value":  0.018,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  2,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Сила заклинаний: +1.2%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "irons_spellbooks"
+                                      ]
+                },
+    "core_11":  {
+                    "title":  "Мощь чар XII",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/orb.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "irons_spellbooks:spell_power",
+                                                     "value":  0.018,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  2,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Сила заклинаний: +1.2%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "irons_spellbooks"
+                                      ]
+                },
+    "core_12":  {
+                    "title":  "Мощь чар XIII",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/orb.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "irons_spellbooks:spell_power",
+                                                     "value":  0.018,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  2,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Сила заклинаний: +1.2%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "irons_spellbooks"
+                                      ]
+                },
+    "core_13":  {
+                    "title":  "Мощь чар XIV",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/orb.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "irons_spellbooks:spell_power",
+                                                     "value":  0.018,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  2,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Сила заклинаний: +1.2%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "irons_spellbooks"
+                                      ]
+                },
+    "core_14":  {
+                    "title":  "Мощь чар XV",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/orb.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "irons_spellbooks:spell_power",
+                                                     "value":  0.018,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  2,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Сила заклинаний: +1.2%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "irons_spellbooks"
+                                      ]
+                },
+    "core_15":  {
+                    "title":  "Мощь чар XVI",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/orb.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "irons_spellbooks:spell_power",
+                                                     "value":  0.018,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  2,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Сила заклинаний: +1.2%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "irons_spellbooks"
+                                      ]
+                },
+    "core_16":  {
+                    "title":  "Мощь чар XVII",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/orb.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "irons_spellbooks:spell_power",
+                                                     "value":  0.018,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  3,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Сила заклинаний: +1.2%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "irons_spellbooks"
+                                      ]
+                },
+    "core_17":  {
+                    "title":  "Мощь чар XVIII",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/orb.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "irons_spellbooks:spell_power",
+                                                     "value":  0.018,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  3,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Сила заклинаний: +1.2%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "irons_spellbooks"
+                                      ]
+                },
+    "core_18":  {
+                    "title":  "Мощь чар XIX",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/orb.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "irons_spellbooks:spell_power",
+                                                     "value":  0.018,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  3,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Сила заклинаний: +1.2%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "irons_spellbooks"
+                                      ]
+                },
+    "mana_0":  {
+                   "title":  "Запас маны I",
+                   "icon":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "texture":  "rpgskills:textures/gui/skills/mana.png"
+                                         }
+                            },
+                   "rewards":  [
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "irons_spellbooks:max_mana",
+                                                    "value":  7.2,
+                                                    "operation":  "addition"
+                                                }
+                                   }
+                               ],
+                   "cost":  1,
+                   "frame":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                              "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                              "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                              "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                              "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                          }
+                             },
+                   "description":  {
+                                       "text":  "Макс. мана: +6",
+                                       "color":  "#B36BFF"
+                                   },
+                   "required_mods":  [
+                                         "irons_spellbooks"
+                                     ]
+               },
+    "mana_1":  {
+                   "title":  "Запас маны II",
+                   "icon":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "texture":  "rpgskills:textures/gui/skills/mana.png"
+                                         }
+                            },
+                   "rewards":  [
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "irons_spellbooks:max_mana",
+                                                    "value":  7.2,
+                                                    "operation":  "addition"
+                                                }
+                                   }
+                               ],
+                   "cost":  1,
+                   "frame":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                              "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                              "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                              "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                              "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                          }
+                             },
+                   "description":  {
+                                       "text":  "Макс. мана: +6",
+                                       "color":  "#B36BFF"
+                                   },
+                   "required_mods":  [
+                                         "irons_spellbooks"
+                                     ]
+               },
+    "mana_2":  {
+                   "title":  "Запас маны III",
+                   "icon":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "texture":  "rpgskills:textures/gui/skills/mana.png"
+                                         }
+                            },
+                   "rewards":  [
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "irons_spellbooks:max_mana",
+                                                    "value":  7.2,
+                                                    "operation":  "addition"
+                                                }
+                                   }
+                               ],
+                   "cost":  1,
+                   "frame":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                              "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                              "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                              "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                              "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                          }
+                             },
+                   "description":  {
+                                       "text":  "Макс. мана: +6",
+                                       "color":  "#B36BFF"
+                                   },
+                   "required_mods":  [
+                                         "irons_spellbooks"
+                                     ]
+               },
+    "mana_3":  {
+                   "title":  "Запас маны IV",
+                   "icon":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "texture":  "rpgskills:textures/gui/skills/mana.png"
+                                         }
+                            },
+                   "rewards":  [
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "irons_spellbooks:max_mana",
+                                                    "value":  10.8,
+                                                    "operation":  "addition"
+                                                }
+                                   }
+                               ],
+                   "cost":  1,
+                   "frame":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                              "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                              "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                              "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                              "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                          }
+                             },
+                   "description":  {
+                                       "text":  "Макс. мана: +9",
+                                       "color":  "#B36BFF"
+                                   },
+                   "required_mods":  [
+                                         "irons_spellbooks"
+                                     ]
+               },
+    "mana_4":  {
+                   "title":  "Запас маны V",
+                   "icon":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "texture":  "rpgskills:textures/gui/skills/mana.png"
+                                         }
+                            },
+                   "rewards":  [
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "irons_spellbooks:max_mana",
+                                                    "value":  10.8,
+                                                    "operation":  "addition"
+                                                }
+                                   }
+                               ],
+                   "cost":  1,
+                   "frame":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                              "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                              "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                              "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                              "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                          }
+                             },
+                   "description":  {
+                                       "text":  "Макс. мана: +9",
+                                       "color":  "#B36BFF"
+                                   },
+                   "required_mods":  [
+                                         "irons_spellbooks"
+                                     ]
+               },
+    "mana_5":  {
+                   "title":  "Запас маны VI",
+                   "icon":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "texture":  "rpgskills:textures/gui/skills/mana.png"
+                                         }
+                            },
+                   "rewards":  [
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "irons_spellbooks:max_mana",
+                                                    "value":  10.8,
+                                                    "operation":  "addition"
+                                                }
+                                   }
+                               ],
+                   "cost":  1,
+                   "frame":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                              "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                              "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                              "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                              "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                          }
+                             },
+                   "description":  {
+                                       "text":  "Макс. мана: +9",
+                                       "color":  "#B36BFF"
+                                   },
+                   "required_mods":  [
+                                         "irons_spellbooks"
+                                     ]
+               },
+    "mana_6":  {
+                   "title":  "Запас маны VII",
+                   "icon":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "texture":  "rpgskills:textures/gui/skills/mana.png"
+                                         }
+                            },
+                   "rewards":  [
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "irons_spellbooks:max_mana",
+                                                    "value":  14.4,
+                                                    "operation":  "addition"
+                                                }
+                                   }
+                               ],
+                   "cost":  1,
+                   "frame":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                              "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                              "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                              "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                              "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                          }
+                             },
+                   "description":  {
+                                       "text":  "Макс. мана: +12",
+                                       "color":  "#B36BFF"
+                                   },
+                   "required_mods":  [
+                                         "irons_spellbooks"
+                                     ]
+               },
+    "mana_7":  {
+                   "title":  "Запас маны VIII",
+                   "icon":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "texture":  "rpgskills:textures/gui/skills/mana.png"
+                                         }
+                            },
+                   "rewards":  [
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "irons_spellbooks:max_mana",
+                                                    "value":  14.4,
+                                                    "operation":  "addition"
+                                                }
+                                   }
+                               ],
+                   "cost":  1,
+                   "frame":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                              "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                              "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                              "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                              "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                          }
+                             },
+                   "description":  {
+                                       "text":  "Макс. мана: +12",
+                                       "color":  "#B36BFF"
+                                   },
+                   "required_mods":  [
+                                         "irons_spellbooks"
+                                     ]
+               },
+    "mana_8":  {
+                   "title":  "Запас маны IX",
+                   "icon":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "texture":  "rpgskills:textures/gui/skills/mana.png"
+                                         }
+                            },
+                   "rewards":  [
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "irons_spellbooks:max_mana",
+                                                    "value":  14.4,
+                                                    "operation":  "addition"
+                                                }
+                                   }
+                               ],
+                   "cost":  2,
+                   "frame":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                              "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                              "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                              "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                              "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                          }
+                             },
+                   "description":  {
+                                       "text":  "Макс. мана: +12",
+                                       "color":  "#B36BFF"
+                                   },
+                   "required_mods":  [
+                                         "irons_spellbooks"
+                                     ]
+               },
+    "mana_9":  {
+                   "title":  "Запас маны X",
+                   "icon":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "texture":  "rpgskills:textures/gui/skills/mana.png"
+                                         }
+                            },
+                   "rewards":  [
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "irons_spellbooks:max_mana",
+                                                    "value":  18,
+                                                    "operation":  "addition"
+                                                }
+                                   }
+                               ],
+                   "cost":  2,
+                   "frame":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                              "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                              "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                              "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                              "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                          }
+                             },
+                   "description":  {
+                                       "text":  "Макс. мана: +15",
+                                       "color":  "#B36BFF"
+                                   },
+                   "required_mods":  [
+                                         "irons_spellbooks"
+                                     ]
+               },
+    "mana_10":  {
+                    "title":  "Восстановление XI",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/mana.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "irons_spellbooks:mana_regen",
+                                                     "value":  0.018,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  2,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Восстановление маны: +1.2%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "irons_spellbooks"
+                                      ]
+                },
+    "mana_11":  {
+                    "title":  "Восстановление XII",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/mana.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "irons_spellbooks:mana_regen",
+                                                     "value":  0.018,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  2,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Восстановление маны: +1.2%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "irons_spellbooks"
+                                      ]
+                },
+    "mana_12":  {
+                    "title":  "Восстановление XIII",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/mana.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "irons_spellbooks:mana_regen",
+                                                     "value":  0.018,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  2,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Восстановление маны: +1.2%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "irons_spellbooks"
+                                      ]
+                },
+    "mana_13":  {
+                    "title":  "Восстановление XIV",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/mana.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "irons_spellbooks:mana_regen",
+                                                     "value":  0.018,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  2,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Восстановление маны: +1.2%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "irons_spellbooks"
+                                      ]
+                },
+    "mana_14":  {
+                    "title":  "Восстановление XV",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/mana.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "irons_spellbooks:mana_regen",
+                                                     "value":  0.027,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  2,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Восстановление маны: +1.8%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "irons_spellbooks"
+                                      ]
+                },
+    "mana_15":  {
+                    "title":  "Восстановление XVI",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/mana.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "irons_spellbooks:mana_regen",
+                                                     "value":  0.027,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  2,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Восстановление маны: +1.8%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "irons_spellbooks"
+                                      ]
+                },
+    "mana_16":  {
+                    "title":  "Восстановление XVII",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/mana.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "irons_spellbooks:mana_regen",
+                                                     "value":  0.027,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  3,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Восстановление маны: +1.8%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "irons_spellbooks"
+                                      ]
+                },
+    "mana_17":  {
+                    "title":  "Восстановление XVIII",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/mana.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "irons_spellbooks:mana_regen",
+                                                     "value":  0.027,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  3,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Восстановление маны: +1.8%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "irons_spellbooks"
+                                      ]
+                },
+    "mana_18":  {
+                    "title":  "Восстановление XIX",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/mana.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "irons_spellbooks:mana_regen",
+                                                     "value":  0.027,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  3,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Восстановление маны: +1.8%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "irons_spellbooks"
+                                      ]
+                },
+    "focus_0":  {
+                    "title":  "Быстрый откат I",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/focus.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "irons_spellbooks:cooldown_reduction",
+                                                     "value":  0.018,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  1,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Снижение отката заклинаний: +1.2%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "irons_spellbooks"
+                                      ]
+                },
+    "focus_1":  {
+                    "title":  "Быстрый откат II",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/focus.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "irons_spellbooks:cooldown_reduction",
+                                                     "value":  0.018,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  1,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Снижение отката заклинаний: +1.2%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "irons_spellbooks"
+                                      ]
+                },
+    "focus_2":  {
+                    "title":  "Быстрый откат III",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/focus.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "irons_spellbooks:cooldown_reduction",
+                                                     "value":  0.018,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  1,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Снижение отката заклинаний: +1.2%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "irons_spellbooks"
+                                      ]
+                },
+    "focus_3":  {
+                    "title":  "Быстрый откат IV",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/focus.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "irons_spellbooks:cooldown_reduction",
+                                                     "value":  0.018,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  1,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Снижение отката заклинаний: +1.2%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "irons_spellbooks"
+                                      ]
+                },
+    "focus_4":  {
+                    "title":  "Быстрый откат V",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/focus.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "irons_spellbooks:cooldown_reduction",
+                                                     "value":  0.018,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  1,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Снижение отката заклинаний: +1.2%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "irons_spellbooks"
+                                      ]
+                },
+    "focus_5":  {
+                    "title":  "Быстрый откат VI",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/focus.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "irons_spellbooks:cooldown_reduction",
+                                                     "value":  0.018,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  1,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Снижение отката заклинаний: +1.2%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "irons_spellbooks"
+                                      ]
+                },
+    "focus_6":  {
+                    "title":  "Быстрый откат VII",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/focus.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "irons_spellbooks:cooldown_reduction",
+                                                     "value":  0.018,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  1,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Снижение отката заклинаний: +1.2%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "irons_spellbooks"
+                                      ]
+                },
+    "focus_7":  {
+                    "title":  "Быстрый откат VIII",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/focus.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "irons_spellbooks:cooldown_reduction",
+                                                     "value":  0.018,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  1,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Снижение отката заклинаний: +1.2%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "irons_spellbooks"
+                                      ]
+                },
+    "focus_8":  {
+                    "title":  "Быстрый откат IX",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/focus.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "irons_spellbooks:cooldown_reduction",
+                                                     "value":  0.027,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  2,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Снижение отката заклинаний: +1.8%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "irons_spellbooks"
+                                      ]
+                },
+    "focus_9":  {
+                    "title":  "Быстрый откат X",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/focus.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "irons_spellbooks:cooldown_reduction",
+                                                     "value":  0.027,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  2,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Снижение отката заклинаний: +1.8%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "irons_spellbooks"
+                                      ]
+                },
+    "focus_10":  {
+                     "title":  "Скорость каста XI",
+                     "icon":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "texture":  "rpgskills:textures/gui/skills/focus.png"
+                                           }
+                              },
+                     "rewards":  [
+                                     {
+                                         "type":  "puffish_skills:attribute",
+                                         "data":  {
+                                                      "attribute":  "irons_spellbooks:cast_time_reduction",
+                                                      "value":  0.018,
+                                                      "operation":  "addition"
+                                                  }
+                                     }
+                                 ],
+                     "cost":  2,
+                     "frame":  {
+                                   "type":  "texture",
+                                   "data":  {
+                                                "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                            }
+                               },
+                     "description":  {
+                                         "text":  "Снижение времени каста: +1.2%",
+                                         "color":  "#B36BFF"
+                                     },
+                     "required_mods":  [
+                                           "irons_spellbooks"
+                                       ]
+                 },
+    "focus_11":  {
+                     "title":  "Скорость каста XII",
+                     "icon":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "texture":  "rpgskills:textures/gui/skills/focus.png"
+                                           }
+                              },
+                     "rewards":  [
+                                     {
+                                         "type":  "puffish_skills:attribute",
+                                         "data":  {
+                                                      "attribute":  "irons_spellbooks:cast_time_reduction",
+                                                      "value":  0.018,
+                                                      "operation":  "addition"
+                                                  }
+                                     }
+                                 ],
+                     "cost":  2,
+                     "frame":  {
+                                   "type":  "texture",
+                                   "data":  {
+                                                "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                            }
+                               },
+                     "description":  {
+                                         "text":  "Снижение времени каста: +1.2%",
+                                         "color":  "#B36BFF"
+                                     },
+                     "required_mods":  [
+                                           "irons_spellbooks"
+                                       ]
+                 },
+    "focus_12":  {
+                     "title":  "Скорость каста XIII",
+                     "icon":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "texture":  "rpgskills:textures/gui/skills/focus.png"
+                                           }
+                              },
+                     "rewards":  [
+                                     {
+                                         "type":  "puffish_skills:attribute",
+                                         "data":  {
+                                                      "attribute":  "irons_spellbooks:cast_time_reduction",
+                                                      "value":  0.018,
+                                                      "operation":  "addition"
+                                                  }
+                                     }
+                                 ],
+                     "cost":  2,
+                     "frame":  {
+                                   "type":  "texture",
+                                   "data":  {
+                                                "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                            }
+                               },
+                     "description":  {
+                                         "text":  "Снижение времени каста: +1.2%",
+                                         "color":  "#B36BFF"
+                                     },
+                     "required_mods":  [
+                                           "irons_spellbooks"
+                                       ]
+                 },
+    "focus_13":  {
+                     "title":  "Скорость каста XIV",
+                     "icon":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "texture":  "rpgskills:textures/gui/skills/focus.png"
+                                           }
+                              },
+                     "rewards":  [
+                                     {
+                                         "type":  "puffish_skills:attribute",
+                                         "data":  {
+                                                      "attribute":  "irons_spellbooks:cast_time_reduction",
+                                                      "value":  0.018,
+                                                      "operation":  "addition"
+                                                  }
+                                     }
+                                 ],
+                     "cost":  2,
+                     "frame":  {
+                                   "type":  "texture",
+                                   "data":  {
+                                                "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                            }
+                               },
+                     "description":  {
+                                         "text":  "Снижение времени каста: +1.2%",
+                                         "color":  "#B36BFF"
+                                     },
+                     "required_mods":  [
+                                           "irons_spellbooks"
+                                       ]
+                 },
+    "focus_14":  {
+                     "title":  "Скорость каста XV",
+                     "icon":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "texture":  "rpgskills:textures/gui/skills/focus.png"
+                                           }
+                              },
+                     "rewards":  [
+                                     {
+                                         "type":  "puffish_skills:attribute",
+                                         "data":  {
+                                                      "attribute":  "irons_spellbooks:cast_time_reduction",
+                                                      "value":  0.018,
+                                                      "operation":  "addition"
+                                                  }
+                                     }
+                                 ],
+                     "cost":  2,
+                     "frame":  {
+                                   "type":  "texture",
+                                   "data":  {
+                                                "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                            }
+                               },
+                     "description":  {
+                                         "text":  "Снижение времени каста: +1.2%",
+                                         "color":  "#B36BFF"
+                                     },
+                     "required_mods":  [
+                                           "irons_spellbooks"
+                                       ]
+                 },
+    "focus_15":  {
+                     "title":  "Скорость каста XVI",
+                     "icon":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "texture":  "rpgskills:textures/gui/skills/focus.png"
+                                           }
+                              },
+                     "rewards":  [
+                                     {
+                                         "type":  "puffish_skills:attribute",
+                                         "data":  {
+                                                      "attribute":  "irons_spellbooks:cast_time_reduction",
+                                                      "value":  0.018,
+                                                      "operation":  "addition"
+                                                  }
+                                     }
+                                 ],
+                     "cost":  2,
+                     "frame":  {
+                                   "type":  "texture",
+                                   "data":  {
+                                                "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                            }
+                               },
+                     "description":  {
+                                         "text":  "Снижение времени каста: +1.2%",
+                                         "color":  "#B36BFF"
+                                     },
+                     "required_mods":  [
+                                           "irons_spellbooks"
+                                       ]
+                 },
+    "focus_16":  {
+                     "title":  "Скорость каста XVII",
+                     "icon":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "texture":  "rpgskills:textures/gui/skills/focus.png"
+                                           }
+                              },
+                     "rewards":  [
+                                     {
+                                         "type":  "puffish_skills:attribute",
+                                         "data":  {
+                                                      "attribute":  "irons_spellbooks:cast_time_reduction",
+                                                      "value":  0.018,
+                                                      "operation":  "addition"
+                                                  }
+                                     }
+                                 ],
+                     "cost":  3,
+                     "frame":  {
+                                   "type":  "texture",
+                                   "data":  {
+                                                "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                            }
+                               },
+                     "description":  {
+                                         "text":  "Снижение времени каста: +1.2%",
+                                         "color":  "#B36BFF"
+                                     },
+                     "required_mods":  [
+                                           "irons_spellbooks"
+                                       ]
+                 },
+    "focus_17":  {
+                     "title":  "Скорость каста XVIII",
+                     "icon":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "texture":  "rpgskills:textures/gui/skills/focus.png"
+                                           }
+                              },
+                     "rewards":  [
+                                     {
+                                         "type":  "puffish_skills:attribute",
+                                         "data":  {
+                                                      "attribute":  "irons_spellbooks:cast_time_reduction",
+                                                      "value":  0.027,
+                                                      "operation":  "addition"
+                                                  }
+                                     }
+                                 ],
+                     "cost":  3,
+                     "frame":  {
+                                   "type":  "texture",
+                                   "data":  {
+                                                "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                            }
+                               },
+                     "description":  {
+                                         "text":  "Снижение времени каста: +1.8%",
+                                         "color":  "#B36BFF"
+                                     },
+                     "required_mods":  [
+                                           "irons_spellbooks"
+                                       ]
+                 },
+    "focus_18":  {
+                     "title":  "Скорость каста XIX",
+                     "icon":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "texture":  "rpgskills:textures/gui/skills/focus.png"
+                                           }
+                              },
+                     "rewards":  [
+                                     {
+                                         "type":  "puffish_skills:attribute",
+                                         "data":  {
+                                                      "attribute":  "irons_spellbooks:cast_time_reduction",
+                                                      "value":  0.027,
+                                                      "operation":  "addition"
+                                                  }
+                                     }
+                                 ],
+                     "cost":  3,
+                     "frame":  {
+                                   "type":  "texture",
+                                   "data":  {
+                                                "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                            }
+                               },
+                     "description":  {
+                                         "text":  "Снижение времени каста: +1.8%",
+                                         "color":  "#B36BFF"
+                                     },
+                     "required_mods":  [
+                                           "irons_spellbooks"
+                                       ]
+                 },
+    "ward_0":  {
+                   "title":  "Сопротивление магии I",
+                   "icon":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "texture":  "rpgskills:textures/gui/skills/shield.png"
+                                         }
+                            },
+                   "rewards":  [
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "irons_spellbooks:spell_resist",
+                                                    "value":  0.018,
+                                                    "operation":  "addition"
+                                                }
+                                   }
+                               ],
+                   "cost":  1,
+                   "frame":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                              "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                              "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                              "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                              "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                          }
+                             },
+                   "description":  {
+                                       "text":  "Сопротивление магии: +1.2%",
+                                       "color":  "#B36BFF"
+                                   },
+                   "required_mods":  [
+                                         "irons_spellbooks"
+                                     ]
+               },
+    "ward_1":  {
+                   "title":  "Сопротивление магии II",
+                   "icon":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "texture":  "rpgskills:textures/gui/skills/shield.png"
+                                         }
+                            },
+                   "rewards":  [
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "irons_spellbooks:spell_resist",
+                                                    "value":  0.018,
+                                                    "operation":  "addition"
+                                                }
+                                   }
+                               ],
+                   "cost":  1,
+                   "frame":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                              "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                              "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                              "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                              "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                          }
+                             },
+                   "description":  {
+                                       "text":  "Сопротивление магии: +1.2%",
+                                       "color":  "#B36BFF"
+                                   },
+                   "required_mods":  [
+                                         "irons_spellbooks"
+                                     ]
+               },
+    "ward_2":  {
+                   "title":  "Сопротивление магии III",
+                   "icon":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "texture":  "rpgskills:textures/gui/skills/shield.png"
+                                         }
+                            },
+                   "rewards":  [
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "irons_spellbooks:spell_resist",
+                                                    "value":  0.018,
+                                                    "operation":  "addition"
+                                                }
+                                   }
+                               ],
+                   "cost":  1,
+                   "frame":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                              "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                              "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                              "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                              "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                          }
+                             },
+                   "description":  {
+                                       "text":  "Сопротивление магии: +1.2%",
+                                       "color":  "#B36BFF"
+                                   },
+                   "required_mods":  [
+                                         "irons_spellbooks"
+                                     ]
+               },
+    "ward_3":  {
+                   "title":  "Сопротивление магии IV",
+                   "icon":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "texture":  "rpgskills:textures/gui/skills/shield.png"
+                                         }
+                            },
+                   "rewards":  [
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "irons_spellbooks:spell_resist",
+                                                    "value":  0.018,
+                                                    "operation":  "addition"
+                                                }
+                                   }
+                               ],
+                   "cost":  1,
+                   "frame":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                              "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                              "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                              "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                              "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                          }
+                             },
+                   "description":  {
+                                       "text":  "Сопротивление магии: +1.2%",
+                                       "color":  "#B36BFF"
+                                   },
+                   "required_mods":  [
+                                         "irons_spellbooks"
+                                     ]
+               },
+    "ward_4":  {
+                   "title":  "Сопротивление магии V",
+                   "icon":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "texture":  "rpgskills:textures/gui/skills/shield.png"
+                                         }
+                            },
+                   "rewards":  [
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "irons_spellbooks:spell_resist",
+                                                    "value":  0.018,
+                                                    "operation":  "addition"
+                                                }
+                                   }
+                               ],
+                   "cost":  1,
+                   "frame":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                              "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                              "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                              "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                              "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                          }
+                             },
+                   "description":  {
+                                       "text":  "Сопротивление магии: +1.2%",
+                                       "color":  "#B36BFF"
+                                   },
+                   "required_mods":  [
+                                         "irons_spellbooks"
+                                     ]
+               },
+    "ward_5":  {
+                   "title":  "Сопротивление магии VI",
+                   "icon":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "texture":  "rpgskills:textures/gui/skills/shield.png"
+                                         }
+                            },
+                   "rewards":  [
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "irons_spellbooks:spell_resist",
+                                                    "value":  0.018,
+                                                    "operation":  "addition"
+                                                }
+                                   }
+                               ],
+                   "cost":  1,
+                   "frame":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                              "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                              "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                              "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                              "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                          }
+                             },
+                   "description":  {
+                                       "text":  "Сопротивление магии: +1.2%",
+                                       "color":  "#B36BFF"
+                                   },
+                   "required_mods":  [
+                                         "irons_spellbooks"
+                                     ]
+               },
+    "ward_6":  {
+                   "title":  "Сопротивление магии VII",
+                   "icon":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "texture":  "rpgskills:textures/gui/skills/shield.png"
+                                         }
+                            },
+                   "rewards":  [
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "irons_spellbooks:spell_resist",
+                                                    "value":  0.018,
+                                                    "operation":  "addition"
+                                                }
+                                   }
+                               ],
+                   "cost":  1,
+                   "frame":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                              "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                              "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                              "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                              "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                          }
+                             },
+                   "description":  {
+                                       "text":  "Сопротивление магии: +1.2%",
+                                       "color":  "#B36BFF"
+                                   },
+                   "required_mods":  [
+                                         "irons_spellbooks"
+                                     ]
+               },
+    "ward_7":  {
+                   "title":  "Сопротивление магии VIII",
+                   "icon":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "texture":  "rpgskills:textures/gui/skills/shield.png"
+                                         }
+                            },
+                   "rewards":  [
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "irons_spellbooks:spell_resist",
+                                                    "value":  0.018,
+                                                    "operation":  "addition"
+                                                }
+                                   }
+                               ],
+                   "cost":  1,
+                   "frame":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                              "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                              "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                              "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                              "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                          }
+                             },
+                   "description":  {
+                                       "text":  "Сопротивление магии: +1.2%",
+                                       "color":  "#B36BFF"
+                                   },
+                   "required_mods":  [
+                                         "irons_spellbooks"
+                                     ]
+               },
+    "ward_8":  {
+                   "title":  "Сопротивление магии IX",
+                   "icon":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "texture":  "rpgskills:textures/gui/skills/shield.png"
+                                         }
+                            },
+                   "rewards":  [
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "irons_spellbooks:spell_resist",
+                                                    "value":  0.027,
+                                                    "operation":  "addition"
+                                                }
+                                   }
+                               ],
+                   "cost":  2,
+                   "frame":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                              "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                              "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                              "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                              "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                          }
+                             },
+                   "description":  {
+                                       "text":  "Сопротивление магии: +1.8%",
+                                       "color":  "#B36BFF"
+                                   },
+                   "required_mods":  [
+                                         "irons_spellbooks"
+                                     ]
+               },
+    "ward_9":  {
+                   "title":  "Сопротивление магии X",
+                   "icon":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "texture":  "rpgskills:textures/gui/skills/shield.png"
+                                         }
+                            },
+                   "rewards":  [
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "irons_spellbooks:spell_resist",
+                                                    "value":  0.027,
+                                                    "operation":  "addition"
+                                                }
+                                   }
+                               ],
+                   "cost":  2,
+                   "frame":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                              "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                              "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                              "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                              "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                          }
+                             },
+                   "description":  {
+                                       "text":  "Сопротивление магии: +1.8%",
+                                       "color":  "#B36BFF"
+                                   },
+                   "required_mods":  [
+                                         "irons_spellbooks"
+                                     ]
+               },
+    "ward_10":  {
+                    "title":  "Каст на ходу XI",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/focus.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "irons_spellbooks:casting_movespeed",
+                                                     "value":  0.045,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  2,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Скорость при касте: +3%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "irons_spellbooks"
+                                      ]
+                },
+    "ward_11":  {
+                    "title":  "Каст на ходу XII",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/focus.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "irons_spellbooks:casting_movespeed",
+                                                     "value":  0.045,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  2,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Скорость при касте: +3%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "irons_spellbooks"
+                                      ]
+                },
+    "ward_12":  {
+                    "title":  "Каст на ходу XIII",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/focus.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "irons_spellbooks:casting_movespeed",
+                                                     "value":  0.045,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  2,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Скорость при касте: +3%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "irons_spellbooks"
+                                      ]
+                },
+    "ward_13":  {
+                    "title":  "Каст на ходу XIV",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/focus.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "irons_spellbooks:casting_movespeed",
+                                                     "value":  0.045,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  2,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Скорость при касте: +3%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "irons_spellbooks"
+                                      ]
+                },
+    "ward_14":  {
+                    "title":  "Каст на ходу XV",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/focus.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "irons_spellbooks:casting_movespeed",
+                                                     "value":  0.045,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  2,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Скорость при касте: +3%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "irons_spellbooks"
+                                      ]
+                },
+    "ward_15":  {
+                    "title":  "Каст на ходу XVI",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/focus.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "irons_spellbooks:casting_movespeed",
+                                                     "value":  0.045,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  2,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Скорость при касте: +3%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "irons_spellbooks"
+                                      ]
+                },
+    "ward_16":  {
+                    "title":  "Каст на ходу XVII",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/focus.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "irons_spellbooks:casting_movespeed",
+                                                     "value":  0.045,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  3,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Скорость при касте: +3%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "irons_spellbooks"
+                                      ]
+                },
+    "ward_17":  {
+                    "title":  "Каст на ходу XVIII",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/focus.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "irons_spellbooks:casting_movespeed",
+                                                     "value":  0.045,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  3,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Скорость при касте: +3%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "irons_spellbooks"
+                                      ]
+                },
+    "ward_18":  {
+                    "title":  "Каст на ходу XIX",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/focus.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "irons_spellbooks:casting_movespeed",
+                                                     "value":  0.045,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  3,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Скорость при касте: +3%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "irons_spellbooks"
+                                      ]
+                },
+    "master":  {
+                   "title":  "Мастер магии",
+                   "icon":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "texture":  "rpgskills:textures/gui/skills/master_magic.png"
+                                         }
+                            },
+                   "rewards":  [
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "irons_spellbooks:spell_power",
+                                                    "value":  0.22,
+                                                    "operation":  "addition"
+                                                }
+                                   },
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "irons_spellbooks:max_mana",
+                                                    "value":  120,
+                                                    "operation":  "addition"
+                                                }
+                                   },
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "irons_spellbooks:mana_regen",
+                                                    "value":  0.38,
+                                                    "operation":  "addition"
+                                                }
+                                   },
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "irons_spellbooks:cooldown_reduction",
+                                                    "value":  0.22,
+                                                    "operation":  "addition"
+                                                }
+                                   }
+                               ],
+                   "cost":  5,
+                   "required_skills":  0,
+                   "required_spent_points":  10,
+                   "frame":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                              "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                              "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                              "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                              "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                          }
+                             },
+                   "description":  {
+                                       "text":  "Мастер-нода ветки. Доступна только одна на всю сборку — выбрав одну, остальные снимаются. сила заклинаний: +15%; макс. мана: +100; восстановление маны: +25%; снижение отката заклинаний: +15%",
+                                       "color":  "#B36BFF"
+                                   },
+                   "required_mods":  [
+                                         "irons_spellbooks"
+                                     ]
+               }
+}

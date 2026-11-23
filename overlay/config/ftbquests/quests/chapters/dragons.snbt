@@ -1,0 +1,47 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dragons"
+	group: ""
+	id: "1F3103B372D75754"
+	images: [ ]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "16ECD967C214B2AB"
+			tasks: [{
+				consume_items: true
+				id: "1D3F4E118219D18B"
+				item: { count: 1, id: "iceandfire:dragonscales_red" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["16ECD967C214B2AB"]
+			id: "1072DFC4805CFBD3"
+			tasks: [{
+				consume_items: true
+				id: "14CBB234FF3F02EE"
+				item: { count: 1, id: "iceandfire:dragonsteel_fire_ingot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1072DFC4805CFBD3"]
+			id: "11B6DDEE7B93E4AC"
+			tasks: [{
+				consume_items: true
+				id: "12F3C6EAA456AB3B"
+				item: { count: 1, id: "minecraft:saddle" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+}

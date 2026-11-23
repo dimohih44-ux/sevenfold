@@ -1,0 +1,23 @@
+{
+  "type": "eidolon_repraised:ritual_brazier_crafting",
+  "focus_items": [
+    { "item": "minecraft:wither_skeleton_skull" }
+  ],
+  "health_requirement": 30,
+  "keep_nbt_of_reagent": true,
+  "pedestal_items": [
+    { "item": "eidolon_repraised:shadow_gem" },
+    { "item": "eidolon_repraised:shadow_gem" },
+    { "item": "eidolon_repraised:soul_shard" },
+    { "item": "eidolon_repraised:soul_shard" },
+    { "item": "eidolon_repraised:arcane_seal" },
+    { "item": "eidolon_repraised:enchanted_ash" }
+  ],
+  "reagent": {
+    "item": "minecraft:book"
+  },
+  "result": {
+    "count": 1,
+    "id": "cataclysm_spellbooks:codex_of_malice_spell_book"
+  }
+}

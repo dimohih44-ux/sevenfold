@@ -1,0 +1,7 @@
+saves/
+logs/
+crash-reports/
+_backups/
+screenshots/
+options.txt
+*.log

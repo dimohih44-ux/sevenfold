@@ -1,0 +1,23 @@
+{
+  "type": "eidolon_repraised:ritual_brazier_crafting",
+  "focus_items": [
+    { "item": "minecraft:amethyst_shard" }
+  ],
+  "health_requirement": 10,
+  "keep_nbt_of_reagent": true,
+  "pedestal_items": [
+    { "item": "minecraft:lapis_lazuli" },
+    { "item": "minecraft:lapis_lazuli" },
+    { "item": "minecraft:amethyst_shard" },
+    { "item": "minecraft:amethyst_shard" },
+    { "item": "eidolon_repraised:magic_ink" },
+    { "item": "eidolon_repraised:enchanted_ash" }
+  ],
+  "reagent": {
+    "item": "minecraft:book"
+  },
+  "result": {
+    "count": 1,
+    "id": "irons_spellbooks:iron_spell_book"
+  }
+}

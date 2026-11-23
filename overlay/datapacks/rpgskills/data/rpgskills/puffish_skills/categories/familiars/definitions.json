@@ -1,0 +1,2599 @@
+{
+    "root":  {
+                 "title":  "Связь с фамильяром",
+                 "icon":  {
+                              "type":  "texture",
+                              "data":  {
+                                           "texture":  "rpgskills:textures/gui/skills/soul.png"
+                                       }
+                          },
+                 "rewards":  [
+                                 {
+                                     "type":  "puffish_skills:attribute",
+                                     "data":  {
+                                                  "attribute":  "minecraft:generic.max_health",
+                                                  "value":  2,
+                                                  "operation":  "addition"
+                                              }
+                                 }
+                             ],
+                 "cost":  1,
+                 "description":  {
+                                     "text":  "Открывает древо Фамильяров. Бонус — макс. здоровье: +2",
+                                     "color":  "#B36BFF"
+                                 },
+                 "frame":  {
+                               "type":  "texture",
+                               "data":  {
+                                            "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                            "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                            "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                            "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                            "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                        }
+                           }
+             },
+    "bond_0":  {
+                   "title":  "Сила стаи I",
+                   "icon":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "texture":  "rpgskills:textures/gui/skills/paw.png"
+                                         }
+                            },
+                   "rewards":  [
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "familiarslib:familiar_damage",
+                                                    "value":  0.03,
+                                                    "operation":  "addition"
+                                                }
+                                   }
+                               ],
+                   "cost":  1,
+                   "frame":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                              "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                              "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                              "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                              "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                          }
+                             },
+                   "description":  {
+                                       "text":  "Урон фамильяров: +2%",
+                                       "color":  "#B36BFF"
+                                   },
+                   "required_mods":  [
+                                         "familiarslib"
+                                     ]
+               },
+    "bond_1":  {
+                   "title":  "Сила стаи II",
+                   "icon":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "texture":  "rpgskills:textures/gui/skills/paw.png"
+                                         }
+                            },
+                   "rewards":  [
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "familiarslib:familiar_damage",
+                                                    "value":  0.03,
+                                                    "operation":  "addition"
+                                                }
+                                   }
+                               ],
+                   "cost":  1,
+                   "frame":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                              "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                              "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                              "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                              "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                          }
+                             },
+                   "description":  {
+                                       "text":  "Урон фамильяров: +2%",
+                                       "color":  "#B36BFF"
+                                   },
+                   "required_mods":  [
+                                         "familiarslib"
+                                     ]
+               },
+    "bond_2":  {
+                   "title":  "Сила стаи III",
+                   "icon":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "texture":  "rpgskills:textures/gui/skills/paw.png"
+                                         }
+                            },
+                   "rewards":  [
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "familiarslib:familiar_damage",
+                                                    "value":  0.03,
+                                                    "operation":  "addition"
+                                                }
+                                   }
+                               ],
+                   "cost":  1,
+                   "frame":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                              "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                              "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                              "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                              "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                          }
+                             },
+                   "description":  {
+                                       "text":  "Урон фамильяров: +2%",
+                                       "color":  "#B36BFF"
+                                   },
+                   "required_mods":  [
+                                         "familiarslib"
+                                     ]
+               },
+    "bond_3":  {
+                   "title":  "Сила стаи IV",
+                   "icon":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "texture":  "rpgskills:textures/gui/skills/paw.png"
+                                         }
+                            },
+                   "rewards":  [
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "familiarslib:familiar_damage",
+                                                    "value":  0.045,
+                                                    "operation":  "addition"
+                                                }
+                                   }
+                               ],
+                   "cost":  1,
+                   "frame":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                              "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                              "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                              "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                              "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                          }
+                             },
+                   "description":  {
+                                       "text":  "Урон фамильяров: +3%",
+                                       "color":  "#B36BFF"
+                                   },
+                   "required_mods":  [
+                                         "familiarslib"
+                                     ]
+               },
+    "bond_4":  {
+                   "title":  "Сила стаи V",
+                   "icon":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "texture":  "rpgskills:textures/gui/skills/paw.png"
+                                         }
+                            },
+                   "rewards":  [
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "familiarslib:familiar_damage",
+                                                    "value":  0.045,
+                                                    "operation":  "addition"
+                                                }
+                                   }
+                               ],
+                   "cost":  1,
+                   "frame":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                              "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                              "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                              "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                              "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                          }
+                             },
+                   "description":  {
+                                       "text":  "Урон фамильяров: +3%",
+                                       "color":  "#B36BFF"
+                                   },
+                   "required_mods":  [
+                                         "familiarslib"
+                                     ]
+               },
+    "bond_5":  {
+                   "title":  "Сила стаи VI",
+                   "icon":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "texture":  "rpgskills:textures/gui/skills/paw.png"
+                                         }
+                            },
+                   "rewards":  [
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "familiarslib:familiar_damage",
+                                                    "value":  0.045,
+                                                    "operation":  "addition"
+                                                }
+                                   }
+                               ],
+                   "cost":  1,
+                   "frame":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                              "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                              "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                              "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                              "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                          }
+                             },
+                   "description":  {
+                                       "text":  "Урон фамильяров: +3%",
+                                       "color":  "#B36BFF"
+                                   },
+                   "required_mods":  [
+                                         "familiarslib"
+                                     ]
+               },
+    "bond_6":  {
+                   "title":  "Сила стаи VII",
+                   "icon":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "texture":  "rpgskills:textures/gui/skills/paw.png"
+                                         }
+                            },
+                   "rewards":  [
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "familiarslib:familiar_damage",
+                                                    "value":  0.045,
+                                                    "operation":  "addition"
+                                                }
+                                   }
+                               ],
+                   "cost":  1,
+                   "frame":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                              "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                              "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                              "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                              "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                          }
+                             },
+                   "description":  {
+                                       "text":  "Урон фамильяров: +3%",
+                                       "color":  "#B36BFF"
+                                   },
+                   "required_mods":  [
+                                         "familiarslib"
+                                     ]
+               },
+    "bond_7":  {
+                   "title":  "Сила стаи VIII",
+                   "icon":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "texture":  "rpgskills:textures/gui/skills/paw.png"
+                                         }
+                            },
+                   "rewards":  [
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "familiarslib:familiar_damage",
+                                                    "value":  0.06,
+                                                    "operation":  "addition"
+                                                }
+                                   }
+                               ],
+                   "cost":  1,
+                   "frame":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                              "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                              "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                              "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                              "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                          }
+                             },
+                   "description":  {
+                                       "text":  "Урон фамильяров: +4%",
+                                       "color":  "#B36BFF"
+                                   },
+                   "required_mods":  [
+                                         "familiarslib"
+                                     ]
+               },
+    "bond_8":  {
+                   "title":  "Сила стаи IX",
+                   "icon":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "texture":  "rpgskills:textures/gui/skills/paw.png"
+                                         }
+                            },
+                   "rewards":  [
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "familiarslib:familiar_damage",
+                                                    "value":  0.06,
+                                                    "operation":  "addition"
+                                                }
+                                   }
+                               ],
+                   "cost":  2,
+                   "frame":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                              "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                              "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                              "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                              "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                          }
+                             },
+                   "description":  {
+                                       "text":  "Урон фамильяров: +4%",
+                                       "color":  "#B36BFF"
+                                   },
+                   "required_mods":  [
+                                         "familiarslib"
+                                     ]
+               },
+    "bond_9":  {
+                   "title":  "Сила стаи X",
+                   "icon":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "texture":  "rpgskills:textures/gui/skills/paw.png"
+                                         }
+                            },
+                   "rewards":  [
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "familiarslib:familiar_damage",
+                                                    "value":  0.06,
+                                                    "operation":  "addition"
+                                                }
+                                   }
+                               ],
+                   "cost":  2,
+                   "frame":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                              "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                              "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                              "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                              "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                          }
+                             },
+                   "description":  {
+                                       "text":  "Урон фамильяров: +4%",
+                                       "color":  "#B36BFF"
+                                   },
+                   "required_mods":  [
+                                         "familiarslib"
+                                     ]
+               },
+    "bond_10":  {
+                    "title":  "Сила стаи XI",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/paw.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "familiarslib:familiar_damage",
+                                                     "value":  0.06,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  2,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Урон фамильяров: +4%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "familiarslib"
+                                      ]
+                },
+    "bond_11":  {
+                    "title":  "Сила стаи XII",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/paw.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "familiarslib:familiar_damage",
+                                                     "value":  0.075,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  2,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Урон фамильяров: +5%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "familiarslib"
+                                      ]
+                },
+    "bond_12":  {
+                    "title":  "Сила стаи XIII",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/paw.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "familiarslib:familiar_damage",
+                                                     "value":  0.075,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  2,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Урон фамильяров: +5%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "familiarslib"
+                                      ]
+                },
+    "bond_13":  {
+                    "title":  "Сила стаи XIV",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/paw.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "familiarslib:familiar_damage",
+                                                     "value":  0.075,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  2,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Урон фамильяров: +5%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "familiarslib"
+                                      ]
+                },
+    "aegis_0":  {
+                    "title":  "Защита стаи I",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/shield.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "familiarslib:familiar_resist",
+                                                     "value":  0.03,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  1,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Сопротивление фамильяров: +2%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "familiarslib"
+                                      ]
+                },
+    "aegis_1":  {
+                    "title":  "Защита стаи II",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/shield.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "familiarslib:familiar_resist",
+                                                     "value":  0.03,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  1,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Сопротивление фамильяров: +2%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "familiarslib"
+                                      ]
+                },
+    "aegis_2":  {
+                    "title":  "Защита стаи III",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/shield.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "familiarslib:familiar_resist",
+                                                     "value":  0.03,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  1,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Сопротивление фамильяров: +2%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "familiarslib"
+                                      ]
+                },
+    "aegis_3":  {
+                    "title":  "Защита стаи IV",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/shield.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "familiarslib:familiar_resist",
+                                                     "value":  0.045,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  1,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Сопротивление фамильяров: +3%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "familiarslib"
+                                      ]
+                },
+    "aegis_4":  {
+                    "title":  "Защита стаи V",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/shield.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "familiarslib:familiar_resist",
+                                                     "value":  0.045,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  1,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Сопротивление фамильяров: +3%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "familiarslib"
+                                      ]
+                },
+    "aegis_5":  {
+                    "title":  "Защита стаи VI",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/shield.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "familiarslib:familiar_resist",
+                                                     "value":  0.045,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  1,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Сопротивление фамильяров: +3%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "familiarslib"
+                                      ]
+                },
+    "aegis_6":  {
+                    "title":  "Защита стаи VII",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/shield.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "familiarslib:familiar_resist",
+                                                     "value":  0.045,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  1,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Сопротивление фамильяров: +3%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "familiarslib"
+                                      ]
+                },
+    "aegis_7":  {
+                    "title":  "Защита стаи VIII",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/shield.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "familiarslib:familiar_resist",
+                                                     "value":  0.06,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  1,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Сопротивление фамильяров: +4%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "familiarslib"
+                                      ]
+                },
+    "aegis_8":  {
+                    "title":  "Защита стаи IX",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/shield.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "familiarslib:familiar_resist",
+                                                     "value":  0.06,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  2,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Сопротивление фамильяров: +4%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "familiarslib"
+                                      ]
+                },
+    "aegis_9":  {
+                    "title":  "Защита стаи X",
+                    "icon":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "texture":  "rpgskills:textures/gui/skills/shield.png"
+                                          }
+                             },
+                    "rewards":  [
+                                    {
+                                        "type":  "puffish_skills:attribute",
+                                        "data":  {
+                                                     "attribute":  "familiarslib:familiar_resist",
+                                                     "value":  0.06,
+                                                     "operation":  "addition"
+                                                 }
+                                    }
+                                ],
+                    "cost":  2,
+                    "frame":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                               "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                               "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                               "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                               "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                           }
+                              },
+                    "description":  {
+                                        "text":  "Сопротивление фамильяров: +4%",
+                                        "color":  "#B36BFF"
+                                    },
+                    "required_mods":  [
+                                          "familiarslib"
+                                      ]
+                },
+    "aegis_10":  {
+                     "title":  "Защита стаи XI",
+                     "icon":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "texture":  "rpgskills:textures/gui/skills/shield.png"
+                                           }
+                              },
+                     "rewards":  [
+                                     {
+                                         "type":  "puffish_skills:attribute",
+                                         "data":  {
+                                                      "attribute":  "familiarslib:familiar_resist",
+                                                      "value":  0.06,
+                                                      "operation":  "addition"
+                                                  }
+                                     }
+                                 ],
+                     "cost":  2,
+                     "frame":  {
+                                   "type":  "texture",
+                                   "data":  {
+                                                "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                            }
+                               },
+                     "description":  {
+                                         "text":  "Сопротивление фамильяров: +4%",
+                                         "color":  "#B36BFF"
+                                     },
+                     "required_mods":  [
+                                           "familiarslib"
+                                       ]
+                 },
+    "aegis_11":  {
+                     "title":  "Защита стаи XII",
+                     "icon":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "texture":  "rpgskills:textures/gui/skills/shield.png"
+                                           }
+                              },
+                     "rewards":  [
+                                     {
+                                         "type":  "puffish_skills:attribute",
+                                         "data":  {
+                                                      "attribute":  "familiarslib:familiar_resist",
+                                                      "value":  0.075,
+                                                      "operation":  "addition"
+                                                  }
+                                     }
+                                 ],
+                     "cost":  2,
+                     "frame":  {
+                                   "type":  "texture",
+                                   "data":  {
+                                                "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                            }
+                               },
+                     "description":  {
+                                         "text":  "Сопротивление фамильяров: +5%",
+                                         "color":  "#B36BFF"
+                                     },
+                     "required_mods":  [
+                                           "familiarslib"
+                                       ]
+                 },
+    "aegis_12":  {
+                     "title":  "Защита стаи XIII",
+                     "icon":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "texture":  "rpgskills:textures/gui/skills/shield.png"
+                                           }
+                              },
+                     "rewards":  [
+                                     {
+                                         "type":  "puffish_skills:attribute",
+                                         "data":  {
+                                                      "attribute":  "familiarslib:familiar_resist",
+                                                      "value":  0.075,
+                                                      "operation":  "addition"
+                                                  }
+                                     }
+                                 ],
+                     "cost":  2,
+                     "frame":  {
+                                   "type":  "texture",
+                                   "data":  {
+                                                "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                            }
+                               },
+                     "description":  {
+                                         "text":  "Сопротивление фамильяров: +5%",
+                                         "color":  "#B36BFF"
+                                     },
+                     "required_mods":  [
+                                           "familiarslib"
+                                       ]
+                 },
+    "aegis_13":  {
+                     "title":  "Защита стаи XIV",
+                     "icon":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "texture":  "rpgskills:textures/gui/skills/shield.png"
+                                           }
+                              },
+                     "rewards":  [
+                                     {
+                                         "type":  "puffish_skills:attribute",
+                                         "data":  {
+                                                      "attribute":  "familiarslib:familiar_resist",
+                                                      "value":  0.075,
+                                                      "operation":  "addition"
+                                                  }
+                                     }
+                                 ],
+                     "cost":  2,
+                     "frame":  {
+                                   "type":  "texture",
+                                   "data":  {
+                                                "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                            }
+                               },
+                     "description":  {
+                                         "text":  "Сопротивление фамильяров: +5%",
+                                         "color":  "#B36BFF"
+                                     },
+                     "required_mods":  [
+                                           "familiarslib"
+                                       ]
+                 },
+    "summon_0":  {
+                     "title":  "Мощь призыва I",
+                     "icon":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "texture":  "rpgskills:textures/gui/skills/book.png"
+                                           }
+                              },
+                     "rewards":  [
+                                     {
+                                         "type":  "puffish_skills:attribute",
+                                         "data":  {
+                                                      "attribute":  "irons_spellbooks:summon_damage",
+                                                      "value":  0.045,
+                                                      "operation":  "addition"
+                                                  }
+                                     }
+                                 ],
+                     "cost":  1,
+                     "frame":  {
+                                   "type":  "texture",
+                                   "data":  {
+                                                "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                            }
+                               },
+                     "description":  {
+                                         "text":  "Урон призыва: +3%",
+                                         "color":  "#B36BFF"
+                                     },
+                     "required_mods":  [
+                                           "irons_spellbooks"
+                                       ]
+                 },
+    "summon_1":  {
+                     "title":  "Мощь призыва II",
+                     "icon":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "texture":  "rpgskills:textures/gui/skills/book.png"
+                                           }
+                              },
+                     "rewards":  [
+                                     {
+                                         "type":  "puffish_skills:attribute",
+                                         "data":  {
+                                                      "attribute":  "irons_spellbooks:summon_damage",
+                                                      "value":  0.045,
+                                                      "operation":  "addition"
+                                                  }
+                                     }
+                                 ],
+                     "cost":  1,
+                     "frame":  {
+                                   "type":  "texture",
+                                   "data":  {
+                                                "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                            }
+                               },
+                     "description":  {
+                                         "text":  "Урон призыва: +3%",
+                                         "color":  "#B36BFF"
+                                     },
+                     "required_mods":  [
+                                           "irons_spellbooks"
+                                       ]
+                 },
+    "summon_2":  {
+                     "title":  "Мощь призыва III",
+                     "icon":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "texture":  "rpgskills:textures/gui/skills/book.png"
+                                           }
+                              },
+                     "rewards":  [
+                                     {
+                                         "type":  "puffish_skills:attribute",
+                                         "data":  {
+                                                      "attribute":  "irons_spellbooks:summon_damage",
+                                                      "value":  0.045,
+                                                      "operation":  "addition"
+                                                  }
+                                     }
+                                 ],
+                     "cost":  1,
+                     "frame":  {
+                                   "type":  "texture",
+                                   "data":  {
+                                                "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                            }
+                               },
+                     "description":  {
+                                         "text":  "Урон призыва: +3%",
+                                         "color":  "#B36BFF"
+                                     },
+                     "required_mods":  [
+                                           "irons_spellbooks"
+                                       ]
+                 },
+    "summon_3":  {
+                     "title":  "Мощь призыва IV",
+                     "icon":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "texture":  "rpgskills:textures/gui/skills/book.png"
+                                           }
+                              },
+                     "rewards":  [
+                                     {
+                                         "type":  "puffish_skills:attribute",
+                                         "data":  {
+                                                      "attribute":  "irons_spellbooks:summon_damage",
+                                                      "value":  0.06,
+                                                      "operation":  "addition"
+                                                  }
+                                     }
+                                 ],
+                     "cost":  1,
+                     "frame":  {
+                                   "type":  "texture",
+                                   "data":  {
+                                                "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                            }
+                               },
+                     "description":  {
+                                         "text":  "Урон призыва: +4%",
+                                         "color":  "#B36BFF"
+                                     },
+                     "required_mods":  [
+                                           "irons_spellbooks"
+                                       ]
+                 },
+    "summon_4":  {
+                     "title":  "Мощь призыва V",
+                     "icon":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "texture":  "rpgskills:textures/gui/skills/book.png"
+                                           }
+                              },
+                     "rewards":  [
+                                     {
+                                         "type":  "puffish_skills:attribute",
+                                         "data":  {
+                                                      "attribute":  "irons_spellbooks:summon_damage",
+                                                      "value":  0.06,
+                                                      "operation":  "addition"
+                                                  }
+                                     }
+                                 ],
+                     "cost":  1,
+                     "frame":  {
+                                   "type":  "texture",
+                                   "data":  {
+                                                "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                            }
+                               },
+                     "description":  {
+                                         "text":  "Урон призыва: +4%",
+                                         "color":  "#B36BFF"
+                                     },
+                     "required_mods":  [
+                                           "irons_spellbooks"
+                                       ]
+                 },
+    "summon_5":  {
+                     "title":  "Мощь призыва VI",
+                     "icon":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "texture":  "rpgskills:textures/gui/skills/book.png"
+                                           }
+                              },
+                     "rewards":  [
+                                     {
+                                         "type":  "puffish_skills:attribute",
+                                         "data":  {
+                                                      "attribute":  "irons_spellbooks:summon_damage",
+                                                      "value":  0.06,
+                                                      "operation":  "addition"
+                                                  }
+                                     }
+                                 ],
+                     "cost":  1,
+                     "frame":  {
+                                   "type":  "texture",
+                                   "data":  {
+                                                "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                            }
+                               },
+                     "description":  {
+                                         "text":  "Урон призыва: +4%",
+                                         "color":  "#B36BFF"
+                                     },
+                     "required_mods":  [
+                                           "irons_spellbooks"
+                                       ]
+                 },
+    "summon_6":  {
+                     "title":  "Мощь призыва VII",
+                     "icon":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "texture":  "rpgskills:textures/gui/skills/book.png"
+                                           }
+                              },
+                     "rewards":  [
+                                     {
+                                         "type":  "puffish_skills:attribute",
+                                         "data":  {
+                                                      "attribute":  "irons_spellbooks:summon_damage",
+                                                      "value":  0.075,
+                                                      "operation":  "addition"
+                                                  }
+                                     }
+                                 ],
+                     "cost":  1,
+                     "frame":  {
+                                   "type":  "texture",
+                                   "data":  {
+                                                "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                            }
+                               },
+                     "description":  {
+                                         "text":  "Урон призыва: +5%",
+                                         "color":  "#B36BFF"
+                                     },
+                     "required_mods":  [
+                                           "irons_spellbooks"
+                                       ]
+                 },
+    "summon_7":  {
+                     "title":  "Живучесть призыва VIII",
+                     "icon":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "texture":  "rpgskills:textures/gui/skills/soul.png"
+                                           }
+                              },
+                     "rewards":  [
+                                     {
+                                         "type":  "puffish_skills:attribute",
+                                         "data":  {
+                                                      "attribute":  "minecraft:generic.max_health",
+                                                      "value":  2,
+                                                      "operation":  "addition"
+                                                  }
+                                     }
+                                 ],
+                     "cost":  1,
+                     "frame":  {
+                                   "type":  "texture",
+                                   "data":  {
+                                                "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                            }
+                               },
+                     "description":  {
+                                         "text":  "Макс. здоровье: +2",
+                                         "color":  "#B36BFF"
+                                     }
+                 },
+    "summon_8":  {
+                     "title":  "Живучесть призыва IX",
+                     "icon":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "texture":  "rpgskills:textures/gui/skills/soul.png"
+                                           }
+                              },
+                     "rewards":  [
+                                     {
+                                         "type":  "puffish_skills:attribute",
+                                         "data":  {
+                                                      "attribute":  "minecraft:generic.max_health",
+                                                      "value":  2,
+                                                      "operation":  "addition"
+                                                  }
+                                     }
+                                 ],
+                     "cost":  2,
+                     "frame":  {
+                                   "type":  "texture",
+                                   "data":  {
+                                                "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                            }
+                               },
+                     "description":  {
+                                         "text":  "Макс. здоровье: +2",
+                                         "color":  "#B36BFF"
+                                     }
+                 },
+    "summon_9":  {
+                     "title":  "Живучесть призыва X",
+                     "icon":  {
+                                  "type":  "texture",
+                                  "data":  {
+                                               "texture":  "rpgskills:textures/gui/skills/soul.png"
+                                           }
+                              },
+                     "rewards":  [
+                                     {
+                                         "type":  "puffish_skills:attribute",
+                                         "data":  {
+                                                      "attribute":  "minecraft:generic.max_health",
+                                                      "value":  2,
+                                                      "operation":  "addition"
+                                                  }
+                                     }
+                                 ],
+                     "cost":  2,
+                     "frame":  {
+                                   "type":  "texture",
+                                   "data":  {
+                                                "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                            }
+                               },
+                     "description":  {
+                                         "text":  "Макс. здоровье: +2",
+                                         "color":  "#B36BFF"
+                                     }
+                 },
+    "summon_10":  {
+                      "title":  "Живучесть призыва XI",
+                      "icon":  {
+                                   "type":  "texture",
+                                   "data":  {
+                                                "texture":  "rpgskills:textures/gui/skills/soul.png"
+                                            }
+                               },
+                      "rewards":  [
+                                      {
+                                          "type":  "puffish_skills:attribute",
+                                          "data":  {
+                                                       "attribute":  "minecraft:generic.max_health",
+                                                       "value":  3,
+                                                       "operation":  "addition"
+                                                   }
+                                      }
+                                  ],
+                      "cost":  2,
+                      "frame":  {
+                                    "type":  "texture",
+                                    "data":  {
+                                                 "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                 "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                 "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                 "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                 "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                             }
+                                },
+                      "description":  {
+                                          "text":  "Макс. здоровье: +3",
+                                          "color":  "#B36BFF"
+                                      }
+                  },
+    "summon_11":  {
+                      "title":  "Живучесть призыва XII",
+                      "icon":  {
+                                   "type":  "texture",
+                                   "data":  {
+                                                "texture":  "rpgskills:textures/gui/skills/soul.png"
+                                            }
+                               },
+                      "rewards":  [
+                                      {
+                                          "type":  "puffish_skills:attribute",
+                                          "data":  {
+                                                       "attribute":  "minecraft:generic.max_health",
+                                                       "value":  3,
+                                                       "operation":  "addition"
+                                                   }
+                                      }
+                                  ],
+                      "cost":  2,
+                      "frame":  {
+                                    "type":  "texture",
+                                    "data":  {
+                                                 "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                 "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                 "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                 "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                 "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                             }
+                                },
+                      "description":  {
+                                          "text":  "Макс. здоровье: +3",
+                                          "color":  "#B36BFF"
+                                      }
+                  },
+    "summon_12":  {
+                      "title":  "Живучесть призыва XIII",
+                      "icon":  {
+                                   "type":  "texture",
+                                   "data":  {
+                                                "texture":  "rpgskills:textures/gui/skills/soul.png"
+                                            }
+                               },
+                      "rewards":  [
+                                      {
+                                          "type":  "puffish_skills:attribute",
+                                          "data":  {
+                                                       "attribute":  "minecraft:generic.max_health",
+                                                       "value":  3,
+                                                       "operation":  "addition"
+                                                   }
+                                      }
+                                  ],
+                      "cost":  2,
+                      "frame":  {
+                                    "type":  "texture",
+                                    "data":  {
+                                                 "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                 "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                 "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                 "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                 "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                             }
+                                },
+                      "description":  {
+                                          "text":  "Макс. здоровье: +3",
+                                          "color":  "#B36BFF"
+                                      }
+                  },
+    "summon_13":  {
+                      "title":  "Живучесть призыва XIV",
+                      "icon":  {
+                                   "type":  "texture",
+                                   "data":  {
+                                                "texture":  "rpgskills:textures/gui/skills/soul.png"
+                                            }
+                               },
+                      "rewards":  [
+                                      {
+                                          "type":  "puffish_skills:attribute",
+                                          "data":  {
+                                                       "attribute":  "minecraft:generic.max_health",
+                                                       "value":  4,
+                                                       "operation":  "addition"
+                                                   }
+                                      }
+                                  ],
+                      "cost":  2,
+                      "frame":  {
+                                    "type":  "texture",
+                                    "data":  {
+                                                 "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                 "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                 "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                 "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                 "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                             }
+                                },
+                      "description":  {
+                                          "text":  "Макс. здоровье: +4",
+                                          "color":  "#B36BFF"
+                                      }
+                  },
+    "alignment_0":  {
+                        "title":  "Единение: мощь I",
+                        "icon":  {
+                                     "type":  "texture",
+                                     "data":  {
+                                                  "texture":  "rpgskills:textures/gui/skills/orb.png"
+                                              }
+                                 },
+                        "rewards":  [
+                                        {
+                                            "type":  "puffish_skills:attribute",
+                                            "data":  {
+                                                         "attribute":  "irons_spellbooks:spell_power",
+                                                         "value":  0.03,
+                                                         "operation":  "addition"
+                                                     }
+                                        }
+                                    ],
+                        "cost":  1,
+                        "frame":  {
+                                      "type":  "texture",
+                                      "data":  {
+                                                   "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                   "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                   "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                   "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                   "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                               }
+                                  },
+                        "description":  {
+                                            "text":  "Сила заклинаний: +2%",
+                                            "color":  "#B36BFF"
+                                        },
+                        "required_mods":  [
+                                              "irons_spellbooks"
+                                          ]
+                    },
+    "alignment_1":  {
+                        "title":  "Единение: мощь II",
+                        "icon":  {
+                                     "type":  "texture",
+                                     "data":  {
+                                                  "texture":  "rpgskills:textures/gui/skills/orb.png"
+                                              }
+                                 },
+                        "rewards":  [
+                                        {
+                                            "type":  "puffish_skills:attribute",
+                                            "data":  {
+                                                         "attribute":  "irons_spellbooks:spell_power",
+                                                         "value":  0.03,
+                                                         "operation":  "addition"
+                                                     }
+                                        }
+                                    ],
+                        "cost":  1,
+                        "frame":  {
+                                      "type":  "texture",
+                                      "data":  {
+                                                   "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                   "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                   "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                   "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                   "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                               }
+                                  },
+                        "description":  {
+                                            "text":  "Сила заклинаний: +2%",
+                                            "color":  "#B36BFF"
+                                        },
+                        "required_mods":  [
+                                              "irons_spellbooks"
+                                          ]
+                    },
+    "alignment_2":  {
+                        "title":  "Единение: мощь III",
+                        "icon":  {
+                                     "type":  "texture",
+                                     "data":  {
+                                                  "texture":  "rpgskills:textures/gui/skills/orb.png"
+                                              }
+                                 },
+                        "rewards":  [
+                                        {
+                                            "type":  "puffish_skills:attribute",
+                                            "data":  {
+                                                         "attribute":  "irons_spellbooks:spell_power",
+                                                         "value":  0.03,
+                                                         "operation":  "addition"
+                                                     }
+                                        }
+                                    ],
+                        "cost":  1,
+                        "frame":  {
+                                      "type":  "texture",
+                                      "data":  {
+                                                   "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                   "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                   "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                   "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                   "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                               }
+                                  },
+                        "description":  {
+                                            "text":  "Сила заклинаний: +2%",
+                                            "color":  "#B36BFF"
+                                        },
+                        "required_mods":  [
+                                              "irons_spellbooks"
+                                          ]
+                    },
+    "alignment_3":  {
+                        "title":  "Единение: мощь IV",
+                        "icon":  {
+                                     "type":  "texture",
+                                     "data":  {
+                                                  "texture":  "rpgskills:textures/gui/skills/orb.png"
+                                              }
+                                 },
+                        "rewards":  [
+                                        {
+                                            "type":  "puffish_skills:attribute",
+                                            "data":  {
+                                                         "attribute":  "irons_spellbooks:spell_power",
+                                                         "value":  0.03,
+                                                         "operation":  "addition"
+                                                     }
+                                        }
+                                    ],
+                        "cost":  1,
+                        "frame":  {
+                                      "type":  "texture",
+                                      "data":  {
+                                                   "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                   "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                   "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                   "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                   "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                               }
+                                  },
+                        "description":  {
+                                            "text":  "Сила заклинаний: +2%",
+                                            "color":  "#B36BFF"
+                                        },
+                        "required_mods":  [
+                                              "irons_spellbooks"
+                                          ]
+                    },
+    "alignment_4":  {
+                        "title":  "Единение: мощь V",
+                        "icon":  {
+                                     "type":  "texture",
+                                     "data":  {
+                                                  "texture":  "rpgskills:textures/gui/skills/orb.png"
+                                              }
+                                 },
+                        "rewards":  [
+                                        {
+                                            "type":  "puffish_skills:attribute",
+                                            "data":  {
+                                                         "attribute":  "irons_spellbooks:spell_power",
+                                                         "value":  0.045,
+                                                         "operation":  "addition"
+                                                     }
+                                        }
+                                    ],
+                        "cost":  1,
+                        "frame":  {
+                                      "type":  "texture",
+                                      "data":  {
+                                                   "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                   "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                   "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                   "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                   "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                               }
+                                  },
+                        "description":  {
+                                            "text":  "Сила заклинаний: +3%",
+                                            "color":  "#B36BFF"
+                                        },
+                        "required_mods":  [
+                                              "irons_spellbooks"
+                                          ]
+                    },
+    "alignment_5":  {
+                        "title":  "Единение: мощь VI",
+                        "icon":  {
+                                     "type":  "texture",
+                                     "data":  {
+                                                  "texture":  "rpgskills:textures/gui/skills/orb.png"
+                                              }
+                                 },
+                        "rewards":  [
+                                        {
+                                            "type":  "puffish_skills:attribute",
+                                            "data":  {
+                                                         "attribute":  "irons_spellbooks:spell_power",
+                                                         "value":  0.045,
+                                                         "operation":  "addition"
+                                                     }
+                                        }
+                                    ],
+                        "cost":  1,
+                        "frame":  {
+                                      "type":  "texture",
+                                      "data":  {
+                                                   "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                   "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                   "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                   "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                   "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                               }
+                                  },
+                        "description":  {
+                                            "text":  "Сила заклинаний: +3%",
+                                            "color":  "#B36BFF"
+                                        },
+                        "required_mods":  [
+                                              "irons_spellbooks"
+                                          ]
+                    },
+    "alignment_6":  {
+                        "title":  "Единение: мощь VII",
+                        "icon":  {
+                                     "type":  "texture",
+                                     "data":  {
+                                                  "texture":  "rpgskills:textures/gui/skills/orb.png"
+                                              }
+                                 },
+                        "rewards":  [
+                                        {
+                                            "type":  "puffish_skills:attribute",
+                                            "data":  {
+                                                         "attribute":  "irons_spellbooks:spell_power",
+                                                         "value":  0.045,
+                                                         "operation":  "addition"
+                                                     }
+                                        }
+                                    ],
+                        "cost":  1,
+                        "frame":  {
+                                      "type":  "texture",
+                                      "data":  {
+                                                   "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                   "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                   "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                   "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                   "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                               }
+                                  },
+                        "description":  {
+                                            "text":  "Сила заклинаний: +3%",
+                                            "color":  "#B36BFF"
+                                        },
+                        "required_mods":  [
+                                              "irons_spellbooks"
+                                          ]
+                    },
+    "alignment_7":  {
+                        "title":  "Единение: мана VIII",
+                        "icon":  {
+                                     "type":  "texture",
+                                     "data":  {
+                                                  "texture":  "rpgskills:textures/gui/skills/book.png"
+                                              }
+                                 },
+                        "rewards":  [
+                                        {
+                                            "type":  "puffish_skills:attribute",
+                                            "data":  {
+                                                         "attribute":  "irons_spellbooks:max_mana",
+                                                         "value":  12,
+                                                         "operation":  "addition"
+                                                     }
+                                        }
+                                    ],
+                        "cost":  1,
+                        "frame":  {
+                                      "type":  "texture",
+                                      "data":  {
+                                                   "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                   "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                   "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                   "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                   "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                               }
+                                  },
+                        "description":  {
+                                            "text":  "Макс. мана: +10",
+                                            "color":  "#B36BFF"
+                                        },
+                        "required_mods":  [
+                                              "irons_spellbooks"
+                                          ]
+                    },
+    "alignment_8":  {
+                        "title":  "Единение: мана IX",
+                        "icon":  {
+                                     "type":  "texture",
+                                     "data":  {
+                                                  "texture":  "rpgskills:textures/gui/skills/book.png"
+                                              }
+                                 },
+                        "rewards":  [
+                                        {
+                                            "type":  "puffish_skills:attribute",
+                                            "data":  {
+                                                         "attribute":  "irons_spellbooks:max_mana",
+                                                         "value":  12,
+                                                         "operation":  "addition"
+                                                     }
+                                        }
+                                    ],
+                        "cost":  2,
+                        "frame":  {
+                                      "type":  "texture",
+                                      "data":  {
+                                                   "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                   "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                   "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                   "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                   "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                               }
+                                  },
+                        "description":  {
+                                            "text":  "Макс. мана: +10",
+                                            "color":  "#B36BFF"
+                                        },
+                        "required_mods":  [
+                                              "irons_spellbooks"
+                                          ]
+                    },
+    "alignment_9":  {
+                        "title":  "Единение: мана X",
+                        "icon":  {
+                                     "type":  "texture",
+                                     "data":  {
+                                                  "texture":  "rpgskills:textures/gui/skills/book.png"
+                                              }
+                                 },
+                        "rewards":  [
+                                        {
+                                            "type":  "puffish_skills:attribute",
+                                            "data":  {
+                                                         "attribute":  "irons_spellbooks:max_mana",
+                                                         "value":  18,
+                                                         "operation":  "addition"
+                                                     }
+                                        }
+                                    ],
+                        "cost":  2,
+                        "frame":  {
+                                      "type":  "texture",
+                                      "data":  {
+                                                   "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                   "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                   "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                   "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                   "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                               }
+                                  },
+                        "description":  {
+                                            "text":  "Макс. мана: +15",
+                                            "color":  "#B36BFF"
+                                        },
+                        "required_mods":  [
+                                              "irons_spellbooks"
+                                          ]
+                    },
+    "alignment_10":  {
+                         "title":  "Единение: мана XI",
+                         "icon":  {
+                                      "type":  "texture",
+                                      "data":  {
+                                                   "texture":  "rpgskills:textures/gui/skills/book.png"
+                                               }
+                                  },
+                         "rewards":  [
+                                         {
+                                             "type":  "puffish_skills:attribute",
+                                             "data":  {
+                                                          "attribute":  "irons_spellbooks:max_mana",
+                                                          "value":  18,
+                                                          "operation":  "addition"
+                                                      }
+                                         }
+                                     ],
+                         "cost":  2,
+                         "frame":  {
+                                       "type":  "texture",
+                                       "data":  {
+                                                    "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                    "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                    "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                    "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                    "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                                }
+                                   },
+                         "description":  {
+                                             "text":  "Макс. мана: +15",
+                                             "color":  "#B36BFF"
+                                         },
+                         "required_mods":  [
+                                               "irons_spellbooks"
+                                           ]
+                     },
+    "alignment_11":  {
+                         "title":  "Единение: мана XII",
+                         "icon":  {
+                                      "type":  "texture",
+                                      "data":  {
+                                                   "texture":  "rpgskills:textures/gui/skills/book.png"
+                                               }
+                                  },
+                         "rewards":  [
+                                         {
+                                             "type":  "puffish_skills:attribute",
+                                             "data":  {
+                                                          "attribute":  "irons_spellbooks:max_mana",
+                                                          "value":  24,
+                                                          "operation":  "addition"
+                                                      }
+                                         }
+                                     ],
+                         "cost":  2,
+                         "frame":  {
+                                       "type":  "texture",
+                                       "data":  {
+                                                    "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                    "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                    "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                    "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                    "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                                }
+                                   },
+                         "description":  {
+                                             "text":  "Макс. мана: +20",
+                                             "color":  "#B36BFF"
+                                         },
+                         "required_mods":  [
+                                               "irons_spellbooks"
+                                           ]
+                     },
+    "alignment_12":  {
+                         "title":  "Единение: мана XIII",
+                         "icon":  {
+                                      "type":  "texture",
+                                      "data":  {
+                                                   "texture":  "rpgskills:textures/gui/skills/book.png"
+                                               }
+                                  },
+                         "rewards":  [
+                                         {
+                                             "type":  "puffish_skills:attribute",
+                                             "data":  {
+                                                          "attribute":  "irons_spellbooks:max_mana",
+                                                          "value":  24,
+                                                          "operation":  "addition"
+                                                      }
+                                         }
+                                     ],
+                         "cost":  2,
+                         "frame":  {
+                                       "type":  "texture",
+                                       "data":  {
+                                                    "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                    "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                    "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                    "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                    "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                                }
+                                   },
+                         "description":  {
+                                             "text":  "Макс. мана: +20",
+                                             "color":  "#B36BFF"
+                                         },
+                         "required_mods":  [
+                                               "irons_spellbooks"
+                                           ]
+                     },
+    "alignment_13":  {
+                         "title":  "Единение: мана XIV",
+                         "icon":  {
+                                      "type":  "texture",
+                                      "data":  {
+                                                   "texture":  "rpgskills:textures/gui/skills/book.png"
+                                               }
+                                  },
+                         "rewards":  [
+                                         {
+                                             "type":  "puffish_skills:attribute",
+                                             "data":  {
+                                                          "attribute":  "irons_spellbooks:max_mana",
+                                                          "value":  30,
+                                                          "operation":  "addition"
+                                                      }
+                                         }
+                                     ],
+                         "cost":  2,
+                         "frame":  {
+                                       "type":  "texture",
+                                       "data":  {
+                                                    "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                    "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                    "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                    "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                    "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                                }
+                                   },
+                         "description":  {
+                                             "text":  "Макс. мана: +25",
+                                             "color":  "#B36BFF"
+                                         },
+                         "required_mods":  [
+                                               "irons_spellbooks"
+                                           ]
+                     },
+    "mastery_0":  {
+                      "title":  "Плод жизни I",
+                      "icon":  {
+                                   "type":  "texture",
+                                   "data":  {
+                                                "texture":  "rpgskills:textures/gui/skills/heart.png"
+                                            }
+                               },
+                      "rewards":  [
+                                      {
+                                          "type":  "puffish_skills:command",
+                                          "data":  {
+                                                       "command":  "give @s alshanex_familiars:life_fruit_tier_1"
+                                                   }
+                                      }
+                                  ],
+                      "cost":  1,
+                      "frame":  {
+                                    "type":  "texture",
+                                    "data":  {
+                                                 "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                 "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                 "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                 "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                 "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                             }
+                                },
+                      "description":  {
+                                          "text":  "Повышает здоровье фамильяра (тир 1).",
+                                          "color":  "#B36BFF"
+                                      }
+                  },
+    "mastery_1":  {
+                      "title":  "Плод жизни II",
+                      "icon":  {
+                                   "type":  "texture",
+                                   "data":  {
+                                                "texture":  "rpgskills:textures/gui/skills/heart.png"
+                                            }
+                               },
+                      "rewards":  [
+                                      {
+                                          "type":  "puffish_skills:command",
+                                          "data":  {
+                                                       "command":  "give @s alshanex_familiars:life_fruit_tier_2"
+                                                   }
+                                      }
+                                  ],
+                      "cost":  1,
+                      "frame":  {
+                                    "type":  "texture",
+                                    "data":  {
+                                                 "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                 "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                 "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                 "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                 "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                             }
+                                },
+                      "description":  {
+                                          "text":  "Повышает здоровье фамильяра (тир 2).",
+                                          "color":  "#B36BFF"
+                                      }
+                  },
+    "mastery_2":  {
+                      "title":  "Плод жизни III",
+                      "icon":  {
+                                   "type":  "texture",
+                                   "data":  {
+                                                "texture":  "rpgskills:textures/gui/skills/heart.png"
+                                            }
+                               },
+                      "rewards":  [
+                                      {
+                                          "type":  "puffish_skills:command",
+                                          "data":  {
+                                                       "command":  "give @s alshanex_familiars:life_fruit_tier_3"
+                                                   }
+                                      }
+                                  ],
+                      "cost":  1,
+                      "frame":  {
+                                    "type":  "texture",
+                                    "data":  {
+                                                 "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                 "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                 "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                 "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                 "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                             }
+                                },
+                      "description":  {
+                                          "text":  "Повышает здоровье фамильяра (тир 3).",
+                                          "color":  "#B36BFF"
+                                      }
+                  },
+    "mastery_3":  {
+                      "title":  "Пластины I",
+                      "icon":  {
+                                   "type":  "texture",
+                                   "data":  {
+                                                "texture":  "rpgskills:textures/gui/skills/shield.png"
+                                            }
+                               },
+                      "rewards":  [
+                                      {
+                                          "type":  "puffish_skills:command",
+                                          "data":  {
+                                                       "command":  "give @s alshanex_familiars:armor_plate_tier_1"
+                                                   }
+                                      }
+                                  ],
+                      "cost":  1,
+                      "frame":  {
+                                    "type":  "texture",
+                                    "data":  {
+                                                 "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                 "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                 "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                 "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                 "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                             }
+                                },
+                      "description":  {
+                                          "text":  "Повышает броню фамильяра (тир 1).",
+                                          "color":  "#B36BFF"
+                                      }
+                  },
+    "mastery_4":  {
+                      "title":  "Пластины II",
+                      "icon":  {
+                                   "type":  "texture",
+                                   "data":  {
+                                                "texture":  "rpgskills:textures/gui/skills/shield.png"
+                                            }
+                               },
+                      "rewards":  [
+                                      {
+                                          "type":  "puffish_skills:command",
+                                          "data":  {
+                                                       "command":  "give @s alshanex_familiars:armor_plate_tier_2"
+                                                   }
+                                      }
+                                  ],
+                      "cost":  1,
+                      "frame":  {
+                                    "type":  "texture",
+                                    "data":  {
+                                                 "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                 "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                 "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                 "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                 "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                             }
+                                },
+                      "description":  {
+                                          "text":  "Повышает броню фамильяра (тир 2).",
+                                          "color":  "#B36BFF"
+                                      }
+                  },
+    "mastery_5":  {
+                      "title":  "Пластины III",
+                      "icon":  {
+                                   "type":  "texture",
+                                   "data":  {
+                                                "texture":  "rpgskills:textures/gui/skills/shield.png"
+                                            }
+                               },
+                      "rewards":  [
+                                      {
+                                          "type":  "puffish_skills:command",
+                                          "data":  {
+                                                       "command":  "give @s alshanex_familiars:armor_plate_tier_3"
+                                                   }
+                                      }
+                                  ],
+                      "cost":  1,
+                      "frame":  {
+                                    "type":  "texture",
+                                    "data":  {
+                                                 "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                 "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                 "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                 "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                 "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                             }
+                                },
+                      "description":  {
+                                          "text":  "Повышает броню фамильяра (тир 3).",
+                                          "color":  "#B36BFF"
+                                      }
+                  },
+    "mastery_6":  {
+                      "title":  "Мощь питомца I",
+                      "icon":  {
+                                   "type":  "texture",
+                                   "data":  {
+                                                "texture":  "rpgskills:textures/gui/skills/orb.png"
+                                            }
+                               },
+                      "rewards":  [
+                                      {
+                                          "type":  "puffish_skills:command",
+                                          "data":  {
+                                                       "command":  "give @s alshanex_familiars:magic_power_tier_1"
+                                                   }
+                                      }
+                                  ],
+                      "cost":  1,
+                      "frame":  {
+                                    "type":  "texture",
+                                    "data":  {
+                                                 "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                 "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                 "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                 "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                 "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                             }
+                                },
+                      "description":  {
+                                          "text":  "Повышает силу заклинаний фамильяра (тир 1).",
+                                          "color":  "#B36BFF"
+                                      }
+                  },
+    "mastery_7":  {
+                      "title":  "Мощь питомца II",
+                      "icon":  {
+                                   "type":  "texture",
+                                   "data":  {
+                                                "texture":  "rpgskills:textures/gui/skills/orb.png"
+                                            }
+                               },
+                      "rewards":  [
+                                      {
+                                          "type":  "puffish_skills:command",
+                                          "data":  {
+                                                       "command":  "give @s alshanex_familiars:magic_power_tier_2"
+                                                   }
+                                      }
+                                  ],
+                      "cost":  1,
+                      "frame":  {
+                                    "type":  "texture",
+                                    "data":  {
+                                                 "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                 "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                 "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                 "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                 "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                             }
+                                },
+                      "description":  {
+                                          "text":  "Повышает силу заклинаний фамильяра (тир 2).",
+                                          "color":  "#B36BFF"
+                                      }
+                  },
+    "mastery_8":  {
+                      "title":  "Мощь питомца III",
+                      "icon":  {
+                                   "type":  "texture",
+                                   "data":  {
+                                                "texture":  "rpgskills:textures/gui/skills/orb.png"
+                                            }
+                               },
+                      "rewards":  [
+                                      {
+                                          "type":  "puffish_skills:command",
+                                          "data":  {
+                                                       "command":  "give @s alshanex_familiars:magic_power_tier_3"
+                                                   }
+                                      }
+                                  ],
+                      "cost":  2,
+                      "frame":  {
+                                    "type":  "texture",
+                                    "data":  {
+                                                 "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                 "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                 "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                 "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                 "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                             }
+                                },
+                      "description":  {
+                                          "text":  "Повышает силу заклинаний фамильяра (тир 3).",
+                                          "color":  "#B36BFF"
+                                      }
+                  },
+    "mastery_9":  {
+                      "title":  "Сопротивление питомца I",
+                      "icon":  {
+                                   "type":  "texture",
+                                   "data":  {
+                                                "texture":  "rpgskills:textures/gui/skills/shield.png"
+                                            }
+                               },
+                      "rewards":  [
+                                      {
+                                          "type":  "puffish_skills:command",
+                                          "data":  {
+                                                       "command":  "give @s alshanex_familiars:magic_resist_tier_1"
+                                                   }
+                                      }
+                                  ],
+                      "cost":  2,
+                      "frame":  {
+                                    "type":  "texture",
+                                    "data":  {
+                                                 "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                 "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                 "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                 "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                 "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                             }
+                                },
+                      "description":  {
+                                          "text":  "Повышает сопротивление фамильяра (тир 1).",
+                                          "color":  "#B36BFF"
+                                      }
+                  },
+    "mastery_10":  {
+                       "title":  "Сопротивление питомца II",
+                       "icon":  {
+                                    "type":  "texture",
+                                    "data":  {
+                                                 "texture":  "rpgskills:textures/gui/skills/shield.png"
+                                             }
+                                },
+                       "rewards":  [
+                                       {
+                                           "type":  "puffish_skills:command",
+                                           "data":  {
+                                                        "command":  "give @s alshanex_familiars:magic_resist_tier_2"
+                                                    }
+                                       }
+                                   ],
+                       "cost":  2,
+                       "frame":  {
+                                     "type":  "texture",
+                                     "data":  {
+                                                  "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                  "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                  "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                  "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                  "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                              }
+                                 },
+                       "description":  {
+                                           "text":  "Повышает сопротивление фамильяра (тир 2).",
+                                           "color":  "#B36BFF"
+                                       }
+                   },
+    "mastery_11":  {
+                       "title":  "Сопротивление питомца III",
+                       "icon":  {
+                                    "type":  "texture",
+                                    "data":  {
+                                                 "texture":  "rpgskills:textures/gui/skills/shield.png"
+                                             }
+                                },
+                       "rewards":  [
+                                       {
+                                           "type":  "puffish_skills:command",
+                                           "data":  {
+                                                        "command":  "give @s alshanex_familiars:magic_resist_tier_3"
+                                                    }
+                                       }
+                                   ],
+                       "cost":  2,
+                       "frame":  {
+                                     "type":  "texture",
+                                     "data":  {
+                                                  "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                  "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                  "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                  "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                  "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                              }
+                                 },
+                       "description":  {
+                                           "text":  "Повышает сопротивление фамильяра (тир 3).",
+                                           "color":  "#B36BFF"
+                                       }
+                   },
+    "mastery_12":  {
+                       "title":  "Гриб ярости",
+                       "icon":  {
+                                    "type":  "texture",
+                                    "data":  {
+                                                 "texture":  "rpgskills:textures/gui/skills/nature.png"
+                                             }
+                                },
+                       "rewards":  [
+                                       {
+                                           "type":  "puffish_skills:command",
+                                           "data":  {
+                                                        "command":  "give @s alshanex_familiars:strange_mushroom"
+                                                    }
+                                       }
+                                   ],
+                       "cost":  2,
+                       "frame":  {
+                                     "type":  "texture",
+                                     "data":  {
+                                                  "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                  "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                  "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                  "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                  "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                              }
+                                 },
+                       "description":  {
+                                           "text":  "Даёт фамильяру заряд ярости.",
+                                           "color":  "#B36BFF"
+                                       }
+                   },
+    "mastery_13":  {
+                       "title":  "Тотем-оберег",
+                       "icon":  {
+                                    "type":  "texture",
+                                    "data":  {
+                                                 "texture":  "rpgskills:textures/gui/skills/rune.png"
+                                             }
+                                },
+                       "rewards":  [
+                                       {
+                                           "type":  "puffish_skills:command",
+                                           "data":  {
+                                                        "command":  "give @s alshanex_familiars:tiny_totem"
+                                                    }
+                                       }
+                                   ],
+                       "cost":  2,
+                       "frame":  {
+                                     "type":  "texture",
+                                     "data":  {
+                                                  "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                                  "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                                  "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                                  "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                                  "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                              }
+                                 },
+                       "description":  {
+                                           "text":  "Тотем возрождения фамильяра.",
+                                           "color":  "#B36BFF"
+                                       }
+                   },
+    "master":  {
+                   "title":  "Мастер стаи",
+                   "icon":  {
+                                "type":  "texture",
+                                "data":  {
+                                             "texture":  "rpgskills:textures/gui/skills/master_familiars.png"
+                                         }
+                            },
+                   "rewards":  [
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "familiarslib:familiar_damage",
+                                                    "value":  0.3,
+                                                    "operation":  "addition"
+                                                }
+                                   },
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "familiarslib:familiar_resist",
+                                                    "value":  0.3,
+                                                    "operation":  "addition"
+                                                }
+                                   },
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "irons_spellbooks:summon_damage",
+                                                    "value":  0.3,
+                                                    "operation":  "addition"
+                                                }
+                                   },
+                                   {
+                                       "type":  "puffish_skills:attribute",
+                                       "data":  {
+                                                    "attribute":  "minecraft:generic.max_health",
+                                                    "value":  10,
+                                                    "operation":  "addition"
+                                                }
+                                   }
+                               ],
+                   "cost":  5,
+                   "required_skills":  0,
+                   "required_spent_points":  10,
+                   "frame":  {
+                                 "type":  "texture",
+                                 "data":  {
+                                              "unlocked":  "rpgskills:textures/gui/frames/gold_unlocked.png",
+                                              "available":  "rpgskills:textures/gui/frames/gold_available.png",
+                                              "affordable":  "rpgskills:textures/gui/frames/gold_affordable.png",
+                                              "locked":  "rpgskills:textures/gui/frames/gold_locked.png",
+                                              "excluded":  "rpgskills:textures/gui/frames/gold_excluded.png"
+                                          }
+                             },
+                   "description":  {
+                                       "text":  "Мастер-нода ветки. Доступна только одна на всю сборку — выбрав одну, остальные снимаются. урон фамильяров: +20%; сопротивление фамильяров: +20%; урон призыва: +20%; макс. здоровье: +10",
+                                       "color":  "#B36BFF"
+                                   },
+                   "required_mods":  [
+                                         "familiarslib",
+                                         "irons_spellbooks"
+                                     ]
+               }
+}

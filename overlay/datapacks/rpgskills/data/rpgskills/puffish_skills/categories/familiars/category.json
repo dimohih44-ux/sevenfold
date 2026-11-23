@@ -1,0 +1,36 @@
+{
+	"unlocked_by_default": true,
+	"title": "Фамильяры",
+	"description": "Прокачка спутников Alshanex's Familiars: сила стаи, награды-предметы.",
+	"icon": {
+		"type": "texture",
+		"data": {
+			"texture": "rpgskills:textures/gui/skills/soul.png"
+		}
+	},
+	"background": {
+		"texture": "rpgskills:textures/gui/backgrounds/familiars.png",
+		"width": 1360,
+		"height": 768,
+		"position": "fill"
+	},
+	"colors": {
+		"points": {
+			"fill": "#FFF6C445",
+			"stroke": "#FF4A340F"
+		},
+		"connections": {
+			"locked": "#FF6B5A34",
+			"available": "#FF9A7A2A",
+			"affordable": "#FFD9A62A",
+			"unlocked": "#FFF6C445",
+			"excluded": "#FF4A4A4A"
+		},
+		"exchange": {
+			"cost": {
+				"available": "#FFF6C445",
+				"affordable": "#FFD9A62A"
+			}
+		}
+	}
+}
