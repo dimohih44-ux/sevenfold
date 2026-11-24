@@ -15,7 +15,7 @@
 				"Свитки не падают с мобов: заклинание нужно найти, выучить и запомнить."
 			]
 			id: "1749DBBBB5553E17"
-			rewards: [ { id: "10A0B66987FCBDFB" type: "xp" xp: 25 } ]
+			rewards: [ { id: "119DAA78B24CE1C4" command: "puffish_skills points add @s magic 1 quest" permission_level: 2 silent: true feedback_message: "Очко навыка: Магия" type: "command" } ]
 			tasks: [ { id: "16937B499A24375A" item: { count: 1, id: "irons_spellbooks:scroll" } type: "item" consume_items: true } ]
 			title: "Не сила, а слух"
 			x: 0d
@@ -28,7 +28,7 @@
 				"Каждая книга — свой набор пьедесталов. Смотри JEI, а не гадай."
 			]
 			id: "13E90EF86D90CE9E"
-			rewards: [ { id: "1F4B1E6B312E9670" type: "xp" xp: 25 } ]
+			rewards: [ { id: "101786540409B2E9" command: "puffish_skills points add @s magic 1 quest" permission_level: 2 silent: true feedback_message: "Очко навыка: Магия" type: "command" } ]
 			tasks: [ { id: "169A1C2179D465FB" item: { count: 1, id: "eidolon_repraised:soul_shard" } type: "item" consume_items: true } ]
 			title: "Книги на жаровне"
 			x: 2d
@@ -41,7 +41,7 @@
 				"Без наковальни у тебя будет много заклинаний и мало силы — это самый частый перекос в начале."
 			]
 			id: "1641B8DEB0F0109A"
-			rewards: [ { id: "15E0BC1167FFBA84" type: "xp" xp: 25 } ]
+			rewards: [ { id: "15A95FC230945632" command: "puffish_skills points add @s magic 1 quest" permission_level: 2 silent: true feedback_message: "Очко навыка: Магия" type: "command" } ]
 			tasks: [ { id: "187818AD8FCDBEC9" item: { count: 1, id: "irons_spellbooks:arcane_anvil" } type: "item" consume_items: true } ]
 			title: "Арканная наковальня"
 			x: 4d
@@ -54,7 +54,7 @@
 				"Свиток — расходник: не жалей их, жалей время."
 			]
 			id: "1E7B58AE96A4ADF3"
-			rewards: [ { id: "1B6B8EAF1D286695" type: "xp" xp: 25 } ]
+			rewards: [ { id: "146F19BEB6A38654" command: "puffish_skills points add @s magic 1 quest" permission_level: 2 silent: true feedback_message: "Очко навыка: Магия" type: "command" } ]
 			tasks: [ { id: "14753E350C60B8E0" item: { count: 1, id: "irons_spellbooks:scroll_forge" } type: "item" consume_items: true } ]
 			title: "Кузня свитков"
 			x: 6d
@@ -67,7 +67,7 @@
 				"С ним не нужно ждать «правильной» книги с лута."
 			]
 			id: "1D25F07D2CBA2FF7"
-			rewards: [ { id: "1CFD8525A4FF65AA" type: "xp" xp: 25 } ]
+			rewards: [ { id: "1104853D5D81A123" command: "puffish_skills points add @s magic 1 quest" permission_level: 2 silent: true feedback_message: "Очко навыка: Магия" type: "command" } ]
 			tasks: [ { id: "10AC12701F9B75C4" item: { count: 1, id: "irons_spellbooks:inscription_table" } type: "item" consume_items: true } ]
 			title: "Стол надписей"
 			x: 8d
@@ -80,7 +80,7 @@
 				"Боссы дают его за трофеи: одно за простого, два за тяжёлого."
 			]
 			id: "1BA757515BC1FF90"
-			rewards: [ { id: "149BBD7AF15E7FD3" type: "xp" xp: 25 } ]
+			rewards: [ { id: "1977B69CA11C4052" command: "puffish_skills points add @s magic 1 quest" permission_level: 2 silent: true feedback_message: "Очко навыка: Магия" type: "command" } ]
 			tasks: [ { id: "197AF32DB2B31AFF" item: { count: 1, id: "irons_spellbooks:legendary_ink" } type: "item" consume_items: true } ]
 			title: "Чернила"
 			x: 0d
@@ -93,7 +93,7 @@
 				"Руны не продаются: их делают или снимают с боссов."
 			]
 			id: "10FDF402C6963BBE"
-			rewards: [ { id: "1C98CCC602F37E2F" type: "xp" xp: 25 } ]
+			rewards: [ { id: "17D01ABE40C5ADDB" command: "puffish_skills points add @s magic 1 quest" permission_level: 2 silent: true feedback_message: "Очко навыка: Магия" type: "command" } ]
 			tasks: [ { id: "169B67454699BA42" item: { count: 1, id: "irons_spellbooks:arcane_rune" } type: "item" consume_items: true } ]
 			title: "Руны"
 			x: 2d
@@ -106,7 +106,7 @@
 				"Сферы редки — выбирай школу, которой реально воюешь, а не «на всякий случай»."
 			]
 			id: "1FBAC730ED31D912"
-			rewards: [ { id: "11AC167449F70CB0" type: "xp" xp: 25 } ]
+			rewards: [ { id: "192EE88D64CFF56B" command: "puffish_skills points add @s magic 1 quest" permission_level: 2 silent: true feedback_message: "Очко навыка: Магия" type: "command" } ]
 			tasks: [ { id: "17A1A96A1D550E7D" item: { count: 1, id: "irons_spellbooks:upgrade_orb" } type: "item" consume_items: true } ]
 			title: "Сферы улучшения"
 			x: 4d
@@ -119,7 +119,7 @@
 				"Одно кольцо — один голос. Два кольца одной школы не складываются: смотри описания."
 			]
 			id: "1EAC351C48A0F987"
-			rewards: [ { id: "130CCC01D054AD1D" type: "xp" xp: 25 } ]
+			rewards: [ { id: "17A4DFC4288328AB" command: "puffish_skills points add @s magic 1 quest" permission_level: 2 silent: true feedback_message: "Очко навыка: Магия" type: "command" } ]
 			tasks: [ { id: "18F3BFE20F461D90" item: { count: 1, id: "irons_spellbooks:affinity_ring" } type: "item" consume_items: true } ]
 			title: "Кольца школ"
 			x: 6d
@@ -132,7 +132,7 @@
 				"Маг без эликсиров — это маг, который умирает на втором касте."
 			]
 			id: "1A1CEFA118C192B0"
-			rewards: [ { id: "155B4A2E2419CAB3" type: "xp" xp: 25 } ]
+			rewards: [ { id: "18E2E53F69D78D8E" command: "puffish_skills points add @s magic 1 quest" permission_level: 2 silent: true feedback_message: "Очко навыка: Магия" type: "command" } ]
 			tasks: [ { id: "1C7F55D604862CDA" item: { count: 1, id: "irons_spellbooks:alchemist_cauldron" } type: "item" consume_items: true } ]
 			title: "Котёл алхимика"
 			x: 8d
@@ -145,7 +145,7 @@
 				"Звёздный металл, элдрические осколки и запретные улучшения слотов — всё оттуда. Сильно и дорого."
 			]
 			id: "1D339750BC579E67"
-			rewards: [ { id: "1D4EC7BF9F38195C" type: "xp" xp: 25 } ]
+			rewards: [ { id: "18D2D1749E89C083" command: "puffish_skills points add @s magic 1 quest" permission_level: 2 silent: true feedback_message: "Очко навыка: Магия" type: "command" } ]
 			tasks: [ { id: "189A960E9BCB08C3" item: { count: 1, id: "discerning_the_eldritch:starmetal_ingot" } type: "item" consume_items: true } ]
 			title: "Элдрическая магия"
 			x: 0d
@@ -158,7 +158,7 @@
 				"У них свои школы и свои книги — читай JEI, а не описания в интернете."
 			]
 			id: "1C15F61A081AC136"
-			rewards: [ { id: "1A9C2D71DBA33814" type: "xp" xp: 25 } ]
+			rewards: [ { id: "1B9FE0A786D547E7" command: "puffish_skills points add @s magic 1 quest" permission_level: 2 silent: true feedback_message: "Очко навыка: Магия" type: "command" } ]
 			tasks: [ { id: "1F9105E24D5BF408" item: { count: 1, id: "cataclysm_spellbooks:abyss_spell_book" } type: "item" consume_items: true } ]
 			title: "Катаклизм и монстры"
 			x: 2d
@@ -171,7 +171,7 @@
 				"Некромант в этом паке — не злодей, а ремесленник Крови. Книга подходит и тебе."
 			]
 			id: "13FDD12A6978F107"
-			rewards: [ { id: "1AFD697C5EF9267E" type: "xp" xp: 25 } ]
+			rewards: [ { id: "172461AF955A38B7" command: "puffish_skills points add @s magic 1 quest" permission_level: 2 silent: true feedback_message: "Очко навыка: Магия" type: "command" } ]
 			tasks: [ { id: "1B763E42B8231025" item: { count: 1, id: "monsterspellbooks:book_of_souls" } type: "item" consume_items: true } ]
 			title: "Книга душ"
 			x: 4d
@@ -184,7 +184,7 @@
 				"Хорошо для гибрида: книга в одной руке, когти в другой."
 			]
 			id: "189C97E3E99D3374"
-			rewards: [ { id: "13855476E0FEB65D" type: "xp" xp: 25 } ]
+			rewards: [ { id: "175AF10CEE74AE27" command: "puffish_skills points add @s magic 1 quest" permission_level: 2 silent: true feedback_message: "Очко навыка: Магия" type: "command" } ]
 			tasks: [ { id: "10E8C2AEF702B97C" item: { count: 1, id: "monsterspellbooks:claws_of_calamity" } type: "item" consume_items: false } ]
 			title: "Клинки каламити"
 			x: 6d
@@ -197,7 +197,7 @@
 				"Полезен, если твой билд — контроль, а не урон."
 			]
 			id: "17C2FD6B6AF67D4B"
-			rewards: [ { id: "11BFA0E93AF7DA03" type: "xp" xp: 25 } ]
+			rewards: [ { id: "17747CB5C53DAD49" command: "puffish_skills points add @s magic 1 quest" permission_level: 2 silent: true feedback_message: "Очко навыка: Магия" type: "command" } ]
 			tasks: [ { id: "11307DC14A9EB1CB" item: { count: 1, id: "monsterspellbooks:cold_conjurers_talisman" } type: "item" consume_items: true } ]
 			title: "Талисман холода"
 			x: 8d
@@ -210,7 +210,7 @@
 				"Реликвия — не апгрейд книги, а второй слой: работает из слота Curios, вместе с кольцом."
 			]
 			id: "158CE5B5514B13AC"
-			rewards: [ { id: "1A92F76840D3B5A2" type: "xp" xp: 25 } ]
+			rewards: [ { id: "163474A4064D6392" command: "puffish_skills points add @s magic 1 quest" permission_level: 2 silent: true feedback_message: "Очко навыка: Магия" type: "command" } ]
 			tasks: [ { id: "1A95751AA0162CAC" item: { count: 1, id: "reliquified_irons_spells_and_spellbooks:echo_glove" } type: "item" consume_items: false } ]
 			title: "Реликвии Iron's"
 			x: 0d
@@ -219,11 +219,75 @@
 		{
 			dependencies: [ "158CE5B5514B13AC" ]
 			description: [
+				"Ring of Elusiveness — шанс полностью уйти от удара. Реликвия Iron's, падает из сундуков его подземелий."
+			]
+			id: "1E2C1A5668B2ABD8"
+			rewards: [ { id: "1FC0C6DD5D48D3B8" command: "puffish_skills points add @s magic 1 quest" permission_level: 2 silent: true feedback_message: "Очко навыка: Магия" type: "command" } ]
+			tasks: [ { id: "1701E4CACA4654FB" item: { count: 1, id: "reliquified_irons_spells_and_spellbooks:ring_of_elusiveness" } type: "item" consume_items: false } ]
+			title: "Кольцо неуловимости"
+			x: 0d
+			y: 8d
+		},
+		{
+			dependencies: [ "1E2C1A5668B2ABD8" ]
+			description: [
+				"Mask of Hunger превращает убийства в лечение: чем дольше бой, тем ты крепче."
+				"Провоцирует лезть в толпу — там тебя и разберут."
+			]
+			id: "1405D4D5B7C54920"
+			rewards: [ { id: "1D6B76E3FFE66AF4" command: "puffish_skills points add @s magic 1 quest" permission_level: 2 silent: true feedback_message: "Очко навыка: Магия" type: "command" } ]
+			tasks: [ { id: "17F7A19C27E1759E" item: { count: 1, id: "reliquified_irons_spells_and_spellbooks:mask_of_hunger" } type: "item" consume_items: false } ]
+			title: "Маска голода"
+			x: 2d
+			y: 8d
+		},
+		{
+			dependencies: [ "1405D4D5B7C54920" ]
+			description: [
+				"Flask of the Red Mist — туман, который режет врагов и подлечивает тебя."
+				"Держи на боссах: он спасает, когда маны уже нет."
+			]
+			id: "1487528C5FB5806D"
+			rewards: [ { id: "1E21D38E5A184B0D" command: "puffish_skills points add @s magic 1 quest" permission_level: 2 silent: true feedback_message: "Очко навыка: Магия" type: "command" } ]
+			tasks: [ { id: "10C01163B8E129C6" item: { count: 1, id: "reliquified_irons_spells_and_spellbooks:flask_of_the_red_mist" } type: "item" consume_items: false } ]
+			title: "Флакон красного тумана"
+			x: 4d
+			y: 8d
+		},
+		{
+			dependencies: [ "1487528C5FB5806D" ]
+			description: [
+				"Bloodstained Voodoo Doll бьёт по цели через связь: пока кукла цела — боль уходит адресату."
+				"Против одиночных боссов заметнее, чем против толпы."
+			]
+			id: "10E5E3C2B6D85411"
+			rewards: [ { id: "126BB62DB8E88573" command: "puffish_skills points add @s magic 1 quest" permission_level: 2 silent: true feedback_message: "Очко навыка: Магия" type: "command" } ]
+			tasks: [ { id: "18C2D01FE4D390B0" item: { count: 1, id: "reliquified_irons_spells_and_spellbooks:bloody_voodoo_doll" } type: "item" consume_items: false } ]
+			title: "Кукла вуду"
+			x: 6d
+			y: 8d
+		},
+		{
+			dependencies: [ "10E5E3C2B6D85411" ]
+			description: [
+				"Sealed Sword и Sealed Claymore — запечатанные клинки: копят силу и отдают её одним ударом."
+				"Падают из сундуков Iron's, с шансом."
+			]
+			id: "1F646CE5E1930176"
+			rewards: [ { id: "1D780D683E676A31" command: "puffish_skills points add @s magic 1 quest" permission_level: 2 silent: true feedback_message: "Очко навыка: Магия" type: "command" } ]
+			tasks: [ { id: "1B96A73A59E49E3A" item: { count: 1, id: "reliquified_irons_spells_and_spellbooks:sealed_sword" } type: "item" consume_items: false } ]
+			title: "Ножны и клинки"
+			x: 8d
+			y: 8d
+		},
+		{
+			dependencies: [ "158CE5B5514B13AC" ]
+			description: [
 				"Caster's Mantle — нагрудник элдрического мага: сила чар и защита от элдрической магии."
 				"Ткань и осколки для него — с культистов DTE."
 			]
 			id: "1845662FDB60E109"
-			rewards: [ { id: "182AB1F0F9058DF2" type: "xp" xp: 25 } ]
+			rewards: [ { id: "16BB8B7C272C80D0" command: "puffish_skills points add @s magic 1 quest" permission_level: 2 silent: true feedback_message: "Очко навыка: Магия" type: "command" } ]
 			tasks: [ { id: "1BA40588D63A379C" item: { count: 1, id: "discerning_the_eldritch:casters_mantle" } type: "item" consume_items: false } ]
 			title: "Мантия заклинателя"
 			x: 2d
@@ -236,7 +300,7 @@
 				"Дорого, но это единственный способ носить больше пяти-шести заклинаний сразу."
 			]
 			id: "1646A7354713DF03"
-			rewards: [ { id: "18F249AB019ED507" type: "xp" xp: 25 } ]
+			rewards: [ { id: "1A95A577EFE0CD21" command: "puffish_skills points add @s magic 1 quest" permission_level: 2 silent: true feedback_message: "Очко навыка: Магия" type: "command" } ]
 			tasks: [ { id: "17C55320C526F295" item: { count: 1, id: "discerning_the_eldritch:forbidden_spell_improvement" } type: "item" consume_items: true } ]
 			title: "Запретные слоты"
 			x: 4d
@@ -249,7 +313,7 @@
 				"Редкость не падает, шанс на ранг выше — 5%. Терпение здесь и есть крафт."
 			]
 			id: "145E75DADA2ADB6C"
-			rewards: [ { id: "13FE1003DF6D5492" type: "xp" xp: 25 } ]
+			rewards: [ { id: "1C7C8F0B5338F246" command: "puffish_skills points add @s magic 1 quest" permission_level: 2 silent: true feedback_message: "Очко навыка: Магия" type: "command" } ]
 			tasks: [ { id: "1ABA79C7C4B84E2B" item: { count: 1, id: "irons_spellbooks:legendary_ink" } type: "item" consume_items: true } ]
 			title: "Заклинания боссов"
 			x: 6d
@@ -262,7 +326,7 @@
 				"Держи под рукой два-три разных заклинания: один голос против босса почти всегда проигрывает."
 			]
 			id: "12948680916F0277"
-			rewards: [ { id: "1DACB0B4A32FB06C" type: "xp" xp: 25 } ]
+			rewards: [ { id: "10CDF306D9A8BA52" command: "puffish_skills points add @s magic 1 quest" permission_level: 2 silent: true feedback_message: "Очко навыка: Магия" type: "command" } ]
 			tasks: [ { id: "1312075C5918A5CB" item: { count: 1, id: "minecraft:lapis_lazuli" } type: "item" consume_items: true } ]
 			title: "Полутон"
 			x: 8d
@@ -275,7 +339,7 @@
 				"Чернило определяет редкость. Легендарное — предел, и его добывают с Владык."
 			]
 			id: "1B6380A1BAA19FAA"
-			rewards: [ { id: "1C1E3DFF284BD6DC" type: "xp" xp: 25 } ]
+			rewards: [ { id: "168ADD191D1731DC" command: "puffish_skills points add @s magic 1 quest" permission_level: 2 silent: true feedback_message: "Очко навыка: Магия" type: "command" } ]
 			tasks: [ { id: "1FADEB57FB4D7297" item: { count: 1, id: "minecraft:anvil" } type: "item" consume_items: true } ]
 			title: "Кузня заклинаний"
 			x: 6d

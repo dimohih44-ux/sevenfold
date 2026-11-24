@@ -15,6 +15,7 @@
 				"Каждые врата — выбор: прийти неподготовленным и стать частью нестроя, или унести голос с собой."
 			]
 			id: "1635EBEEC6992BA8"
+			rewards: [ { id: "1F0E4124971E53D3" command: "puffish_skills points add @s warrior 1 quest" permission_level: 2 silent: true feedback_message: "Очко навыка: Клинок" type: "command" } ]
 			tasks: [ { id: "1556C71E602027CF" item: { count: 1, id: "minecraft:flint_and_steel" } type: "item" consume_items: true } ]
 			title: "Врата"
 			x: 0d
@@ -27,6 +28,7 @@
 				"Потому их не проходят: к ним приходят с выносливостью, умением и планом."
 			]
 			id: "1451E84B67CB8451"
+			rewards: [ { id: "1697A34AD6E30CD9" command: "puffish_skills points add @s warrior 1 quest" permission_level: 2 silent: true feedback_message: "Очко навыка: Клинок" type: "command" } ]
 			tasks: [ { id: "1C9CCDE70FBC3E60" item: { count: 1, id: "minecraft:netherite_scrap" } type: "item" consume_items: true } ]
 			title: "Владыка — это не чудовище"
 			x: 2d
@@ -39,6 +41,7 @@
 				"Трофеи этих боссов нужны для ритуалов глаз — не выбрасывай."
 			]
 			id: "1DA41566205DAFDD"
+			rewards: [ { id: "1CF9A7E8E959E1B6" command: "puffish_skills points add @s warrior 1 quest" permission_level: 2 silent: true feedback_message: "Очко навыка: Клинок" type: "command" } ]
 			tasks: [ { id: "11F2E85713219B10" item: { count: 1, id: "block_factorys_bosses:kraken_tooth" } type: "item" consume_items: false } ]
 			title: "Кузнецы и пираты"
 			x: 4d
@@ -51,6 +54,7 @@
 				"Не бей его в одиночку и не бей в спину зеркалу."
 			]
 			id: "1C203BD798208C2C"
+			rewards: [ { id: "1AF0792AD8631CC5" command: "puffish_skills points add @s warrior 1 quest" permission_level: 2 silent: true feedback_message: "Очко навыка: Клинок" type: "command" } ]
 			tasks: [ { id: "1BCD0CBB60EDF5D5" item: { count: 1, id: "darkdoppelganger:doppelganger_ring" } type: "item" consume_items: false } ]
 			title: "Допельгангер"
 			x: 6d
@@ -63,6 +67,7 @@
 				"Чернило — это не деньги, это сила книги заклинаний. Копи и вкладывай в то, чем реально пользуешься."
 			]
 			id: "1666D6EEC33D52D0"
+			rewards: [ { id: "1FDB0C0BE5B9919E" command: "puffish_skills points add @s warrior 1 quest" permission_level: 2 silent: true feedback_message: "Очко навыка: Клинок" type: "command" } ]
 			tasks: [ { id: "1E79396135B2FDB9" item: { count: 1, id: "cataclysm:ignitium_ingot" } type: "item" consume_items: true } ]
 			title: "Награда за голову"
 			x: 8d
@@ -75,6 +80,7 @@
 				"Не ставь Врата у дома — волны не различают, кто твой."
 			]
 			id: "1035023E7C91BC75"
+			rewards: [ { id: "126BB96FC3D518A2" command: "puffish_skills points add @s warrior 1 quest" permission_level: 2 silent: true feedback_message: "Очко навыка: Клинок" type: "command" } ]
 			tasks: [ { id: "1FBD03F626695306" item: { count: 1, id: "minecraft:crying_obsidian" } type: "item" consume_items: true } ]
 			title: "Сборка врат"
 			x: 0d
